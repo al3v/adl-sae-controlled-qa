@@ -80,6 +80,3 @@ This does not prove that tokenization alone causes hallucination. A safer interp
 - `reports/controlled_qa_base_v4_strict/sae_pair_type_distances_controlled_qa_base_v4_strict.png`  
   SAE feature-space distance plot.
 
-## Project status
-
-This repository contains the cleaned final version of the experiment, prepared for discussion and presentation.
