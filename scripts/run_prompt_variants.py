@@ -58,9 +58,9 @@ def is_correct_answer(generated_answer, answer_aliases):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="data/prompt_variants.csv")
-    parser.add_argument("--output", default="outputs/prompt_outputs_v1.csv")
-    parser.add_argument("--model", default="google/gemma-2-2b-it")
+    parser.add_argument("--input", default="data/controlled/controlled_qa_prompt_variants.csv")
+    parser.add_argument("--output", default="outputs/prompt_outputs_controlled_qa_base_v4_strict.csv")
+    parser.add_argument("--model", default="google/gemma-2-2b")
     parser.add_argument("--max-new-tokens", type=int, default=40)
     args = parser.parse_args()
 

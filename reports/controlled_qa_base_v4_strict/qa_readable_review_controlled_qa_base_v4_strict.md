@@ -1,1496 +1,201 @@
-# QA Readable Review - Controlled QA Base v4 Strict
+# QA readable review — controlled_qa_base_v4_strict
 
-This file is a human-readable audit of the final controlled QA switching facts.
-
-For each fact, it shows the expected answer, accepted possible answers, each prompt variant, the model's actual first answer, the matched accepted answer, and the final correctness label.
-
-## Summary
-
-- Switching facts: 12
-- Switching rows: 84
-- Correct rows: 42
-- Wrong rows: 42
-
-## Correctness by fact
-
-| fact_id | correct | wrong |
-|---|---:|---:|
-| fact_0001 | 4 | 3 |
-| fact_0002 | 1 | 6 |
-| fact_0004 | 1 | 6 |
-| fact_0007 | 3 | 4 |
-| fact_0013 | 6 | 1 |
-| fact_0028 | 5 | 2 |
-| fact_0029 | 1 | 6 |
-| fact_0031 | 4 | 3 |
-| fact_0042 | 5 | 2 |
-| fact_0043 | 6 | 1 |
-| fact_0047 | 5 | 2 |
-| fact_0059 | 1 | 6 |
-
-## Review by fact
-
----
+- Switching facts: 13
+- Switching rows: 91
+- Correct switching rows: 48
+- Wrong switching rows: 43
 
 ## fact_0001
 
-**Example question:** Who was the composer of Samson?
+**Correct answer:** George Frideric Handel
+**Possible answers:** ["George Frideric Handel", "Handel", "G. F. Handel", "Georg Friedrich Händel", "George Frederick Handel", "G. F. Händel", "Händel", "George Frideric"]
 
-**Expected main answer:** George Frideric Handel
-
-**Accepted possible answers:** George Frideric Handel, Handel, G. F. Handel, Georg Friedrich Händel, George Frederick Handel, G. F. Händel, Händel, George Frideric
-
-### original — CORRECT
-
-**Question variant**
-
-> Who was the composer of Samson?
-
-**Model actual first answer**
-
-> George Frideric Handel
-
-**Expected main answer:** George Frideric Handel
-
-**Matched accepted answer:** George Frideric Handel
-
-**Correct?** True
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who was the composer of Samson?
-
-**Model actual first answer**
-
-> Joseph Haydn
-
-**Expected main answer:** George Frideric Handel
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — CORRECT
-
-**Question variant**
-
-> Who was the composer of Samson?
-
-**Model actual first answer**
-
-> George Frideric Handel
-
-**Expected main answer:** George Frideric Handel
-
-**Matched accepted answer:** George Frideric Handel
-
-**Correct?** True
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who was the composer of Samson ?
-
-**Model actual first answer**
-
-> George Frideric Handel
-
-**Expected main answer:** George Frideric Handel
-
-**Matched accepted answer:** George Frideric Handel
-
-**Correct?** True
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who was the composer of Samson
-
-**Model actual first answer**
-
-> Delibes
-
-**Expected main answer:** George Frideric Handel
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — CORRECT
-
-**Question variant**
-
-> who was the composer of Samson?
-
-**Model actual first answer**
-
-> George Frideric Handel
-
-**Expected main answer:** George Frideric Handel
-
-**Matched accepted answer:** George Frideric Handel
-
-**Correct?** True
-
-### double_first_space — WRONG
-
-**Question variant**
-
-> Who  was the composer of Samson?
-
-**Model actual first answer**
-
-> Joseph Haydn
-
-**Expected main answer:** George Frideric Handel
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | George Frideric Handel | George Frideric Handel |
+| leading_space | False | Joseph Haydn | nan |
+| trailing_space | True | George Frideric Handel | George Frideric Handel |
+| space_before_qmark | True | George Frideric Handel | George Frideric Handel |
+| no_qmark | False | Delibes | nan |
+| lower_first_char | True | George Frideric Handel | George Frideric Handel |
+| double_first_space | False | Joseph Haydn | nan |
 
 ## fact_0002
 
-**Example question:** Who was the producer of Reds?
+**Correct answer:** Warren Beatty
+**Possible answers:** ["Warren Beatty", "Henry Warren Beaty", "Henry Warren Beatty"]
 
-**Expected main answer:** Warren Beatty
-
-**Accepted possible answers:** Warren Beatty, Henry Warren Beaty, Henry Warren Beatty
-
-### original — WRONG
-
-**Question variant**
-
-> Who was the producer of Reds?
-
-**Model actual first answer**
-
-> Dalton Trumbo
-
-**Expected main answer:** Warren Beatty
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### leading_space — CORRECT
-
-**Question variant**
-
-> Who was the producer of Reds?
-
-**Model actual first answer**
-
-> Warren Beatty
-
-**Expected main answer:** Warren Beatty
-
-**Matched accepted answer:** Warren Beatty
-
-**Correct?** True
-
-### trailing_space — WRONG
-
-**Question variant**
-
-> Who was the producer of Reds?
-
-**Model actual first answer**
-
-> Dalton Trumbo
-
-**Expected main answer:** Warren Beatty
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### space_before_qmark — WRONG
-
-**Question variant**
-
-> Who was the producer of Reds ?
-
-**Model actual first answer**
-
-> Dalton Trumbo
-
-**Expected main answer:** Warren Beatty
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who was the producer of Reds
-
-**Model actual first answer**
-
-> Dalton Trumbo
-
-**Expected main answer:** Warren Beatty
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — WRONG
-
-**Question variant**
-
-> who was the producer of Reds?
-
-**Model actual first answer**
-
-> Dalton Trumbo
-
-**Expected main answer:** Warren Beatty
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### double_first_space — WRONG
-
-**Question variant**
-
-> Who  was the producer of Reds?
-
-**Model actual first answer**
-
-> Dalton Trumbo
-
-**Expected main answer:** Warren Beatty
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | False | Dalton Trumbo | nan |
+| leading_space | True | Warren Beatty | Warren Beatty |
+| trailing_space | False | Dalton Trumbo | nan |
+| space_before_qmark | False | Dalton Trumbo | nan |
+| no_qmark | False | Dalton Trumbo | nan |
+| lower_first_char | False | Dalton Trumbo | nan |
+| double_first_space | False | Dalton Trumbo | nan |
 
 ## fact_0004
 
-**Example question:** Who was the composer of Cabaret?
+**Correct answer:** John Kander
+**Possible answers:** ["John Kander", "John Harold Kander"]
 
-**Expected main answer:** John Kander
-
-**Accepted possible answers:** John Kander, John Harold Kander
-
-### original — WRONG
-
-**Question variant**
-
-> Who was the composer of Cabaret?
-
-**Model actual first answer**
-
-> Kander and Ebb
-
-**Expected main answer:** John Kander
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who was the composer of Cabaret?
-
-**Model actual first answer**
-
-> Kander and Ebb
-
-**Expected main answer:** John Kander
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — WRONG
-
-**Question variant**
-
-> Who was the composer of Cabaret?
-
-**Model actual first answer**
-
-> Kander and Ebb
-
-**Expected main answer:** John Kander
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### space_before_qmark — WRONG
-
-**Question variant**
-
-> Who was the composer of Cabaret ?
-
-**Model actual first answer**
-
-> Kander and Ebb
-
-**Expected main answer:** John Kander
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who was the composer of Cabaret
-
-**Model actual first answer**
-
-> Kander and Ebb
-
-**Expected main answer:** John Kander
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — WRONG
-
-**Question variant**
-
-> who was the composer of Cabaret?
-
-**Model actual first answer**
-
-> Kander and Ebb
-
-**Expected main answer:** John Kander
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### double_first_space — CORRECT
-
-**Question variant**
-
-> Who  was the composer of Cabaret?
-
-**Model actual first answer**
-
-> John Kander and Fred Ebb
-
-**Expected main answer:** John Kander
-
-**Matched accepted answer:** John Kander
-
-**Correct?** True
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | False | Kander and Ebb | nan |
+| leading_space | False | Kander and Ebb | nan |
+| trailing_space | False | Kander and Ebb | nan |
+| space_before_qmark | False | Kander and Ebb | nan |
+| no_qmark | False | Kander and Ebb | nan |
+| lower_first_char | False | Kander and Ebb | nan |
+| double_first_space | True | John Kander and Fred Ebb | John Kander |
 
 ## fact_0007
 
-**Example question:** Who was the screenwriter for Uzak?
+**Correct answer:** Nuri Bilge Ceylan
+**Possible answers:** ["Nuri Bilge Ceylan"]
 
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Accepted possible answers:** Nuri Bilge Ceylan
-
-### original — CORRECT
-
-**Question variant**
-
-> Who was the screenwriter for Uzak?
-
-**Model actual first answer**
-
-> Uzak was written by the famous Turkish screenwriter, writer and director, Nuri Bilge Ceylan.
-
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Matched accepted answer:** Nuri Bilge Ceylan
-
-**Correct?** True
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who was the screenwriter for Uzak?
-
-**Model actual first answer**
-
-> Yılmaz Güney
-
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — WRONG
-
-**Question variant**
-
-> Who was the screenwriter for Uzak?
-
-**Model actual first answer**
-
-> EMPTY / NO ANSWER
-
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who was the screenwriter for Uzak ?
-
-**Model actual first answer**
-
-> Uzak was written by the famous Turkish screenwriter, writer and director, Nuri Bilge Ceylan.
-
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Matched accepted answer:** Nuri Bilge Ceylan
-
-**Correct?** True
-
-### no_qmark — CORRECT
-
-**Question variant**
-
-> Who was the screenwriter for Uzak
-
-**Model actual first answer**
-
-> Uzak was written by the famous Turkish screenwriter, writer and director, Nuri Bilge Ceylan.
-
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Matched accepted answer:** Nuri Bilge Ceylan
-
-**Correct?** True
-
-### lower_first_char — WRONG
-
-**Question variant**
-
-> who was the screenwriter for Uzak?
-
-**Model actual first answer**
-
-> Question: What is the name of the character played by the actor who plays the role of the father in Uzak? Answer:  Question
-
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### double_first_space — WRONG
-
-**Question variant**
-
-> Who  was the screenwriter for Uzak?
-
-**Model actual first answer**
-
-> Yılmaz Güney
-
-**Expected main answer:** Nuri Bilge Ceylan
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | Uzak was written by the famous Turkish screenwriter, Nuri Bilge Ceylan. | Nuri Bilge Ceylan |
+| leading_space | False | Yılmaz Güney | nan |
+| trailing_space | False | nan | nan |
+| space_before_qmark | True | Uzak was written by the famous Turkish screenwriter, writer and director, Nuri Bilge Ceylan. | Nuri Bilge Ceylan |
+| no_qmark | True | Uzak was written by the famous Turkish screenwriter, writer and director, Nuri Bilge Ceylan. | Nuri Bilge Ceylan |
+| lower_first_char | False | Question: What is the name of the character played by the actor who plays the role of the father in Uzak? Answer: | nan |
+| double_first_space | False | Yılmaz Güney | nan |
 
 ## fact_0013
 
-**Example question:** Who was the director of The Doors?
+**Correct answer:** Oliver Stone
+**Possible answers:** ["Oliver Stone", "William Oliver Stone"]
 
-**Expected main answer:** Oliver Stone
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | Oliver Stone | Oliver Stone |
+| leading_space | False | Jim Morrison | nan |
+| trailing_space | True | Oliver Stone | Oliver Stone |
+| space_before_qmark | True | Oliver Stone | Oliver Stone |
+| no_qmark | True | Oliver Stone | Oliver Stone |
+| lower_first_char | True | Oliver Stone | Oliver Stone |
+| double_first_space | True | Oliver Stone | Oliver Stone |
 
-**Accepted possible answers:** Oliver Stone, William Oliver Stone
+## fact_0017
 
-### original — CORRECT
+**Correct answer:** Kaunas
+**Possible answers:** ["Kaunas", "Kovno", "Kovne", "Kovna", "Kowno", "Kauen"]
 
-**Question variant**
-
-> Who was the director of The Doors?
-
-**Model actual first answer**
-
-> Oliver Stone
-
-**Expected main answer:** Oliver Stone
-
-**Matched accepted answer:** Oliver Stone
-
-**Correct?** True
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who was the director of The Doors?
-
-**Model actual first answer**
-
-> Jim Morrison
-
-**Expected main answer:** Oliver Stone
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — CORRECT
-
-**Question variant**
-
-> Who was the director of The Doors?
-
-**Model actual first answer**
-
-> Oliver Stone
-
-**Expected main answer:** Oliver Stone
-
-**Matched accepted answer:** Oliver Stone
-
-**Correct?** True
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who was the director of The Doors ?
-
-**Model actual first answer**
-
-> Oliver Stone
-
-**Expected main answer:** Oliver Stone
-
-**Matched accepted answer:** Oliver Stone
-
-**Correct?** True
-
-### no_qmark — CORRECT
-
-**Question variant**
-
-> Who was the director of The Doors
-
-**Model actual first answer**
-
-> Oliver Stone
-
-**Expected main answer:** Oliver Stone
-
-**Matched accepted answer:** Oliver Stone
-
-**Correct?** True
-
-### lower_first_char — CORRECT
-
-**Question variant**
-
-> who was the director of The Doors?
-
-**Model actual first answer**
-
-> Oliver Stone
-
-**Expected main answer:** Oliver Stone
-
-**Matched accepted answer:** Oliver Stone
-
-**Correct?** True
-
-### double_first_space — CORRECT
-
-**Question variant**
-
-> Who  was the director of The Doors?
-
-**Model actual first answer**
-
-> Oliver Stone
-
-**Expected main answer:** Oliver Stone
-
-**Matched accepted answer:** Oliver Stone
-
-**Correct?** True
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | Kaunas | Kaunas |
+| leading_space | False | Vilnius | nan |
+| trailing_space | True | Kaunas | Kaunas |
+| space_before_qmark | True | Kaunas | Kaunas |
+| no_qmark | True | Kaunas | Kaunas |
+| lower_first_char | True | Kaunas | Kaunas |
+| double_first_space | True | Kaunas | Kaunas |
 
 ## fact_0028
 
-**Example question:** Who is the father of Alexander Graham Bell?
+**Correct answer:** Alexander Melville Bell
+**Possible answers:** ["Alexander Melville Bell"]
 
-**Expected main answer:** Alexander Melville Bell
-
-**Accepted possible answers:** Alexander Melville Bell
-
-### original — CORRECT
-
-**Question variant**
-
-> Who is the father of Alexander Graham Bell?
-
-**Model actual first answer**
-
-> Alexander Melville Bell
-
-**Expected main answer:** Alexander Melville Bell
-
-**Matched accepted answer:** Alexander Melville Bell
-
-**Correct?** True
-
-### leading_space — CORRECT
-
-**Question variant**
-
-> Who is the father of Alexander Graham Bell?
-
-**Model actual first answer**
-
-> Alexander Graham Bell was born in Edinburgh, Scotland, on March 3, 1847.  His father, Alexander Melville Bell,
-
-**Expected main answer:** Alexander Melville Bell
-
-**Matched accepted answer:** Alexander Melville Bell
-
-**Correct?** True
-
-### trailing_space — CORRECT
-
-**Question variant**
-
-> Who is the father of Alexander Graham Bell?
-
-**Model actual first answer**
-
-> Alexander Graham Bell was born in Edinburgh, Scotland, on March 3, 1847. His father, Alexander Melville Bell, was a
-
-**Expected main answer:** Alexander Melville Bell
-
-**Matched accepted answer:** Alexander Melville Bell
-
-**Correct?** True
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who is the father of Alexander Graham Bell ?
-
-**Model actual first answer**
-
-> Alexander Melville Bell
-
-**Expected main answer:** Alexander Melville Bell
-
-**Matched accepted answer:** Alexander Melville Bell
-
-**Correct?** True
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who is the father of Alexander Graham Bell
-
-**Model actual first answer**
-
-> Alexander Graham Bell
-
-**Expected main answer:** Alexander Melville Bell
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — WRONG
-
-**Question variant**
-
-> who is the father of Alexander Graham Bell?
-
-**Model actual first answer**
-
-> Alexander Graham Bell
-
-**Expected main answer:** Alexander Melville Bell
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### double_first_space — CORRECT
-
-**Question variant**
-
-> Who  is the father of Alexander Graham Bell?
-
-**Model actual first answer**
-
-> Alexander Melville Bell
-
-**Expected main answer:** Alexander Melville Bell
-
-**Matched accepted answer:** Alexander Melville Bell
-
-**Correct?** True
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | Alexander Melville Bell | Alexander Melville Bell |
+| leading_space | True | Alexander Graham Bell was born in Edinburgh, Scotland, on March 3, 1847.  His father, Alexander Melville Bell, was a professor of mathematics and physics at the University | Alexander Melville Bell |
+| trailing_space | True | Alexander Graham Bell was born in Edinburgh, Scotland, on March 3, 1847. His father, Alexander Melville Bell, was a professor of mathematics and physics at the University of Edinburgh | Alexander Melville Bell |
+| space_before_qmark | True | Alexander Melville Bell | Alexander Melville Bell |
+| no_qmark | False | Alexander Graham Bell | nan |
+| lower_first_char | False | Alexander Graham Bell | nan |
+| double_first_space | True | Alexander Melville Bell | Alexander Melville Bell |
 
 ## fact_0029
 
-**Example question:** Who was the producer of Human Nature?
+**Correct answer:** Quincy Jones
+**Possible answers:** ["Quincy Jones", "Q", "Quincy", "Quincy Delight Jones Jr.", "Quincy Jones Jr."]
 
-**Expected main answer:** Quincy Jones
-
-**Accepted possible answers:** Quincy Jones, Q, Quincy, Quincy Delight Jones Jr., Quincy Jones Jr.
-
-### original — CORRECT
-
-**Question variant**
-
-> Who was the producer of Human Nature?
-
-**Model actual first answer**
-
-> The producer of Human Nature was the late, great, and legendary producer, Quincy Jones.
-
-**Expected main answer:** Quincy Jones
-
-**Matched accepted answer:** Quincy Jones
-
-**Correct?** True
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who was the producer of Human Nature?
-
-**Model actual first answer**
-
-> The producer of Human Nature was the late, great, and legendary, Mr. John D. Lyles.  He was the producer of the
-
-**Expected main answer:** Quincy Jones
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — WRONG
-
-**Question variant**
-
-> Who was the producer of Human Nature?
-
-**Model actual first answer**
-
-> EMPTY / NO ANSWER
-
-**Expected main answer:** Quincy Jones
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### space_before_qmark — WRONG
-
-**Question variant**
-
-> Who was the producer of Human Nature ?
-
-**Model actual first answer**
-
-> Michael Jackson
-
-**Expected main answer:** Quincy Jones
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who was the producer of Human Nature
-
-**Model actual first answer**
-
-> The producer of Human Nature was the BBC.
-
-**Expected main answer:** Quincy Jones
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — WRONG
-
-**Question variant**
-
-> who was the producer of Human Nature?
-
-**Model actual first answer**
-
-> Michael Jackson
-
-**Expected main answer:** Quincy Jones
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### double_first_space — WRONG
-
-**Question variant**
-
-> Who  was the producer of Human Nature?
-
-**Model actual first answer**
-
-> The producer of Human Nature was the late  Mr.  John  D.  McIntosh.
-
-**Expected main answer:** Quincy Jones
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | The producer of Human Nature was the late, great, and legendary producer, Quincy Jones. | Quincy Jones |
+| leading_space | False | The producer of Human Nature was the late, great, and legendary, Mr. John D. Lyles.  He was the producer of the first two Human Nature albums, and he was also | nan |
+| trailing_space | False | nan | nan |
+| space_before_qmark | False | Michael Jackson | nan |
+| no_qmark | False | The producer of Human Nature was the BBC. | nan |
+| lower_first_char | False | Michael Jackson | nan |
+| double_first_space | False | The producer of Human Nature was the late  Mr.  John  D.  McIntosh. | nan |
 
 ## fact_0031
 
-**Example question:** Who is the father of David I of Scotland?
+**Correct answer:** Malcolm III of Scotland
+**Possible answers:** ["Malcolm III of Scotland", "Malcolm Canmore"]
 
-**Expected main answer:** Malcolm III of Scotland
-
-**Accepted possible answers:** Malcolm III of Scotland, Malcolm Canmore
-
-### original — CORRECT
-
-**Question variant**
-
-> Who is the father of David I of Scotland?
-
-**Model actual first answer**
-
-> King Malcolm III of Scotland
-
-**Expected main answer:** Malcolm III of Scotland
-
-**Matched accepted answer:** Malcolm III of Scotland
-
-**Correct?** True
-
-### leading_space — CORRECT
-
-**Question variant**
-
-> Who is the father of David I of Scotland?
-
-**Model actual first answer**
-
-> David I was the son of Malcolm III of Scotland.
-
-**Expected main answer:** Malcolm III of Scotland
-
-**Matched accepted answer:** Malcolm III of Scotland
-
-**Correct?** True
-
-### trailing_space — CORRECT
-
-**Question variant**
-
-> Who is the father of David I of Scotland?
-
-**Model actual first answer**
-
-> King Malcolm III of Scotland
-
-**Expected main answer:** Malcolm III of Scotland
-
-**Matched accepted answer:** Malcolm III of Scotland
-
-**Correct?** True
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who is the father of David I of Scotland ?
-
-**Model actual first answer**
-
-> King Malcolm III of Scotland
-
-**Expected main answer:** Malcolm III of Scotland
-
-**Matched accepted answer:** Malcolm III of Scotland
-
-**Correct?** True
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who is the father of David I of Scotland
-
-**Model actual first answer**
-
-> William the Lion
-
-**Expected main answer:** Malcolm III of Scotland
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — WRONG
-
-**Question variant**
-
-> who is the father of David I of Scotland?
-
-**Model actual first answer**
-
-> William I of Scotland
-
-**Expected main answer:** Malcolm III of Scotland
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### double_first_space — WRONG
-
-**Question variant**
-
-> Who  is the father of David I of Scotland?
-
-**Model actual first answer**
-
-> King Duncan I of Scotland
-
-**Expected main answer:** Malcolm III of Scotland
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | King Malcolm III of Scotland | Malcolm III of Scotland |
+| leading_space | True | David I was the son of Malcolm III of Scotland. | Malcolm III of Scotland |
+| trailing_space | True | King Malcolm III of Scotland | Malcolm III of Scotland |
+| space_before_qmark | True | King Malcolm III of Scotland | Malcolm III of Scotland |
+| no_qmark | False | William the Lion | nan |
+| lower_first_char | False | William I of Scotland | nan |
+| double_first_space | False | King Duncan I of Scotland | nan |
 
 ## fact_0042
 
-**Example question:** Who was the director of Hackers?
+**Correct answer:** Iain Softley
+**Possible answers:** ["Iain Softley", "Iain Declan Softley"]
 
-**Expected main answer:** Iain Softley
-
-**Accepted possible answers:** Iain Softley, Iain Declan Softley
-
-### original — CORRECT
-
-**Question variant**
-
-> Who was the director of Hackers?
-
-**Model actual first answer**
-
-> Iain Softley
-
-**Expected main answer:** Iain Softley
-
-**Matched accepted answer:** Iain Softley
-
-**Correct?** True
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who was the director of Hackers?
-
-**Model actual first answer**
-
-> David Fincher
-
-**Expected main answer:** Iain Softley
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — CORRECT
-
-**Question variant**
-
-> Who was the director of Hackers?
-
-**Model actual first answer**
-
-> Iain Softley
-
-**Expected main answer:** Iain Softley
-
-**Matched accepted answer:** Iain Softley
-
-**Correct?** True
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who was the director of Hackers ?
-
-**Model actual first answer**
-
-> Iain Softley
-
-**Expected main answer:** Iain Softley
-
-**Matched accepted answer:** Iain Softley
-
-**Correct?** True
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who was the director of Hackers
-
-**Model actual first answer**
-
-> Question: What was the name of the hacker who was the leader of the group? Answer:
-
-**Expected main answer:** Iain Softley
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — CORRECT
-
-**Question variant**
-
-> who was the director of Hackers?
-
-**Model actual first answer**
-
-> Iain Softley
-
-**Expected main answer:** Iain Softley
-
-**Matched accepted answer:** Iain Softley
-
-**Correct?** True
-
-### double_first_space — CORRECT
-
-**Question variant**
-
-> Who  was the director of Hackers?
-
-**Model actual first answer**
-
-> Iain Softley
-
-**Expected main answer:** Iain Softley
-
-**Matched accepted answer:** Iain Softley
-
-**Correct?** True
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | Iain Softley | Iain Softley |
+| leading_space | False | David Fincher | nan |
+| trailing_space | True | Iain Softley | Iain Softley |
+| space_before_qmark | True | Iain Softley | Iain Softley |
+| no_qmark | False | Question: What was the name of the hacker who was the leader of the group? Answer: | nan |
+| lower_first_char | True | Iain Softley | Iain Softley |
+| double_first_space | True | Iain Softley | Iain Softley |
 
 ## fact_0043
 
-**Example question:** Who was the composer of The Social Network?
+**Correct answer:** Trent Reznor
+**Possible answers:** ["Trent Reznor", "Michael Trent Reznor"]
 
-**Expected main answer:** Trent Reznor
-
-**Accepted possible answers:** Trent Reznor, Michael Trent Reznor
-
-### original — CORRECT
-
-**Question variant**
-
-> Who was the composer of The Social Network?
-
-**Model actual first answer**
-
-> Trent Reznor
-
-**Expected main answer:** Trent Reznor
-
-**Matched accepted answer:** Trent Reznor
-
-**Correct?** True
-
-### leading_space — CORRECT
-
-**Question variant**
-
-> Who was the composer of The Social Network?
-
-**Model actual first answer**
-
-> Trent Reznor
-
-**Expected main answer:** Trent Reznor
-
-**Matched accepted answer:** Trent Reznor
-
-**Correct?** True
-
-### trailing_space — CORRECT
-
-**Question variant**
-
-> Who was the composer of The Social Network?
-
-**Model actual first answer**
-
-> Trent Reznor
-
-**Expected main answer:** Trent Reznor
-
-**Matched accepted answer:** Trent Reznor
-
-**Correct?** True
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who was the composer of The Social Network ?
-
-**Model actual first answer**
-
-> Trent Reznor
-
-**Expected main answer:** Trent Reznor
-
-**Matched accepted answer:** Trent Reznor
-
-**Correct?** True
-
-### no_qmark — WRONG
-
-**Question variant**
-
-> Who was the composer of The Social Network
-
-**Model actual first answer**
-
-> Tchaikovsky
-
-**Expected main answer:** Trent Reznor
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### lower_first_char — CORRECT
-
-**Question variant**
-
-> who was the composer of The Social Network?
-
-**Model actual first answer**
-
-> Trent Reznor
-
-**Expected main answer:** Trent Reznor
-
-**Matched accepted answer:** Trent Reznor
-
-**Correct?** True
-
-### double_first_space — CORRECT
-
-**Question variant**
-
-> Who  was the composer of The Social Network?
-
-**Model actual first answer**
-
-> Trent Reznor
-
-**Expected main answer:** Trent Reznor
-
-**Matched accepted answer:** Trent Reznor
-
-**Correct?** True
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | Trent Reznor | Trent Reznor |
+| leading_space | True | Trent Reznor | Trent Reznor |
+| trailing_space | True | Trent Reznor | Trent Reznor |
+| space_before_qmark | True | Trent Reznor | Trent Reznor |
+| no_qmark | False | Tchaikovsky | nan |
+| lower_first_char | True | Trent Reznor | Trent Reznor |
+| double_first_space | True | Trent Reznor | Trent Reznor |
 
 ## fact_0047
 
-**Example question:** Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+**Correct answer:** Ann Brashares
+**Possible answers:** ["Ann Brashares"]
 
-**Expected main answer:** Ann Brashares
-
-**Accepted possible answers:** Ann Brashares
-
-### original — CORRECT
-
-**Question variant**
-
-> Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
-
-**Model actual first answer**
-
-> Ann Brashares
-
-**Expected main answer:** Ann Brashares
-
-**Matched accepted answer:** Ann Brashares
-
-**Correct?** True
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
-
-**Model actual first answer**
-
-> Susan Beth Pfeffer
-
-**Expected main answer:** Ann Brashares
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — CORRECT
-
-**Question variant**
-
-> Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
-
-**Model actual first answer**
-
-> Ann Brashares
-
-**Expected main answer:** Ann Brashares
-
-**Matched accepted answer:** Ann Brashares
-
-**Correct?** True
-
-### space_before_qmark — CORRECT
-
-**Question variant**
-
-> Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood ?
-
-**Model actual first answer**
-
-> Ann Brashares
-
-**Expected main answer:** Ann Brashares
-
-**Matched accepted answer:** Ann Brashares
-
-**Correct?** True
-
-### no_qmark — CORRECT
-
-**Question variant**
-
-> Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood
-
-**Model actual first answer**
-
-> Ann Brashares
-
-**Expected main answer:** Ann Brashares
-
-**Matched accepted answer:** Ann Brashares
-
-**Correct?** True
-
-### lower_first_char — CORRECT
-
-**Question variant**
-
-> who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
-
-**Model actual first answer**
-
-> Ann Brashares
-
-**Expected main answer:** Ann Brashares
-
-**Matched accepted answer:** Ann Brashares
-
-**Correct?** True
-
-### double_first_space — WRONG
-
-**Question variant**
-
-> Who  is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
-
-**Model actual first answer**
-
-> Jennifer Weiner
-
-**Expected main answer:** Ann Brashares
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
----
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | True | Ann Brashares | Ann Brashares |
+| leading_space | False | Susan Beth Pfeffer | nan |
+| trailing_space | True | Ann Brashares | Ann Brashares |
+| space_before_qmark | True | Ann Brashares | Ann Brashares |
+| no_qmark | True | Ann Brashares | Ann Brashares |
+| lower_first_char | True | Ann Brashares | Ann Brashares |
+| double_first_space | False | Jennifer Weiner | nan |
 
 ## fact_0059
 
-**Example question:** Who was the screenwriter for Over the Top?
+**Correct answer:** Stirling Silliphant
+**Possible answers:** ["Stirling Silliphant", "Stirling Dale Silliphant", "Sylvester Stallone", "Sly Stallone", "Sylvester Enzio Stallone", "Michael Sylvester Gardenzio Stallone"]
 
-**Expected main answer:** Stirling Silliphant
-
-**Accepted possible answers:** Stirling Silliphant, Stirling Dale Silliphant, Sylvester Stallone, Sly Stallone, Sylvester Enzio Stallone, Michael Sylvester Gardenzio Stallone
-
-### original — WRONG
-
-**Question variant**
-
-> Who was the screenwriter for Over the Top?
-
-**Model actual first answer**
-
-> David Mamet
-
-**Expected main answer:** Stirling Silliphant
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### leading_space — WRONG
-
-**Question variant**
-
-> Who was the screenwriter for Over the Top?
-
-**Model actual first answer**
-
-> David Mamet
-
-**Expected main answer:** Stirling Silliphant
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### trailing_space — WRONG
-
-**Question variant**
-
-> Who was the screenwriter for Over the Top?
-
-**Model actual first answer**
-
-> David Mamet
-
-**Expected main answer:** Stirling Silliphant
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### space_before_qmark — WRONG
-
-**Question variant**
-
-> Who was the screenwriter for Over the Top ?
-
-**Model actual first answer**
-
-> David Mamet
-
-**Expected main answer:** Stirling Silliphant
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### no_qmark — CORRECT
-
-**Question variant**
-
-> Who was the screenwriter for Over the Top
-
-**Model actual first answer**
-
-> Sylvester Stallone
-
-**Expected main answer:** Stirling Silliphant
-
-**Matched accepted answer:** Sylvester Stallone
-
-**Correct?** True
-
-### lower_first_char — WRONG
-
-**Question variant**
-
-> who was the screenwriter for Over the Top?
-
-**Model actual first answer**
-
-> David Mamet
-
-**Expected main answer:** Stirling Silliphant
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
-### double_first_space — WRONG
-
-**Question variant**
-
-> Who  was the screenwriter for Over the Top?
-
-**Model actual first answer**
-
-> David Mamet
-
-**Expected main answer:** Stirling Silliphant
-
-**Matched accepted answer:** NO MATCH
-
-**Correct?** False
-
+| variant_id | is_correct | strict_answer_segment | matched_answer |
+|---|---:|---|---|
+| original | False | David Mamet | nan |
+| leading_space | False | David Mamet | nan |
+| trailing_space | False | David Mamet | nan |
+| space_before_qmark | False | David Mamet | nan |
+| no_qmark | True | Sylvester Stallone | Sylvester Stallone |
+| lower_first_char | False | David Mamet | nan |
+| double_first_space | False | David Mamet | nan |

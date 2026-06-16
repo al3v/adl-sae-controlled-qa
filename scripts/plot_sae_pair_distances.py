@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="reports/sae_pair_type_summary_base_v2.csv")
-    parser.add_argument("--output", default="reports/sae_pair_type_distances_base_v2.png")
+    parser.add_argument("--input", default="reports/controlled_qa_base_v4_strict/sae_pair_type_summary_controlled_qa_base_v4_strict.csv")
+    parser.add_argument("--output", default="reports/controlled_qa_base_v4_strict/sae_pair_type_distances_controlled_qa_base_v4_strict.png")
     args = parser.parse_args()
 
     df = pd.read_csv(args.input)

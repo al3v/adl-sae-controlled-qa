@@ -1,0 +1,703 @@
+fact_id,variant_id,is_correct,correct_answer,question,n_tokens,tokens,token_ids,generated_answer
+fact_0001,original,True,George Frideric Handel,"Question: Who was the composer of Samson?
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁Samson | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 91087 235336 108 1261 235292,"George Frideric Handel
+
+Question: What is the name of the opera that was written by George Frideric Handel?
+Answer: Samson
+
+Question: What is the name of the opera that"
+fact_0001,leading_space,False,George Frideric Handel,"Question:  Who was the composer of Samson?
+Answer:",13,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁composer | ▁of | ▁Samson | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 41905 576 91087 235336 108 1261 235292,"Joseph Haydn
+
+Question:  What is the name of the opera that was written by Mozart?
+Answer:  The Magic Flute
+
+Question:  What is the name of the opera that was"
+fact_0001,trailing_space,True,George Frideric Handel,"Question: Who was the composer of Samson? 
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁Samson | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 91087 235336 235248 108 1261 235292,"George Frideric Handel
+
+Question: What is the name of the opera that was written by George Frideric Handel? 
+Answer: Samson
+
+Question: What is the name of the opera"
+fact_0001,space_before_qmark,True,George Frideric Handel,"Question: Who was the composer of Samson ?
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁Samson | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 91087 1654 108 1261 235292,"George Frideric Handel
+
+Question: What is the name of the opera that was written by George Frideric Handel ?
+Answer: Samson
+
+Question: What is the name of the opera that"
+fact_0001,no_qmark,False,George Frideric Handel,"Question: Who was the composer of Samson
+Answer:",11,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁Samson | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 91087 108 1261 235292,"Delibes
+
+Question: What is the name of the opera that
+Answer: Samson and Delilah
+
+Question: What is the name of the opera that
+Answer: Samson and Delilah
+
+Question"
+fact_0001,lower_first_char,True,George Frideric Handel,"Question: who was the composer of Samson?
+Answer:",12,"Question | : | ▁who | ▁was | ▁the | ▁composer | ▁of | ▁Samson | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 41905 576 91087 235336 108 1261 235292,"George Frideric Handel
+
+Question: what is the name of the opera that was written by Handel?
+Answer: Samson
+
+Question: what is the name of the opera that was written by Mozart"
+fact_0001,double_first_space,False,George Frideric Handel,"Question: Who  was the composer of Samson?
+Answer:",13,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁composer | ▁of | ▁Samson | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 41905 576 91087 235336 108 1261 235292,"Joseph Haydn
+
+Question: Who was the composer of the 1812 Overture?
+Answer:  Tchaikovsky
+
+Question: Who was the composer of the 1812 Overture"
+fact_0002,original,False,Warren Beatty,"Question: Who was the producer of Reds?
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Reds | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 83750 235336 108 1261 235292,"Dalton Trumbo
+
+Question: What was the name of the film that won the Oscar for Best Picture in 1956?
+Answer: Around the World in 80 Days
+
+Question"
+fact_0002,leading_space,True,Warren Beatty,"Question:  Who was the producer of Reds?
+Answer:",13,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁producer | ▁of | ▁Reds | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 21709 576 83750 235336 108 1261 235292,"Warren Beatty
+
+Question:  Who was the director of Reds?
+Answer:  Warren Beatty
+
+Question:  Who was the writer of Reds?
+Answer:  Warren Beatty
+
+Question:"
+fact_0002,trailing_space,False,Warren Beatty,"Question: Who was the producer of Reds? 
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Reds | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 83750 235336 235248 108 1261 235292,"Dalton Trumbo
+
+Question: What was the name of the film that won the Oscar for Best Picture in 1956? 
+Answer: Around the World in 80 Days"
+fact_0002,space_before_qmark,False,Warren Beatty,"Question: Who was the producer of Reds ?
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Reds | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 83750 1654 108 1261 235292,"Dalton Trumbo
+
+Question: What was the name of the film that was banned in the US ?
+Answer: The Grapes of Wrath
+
+Question: What was the name of the film that was banned"
+fact_0002,no_qmark,False,Warren Beatty,"Question: Who was the producer of Reds
+Answer:",11,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Reds | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 83750 108 1261 235292,"Dalton Trumbo
+
+Question: Who was the director of Reds
+Answer: Warren Beatty
+
+Question: Who was the writer of Reds
+Answer: Dalton Trumbo
+
+Question: Who was the star of"
+fact_0002,lower_first_char,False,Warren Beatty,"Question: who was the producer of Reds?
+Answer:",12,"Question | : | ▁who | ▁was | ▁the | ▁producer | ▁of | ▁Reds | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 21709 576 83750 235336 108 1261 235292,"Dalton Trumbo
+
+Question: who was the director of Reds?
+Answer: Warren Beatty
+
+Question: who was the writer of Reds?
+Answer: Dalton Trumbo
+
+Question: who was the"
+fact_0002,double_first_space,False,Warren Beatty,"Question: Who  was the producer of Reds?
+Answer:",13,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁producer | ▁of | ▁Reds | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 21709 576 83750 235336 108 1261 235292,"Dalton Trumbo
+
+Question: What was the name of the film that was banned in the US?
+Answer: The Grapes of Wrath
+
+Question: What was the name of the film that was banned"
+fact_0004,original,False,John Kander,"Question: Who was the composer of Cabaret?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁C | abaret | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 585 152763 235336 108 1261 235292,"Kander and Ebb
+
+Question: What is the name of the character played by Liza Minnelli in Cabaret?
+Answer: Sally Bowles
+
+Question: What is the name of the character played"
+fact_0004,leading_space,False,John Kander,"Question:  Who was the composer of Cabaret?
+Answer:",14,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁composer | ▁of | ▁C | abaret | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 41905 576 585 152763 235336 108 1261 235292,"Kander and Ebb
+
+Question:  What is the name of the character played by Liza Minnelli in Cabaret?
+Answer:  Sally Bowles
+
+Question:  What is the name"
+fact_0004,trailing_space,False,John Kander,"Question: Who was the composer of Cabaret? 
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁C | abaret | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 585 152763 235336 235248 108 1261 235292,"Kander and Ebb
+
+Question: What is the name of the character played by Liza Minnelli in Cabaret? 
+Answer: Sally Bowles
+
+Question: What is the name of the character"
+fact_0004,space_before_qmark,False,John Kander,"Question: Who was the composer of Cabaret ?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁C | abaret | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 585 152763 1654 108 1261 235292,"Kander and Ebb
+
+Question: What is the name of the character played by Liza Minnelli in Cabaret ?
+Answer: Sally Bowles
+
+Question: What is the name of the character played"
+fact_0004,no_qmark,False,John Kander,"Question: Who was the composer of Cabaret
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁C | abaret | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 585 152763 108 1261 235292,"Kander and Ebb
+
+Question: Who was the composer of the musical Chicago
+Answer: John Kander and Fred Ebb
+
+Question: Who was the composer of the musical Cats
+Answer:"
+fact_0004,lower_first_char,False,John Kander,"Question: who was the composer of Cabaret?
+Answer:",13,"Question | : | ▁who | ▁was | ▁the | ▁composer | ▁of | ▁C | abaret | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 41905 576 585 152763 235336 108 1261 235292,"Kander and Ebb
+
+Question: what is the name of the character played by Liza Minnelli in Cabaret?
+Answer: Sally Bowles
+
+Question: what is the name of the character played"
+fact_0004,double_first_space,True,John Kander,"Question: Who  was the composer of Cabaret?
+Answer:",14,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁composer | ▁of | ▁C | abaret | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 41905 576 585 152763 235336 108 1261 235292,"John Kander and Fred Ebb
+
+Question: What is the name of the character played by Liza Minnelli in Cabaret?
+Answer: Sally Bowles
+
+Question: What is the name of the"
+fact_0007,original,True,Nuri Bilge Ceylan,"Question: Who was the screenwriter for Uzak?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁U | zak | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 752 33033 235336 108 1261 235292,"Uzak was written by the famous Turkish screenwriter, Nuri Bilge Ceylan.
+
+Question: What is the meaning of the word Uzak?
+Answer: Uzak means far away."
+fact_0007,leading_space,False,Nuri Bilge Ceylan,"Question:  Who was the screenwriter for Uzak?
+Answer:",14,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁U | zak | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 191114 604 752 33033 235336 108 1261 235292,"Yılmaz Güney
+
+Question:  What is the name of the character played by Yılmaz Güney in Uzak?
+Answer:  Yılmaz
+
+Question:  What is the name"
+fact_0007,trailing_space,False,Nuri Bilge Ceylan,"Question: Who was the screenwriter for Uzak? 
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁U | zak | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 752 33033 235336 235248 108 1261 235292,
+fact_0007,space_before_qmark,True,Nuri Bilge Ceylan,"Question: Who was the screenwriter for Uzak ?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁U | zak | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 752 33033 1654 108 1261 235292,"Uzak was written by the famous Turkish screenwriter, writer and director, Nuri Bilge Ceylan.
+
+Question: What is the meaning of the word Uzak in Turkish?
+Answer: U"
+fact_0007,no_qmark,True,Nuri Bilge Ceylan,"Question: Who was the screenwriter for Uzak
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁U | zak | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 752 33033 108 1261 235292,"Uzak was written by the famous Turkish screenwriter, writer and director, Nuri Bilge Ceylan.
+
+Question: What is the meaning of the word Uzak?
+Answer: Uzak means"
+fact_0007,lower_first_char,False,Nuri Bilge Ceylan,"Question: who was the screenwriter for Uzak?
+Answer:",13,"Question | : | ▁who | ▁was | ▁the | ▁screenwriter | ▁for | ▁U | zak | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 191114 604 752 33033 235336 108 1261 235292,"Question: What is the name of the character played by the actor who plays the role of the father in Uzak?
+Answer:
+
+Question: What is the name of the character played by"
+fact_0007,double_first_space,False,Nuri Bilge Ceylan,"Question: Who  was the screenwriter for Uzak?
+Answer:",14,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁screenwriter | ▁for | ▁U | zak | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 191114 604 752 33033 235336 108 1261 235292,"Yılmaz Güney
+
+Question: What was the name of the film that was banned in Turkey?
+Answer:  Uzak
+
+Question: What was the name of the film that was banned"
+fact_0013,original,True,Oliver Stone,"Question: Who was the director of The Doors?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁The | ▁Doors | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 714 56180 235336 108 1261 235292,"Oliver Stone
+
+Question: What is the name of the band that was featured in the movie?
+Answer: The Doors
+
+Question: What is the name of the band that was featured in the movie"
+fact_0013,leading_space,False,Oliver Stone,"Question:  Who was the director of The Doors?
+Answer:",14,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁director | ▁of | ▁The | ▁Doors | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 8453 576 714 56180 235336 108 1261 235292,"Jim Morrison
+
+Question:  What was the name of the band that Jim Morrison was in before The Doors?
+Answer:  The Rattlesnakes
+
+Question:  What was the name"
+fact_0013,trailing_space,True,Oliver Stone,"Question: Who was the director of The Doors? 
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁The | ▁Doors | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 714 56180 235336 235248 108 1261 235292,"Oliver Stone
+
+Question: What was the name of the band that was featured in the movie? 
+Answer: The Doors
+
+Question: What was the name of the band that was featured in the"
+fact_0013,space_before_qmark,True,Oliver Stone,"Question: Who was the director of The Doors ?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁The | ▁Doors | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 714 56180 1654 108 1261 235292,"Oliver Stone
+
+Question: What is the name of the band that was featured in the movie?
+Answer: The Doors
+
+Question: What is the name of the band that was featured in the movie"
+fact_0013,no_qmark,True,Oliver Stone,"Question: Who was the director of The Doors
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁The | ▁Doors | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 714 56180 108 1261 235292,"Oliver Stone
+
+Question: What was the name of the band that was featured in the movie?
+Answer: The Doors
+
+Question: What was the name of the band that was featured in the movie"
+fact_0013,lower_first_char,True,Oliver Stone,"Question: who was the director of The Doors?
+Answer:",13,"Question | : | ▁who | ▁was | ▁the | ▁director | ▁of | ▁The | ▁Doors | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 8453 576 714 56180 235336 108 1261 235292,"Oliver Stone
+
+Question: what is the name of the band that was featured in the movie?
+Answer: The Doors
+
+Question: what is the name of the band that was featured in the movie"
+fact_0013,double_first_space,True,Oliver Stone,"Question: Who  was the director of The Doors?
+Answer:",14,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁director | ▁of | ▁The | ▁Doors | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 8453 576 714 56180 235336 108 1261 235292,"Oliver Stone
+
+Question: What was the name of the band that was featured in the movie?
+Answer: The Doors
+
+Question: What was the name of the band that was featured in the movie"
+fact_0017,original,True,Kaunas,"Question: In what city was Gintautas Umaras born?
+Answer:",16,"Question | : | ▁In | ▁what | ▁city | ▁was | ▁G | inta | utas | ▁U | maras | ▁born | ? | 
+ | Answer | :",2 9413 235292 878 1212 3413 729 653 16428 23043 752 71363 7565 235336 108 1261 235292,"Kaunas
+
+Question: What is the name of the Lithuanian poet who wrote the poem “The Song of the Sea”?
+Answer: Juozas Gruodis
+
+Question: What is the name of"
+fact_0017,leading_space,False,Kaunas,"Question:  In what city was Gintautas Umaras born?
+Answer:",17,"Question | : | ▁▁ | In | ▁what | ▁city | ▁was | ▁G | inta | utas | ▁U | maras | ▁born | ? | 
+ | Answer | :",2 9413 235292 139 886 1212 3413 729 653 16428 23043 752 71363 7565 235336 108 1261 235292,"Vilnius
+
+Question:  What is the name of the Lithuanian poet who wrote the poem ""The Song of the Sea""?
+Answer:  Petras Višinskis
+
+Question:"
+fact_0017,trailing_space,True,Kaunas,"Question: In what city was Gintautas Umaras born? 
+Answer:",17,"Question | : | ▁In | ▁what | ▁city | ▁was | ▁G | inta | utas | ▁U | maras | ▁born | ? | ▁ | 
+ | Answer | :",2 9413 235292 878 1212 3413 729 653 16428 23043 752 71363 7565 235336 235248 108 1261 235292,"Kaunas
+
+Question: What is the name of the Lithuanian poet who wrote the poem ""The Song of the Sea""? 
+Answer: Juozas Gruodis
+
+Question: What is the name"
+fact_0017,space_before_qmark,True,Kaunas,"Question: In what city was Gintautas Umaras born ?
+Answer:",16,"Question | : | ▁In | ▁what | ▁city | ▁was | ▁G | inta | utas | ▁U | maras | ▁born | ▁? | 
+ | Answer | :",2 9413 235292 878 1212 3413 729 653 16428 23043 752 71363 7565 1654 108 1261 235292,"Kaunas
+
+Question: What is the name of the Lithuanian poet who wrote the poem ""The Song of the Sea"" ?
+Answer: Juozas Gruodis
+
+Question: What is the name"
+fact_0017,no_qmark,True,Kaunas,"Question: In what city was Gintautas Umaras born
+Answer:",15,"Question | : | ▁In | ▁what | ▁city | ▁was | ▁G | inta | utas | ▁U | maras | ▁born | 
+ | Answer | :",2 9413 235292 878 1212 3413 729 653 16428 23043 752 71363 7565 108 1261 235292,"Kaunas
+
+Question: What is the name of the Lithuanian poet who wrote the poem ""The Song of the Sea""?
+Answer: Juozas Gruodis
+
+Question: What is the name of"
+fact_0017,lower_first_char,True,Kaunas,"Question: in what city was Gintautas Umaras born?
+Answer:",16,"Question | : | ▁in | ▁what | ▁city | ▁was | ▁G | inta | utas | ▁U | maras | ▁born | ? | 
+ | Answer | :",2 9413 235292 575 1212 3413 729 653 16428 23043 752 71363 7565 235336 108 1261 235292,"Kaunas
+
+Question: What is the name of the Lithuanian poet who wrote the poem ""The Song of the Sea""?
+Answer: Juozas Gruodis
+
+Question: What is the name of"
+fact_0017,double_first_space,True,Kaunas,"Question: In  what city was Gintautas Umaras born?
+Answer:",17,"Question | : | ▁In | ▁▁ | what | ▁city | ▁was | ▁G | inta | utas | ▁U | maras | ▁born | ? | 
+ | Answer | :",2 9413 235292 878 139 5049 3413 729 653 16428 23043 752 71363 7565 235336 108 1261 235292,"Kaunas
+
+Question: What is the name of the Lithuanian poet who wrote the poem “The Song of the Sea”?
+Answer: Juozas Gruodis
+
+Question: What is the name of"
+fact_0028,original,True,Alexander Melville Bell,"Question: Who is the father of Alexander Graham Bell?
+Answer:",14,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁Alexander | ▁Graham | ▁Bell | ? | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 16188 26629 15363 235336 108 1261 235292,"Alexander Melville Bell
+
+Question: What is the name of the first telephone?
+Answer: Bell Telephone
+
+Question: What is the name of the first telephone company?
+Answer: Bell Telephone Company"
+fact_0028,leading_space,True,Alexander Melville Bell,"Question:  Who is the father of Alexander Graham Bell?
+Answer:",15,"Question | : | ▁▁ | Who | ▁is | ▁the | ▁father | ▁of | ▁Alexander | ▁Graham | ▁Bell | ? | 
+ | Answer | :",2 9413 235292 139 6571 603 573 5842 576 16188 26629 15363 235336 108 1261 235292,"Alexander Graham Bell was born in Edinburgh, Scotland, on March 3, 1847.  His father, Alexander Melville Bell, was a professor of mathematics and physics at the University"
+fact_0028,trailing_space,True,Alexander Melville Bell,"Question: Who is the father of Alexander Graham Bell? 
+Answer:",15,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁Alexander | ▁Graham | ▁Bell | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 16188 26629 15363 235336 235248 108 1261 235292,"Alexander Graham Bell was born in Edinburgh, Scotland, on March 3, 1847. His father, Alexander Melville Bell, was a professor of mathematics and physics at the University of Edinburgh"
+fact_0028,space_before_qmark,True,Alexander Melville Bell,"Question: Who is the father of Alexander Graham Bell ?
+Answer:",14,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁Alexander | ▁Graham | ▁Bell | ▁? | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 16188 26629 15363 1654 108 1261 235292,"Alexander Melville Bell
+
+Question: Who is the father of Alexander Graham Bell ?
+Answer: Alexander Melville Bell
+
+Question: Who is the father of Alexander Graham Bell ?
+Answer: Alexander Melville Bell"
+fact_0028,no_qmark,False,Alexander Melville Bell,"Question: Who is the father of Alexander Graham Bell
+Answer:",13,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁Alexander | ▁Graham | ▁Bell | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 16188 26629 15363 108 1261 235292,"Alexander Graham Bell
+
+Question: What is the name of the first telephone?
+Answer: Alexander Graham Bell
+
+Question: What is the name of the first telephone company?
+Answer: Bell Telephone Company"
+fact_0028,lower_first_char,False,Alexander Melville Bell,"Question: who is the father of Alexander Graham Bell?
+Answer:",14,"Question | : | ▁who | ▁is | ▁the | ▁father | ▁of | ▁Alexander | ▁Graham | ▁Bell | ? | 
+ | Answer | :",2 9413 235292 1064 603 573 5842 576 16188 26629 15363 235336 108 1261 235292,"Alexander Graham Bell
+
+Question: what is the name of the first telephone?
+Answer: Alexander Graham Bell
+
+Question: what is the name of the first telephone company?
+Answer: Bell Telephone Company"
+fact_0028,double_first_space,True,Alexander Melville Bell,"Question: Who  is the father of Alexander Graham Bell?
+Answer:",15,"Question | : | ▁Who | ▁▁ | is | ▁the | ▁father | ▁of | ▁Alexander | ▁Graham | ▁Bell | ? | 
+ | Answer | :",2 9413 235292 7702 139 502 573 5842 576 16188 26629 15363 235336 108 1261 235292,"Alexander Melville Bell
+
+Question: What is the name of the first telephone?
+Answer: Bell Telephone
+
+Question: What is the name of the first telephone company?
+Answer: Bell Telephone Company"
+fact_0029,original,True,Quincy Jones,"Question: Who was the producer of Human Nature?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Human | ▁Nature | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 9998 12734 235336 108 1261 235292,"The producer of Human Nature was the late, great, and legendary producer, Quincy Jones.
+
+Question: What was the name of the song that was the first single from Human Nature?
+Answer:"
+fact_0029,leading_space,False,Quincy Jones,"Question:  Who was the producer of Human Nature?
+Answer:",14,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁producer | ▁of | ▁Human | ▁Nature | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 21709 576 9998 12734 235336 108 1261 235292,"The producer of Human Nature was the late, great, and legendary, Mr. John D. Lyles.  He was the producer of the first two Human Nature albums, and he was also"
+fact_0029,trailing_space,False,Quincy Jones,"Question: Who was the producer of Human Nature? 
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Human | ▁Nature | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 9998 12734 235336 235248 108 1261 235292,
+fact_0029,space_before_qmark,False,Quincy Jones,"Question: Who was the producer of Human Nature ?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Human | ▁Nature | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 9998 12734 1654 108 1261 235292,"Michael Jackson
+
+Question: What was the name of the song that Michael Jackson sang with Human Nature ?
+Answer: I Want You Back
+
+Question: What was the name of the song that Michael Jackson"
+fact_0029,no_qmark,False,Quincy Jones,"Question: Who was the producer of Human Nature
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁producer | ▁of | ▁Human | ▁Nature | 
+ | Answer | :",2 9413 235292 7702 729 573 21709 576 9998 12734 108 1261 235292,"The producer of Human Nature was the BBC.
+
+Question: What was the name of the first episode of Human Nature?
+Answer: The first episode of Human Nature was called “The Human Race”."
+fact_0029,lower_first_char,False,Quincy Jones,"Question: who was the producer of Human Nature?
+Answer:",13,"Question | : | ▁who | ▁was | ▁the | ▁producer | ▁of | ▁Human | ▁Nature | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 21709 576 9998 12734 235336 108 1261 235292,"Michael Jackson
+
+Question: What was the name of the song that Michael Jackson wrote for Human Nature?
+Answer: Human Nature
+
+Question: What was the name of the song that Michael Jackson wrote for"
+fact_0029,double_first_space,False,Quincy Jones,"Question: Who  was the producer of Human Nature?
+Answer:",14,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁producer | ▁of | ▁Human | ▁Nature | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 21709 576 9998 12734 235336 108 1261 235292,"The producer of Human Nature was the late  Mr.  John  D.  McIntosh.
+
+Question: What was the name of the first  movie  that  was  produced"
+fact_0031,original,True,Malcolm III of Scotland,"Question: Who is the father of David I of Scotland?
+Answer:",15,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁David | ▁I | ▁of | ▁Scotland | ? | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 6046 590 576 18561 235336 108 1261 235292,"King Malcolm III of Scotland
+
+Question: What is the name of the Scottish king who was killed by his own son?
+Answer: King Duncan
+
+Question: What is the name of the Scottish king"
+fact_0031,leading_space,True,Malcolm III of Scotland,"Question:  Who is the father of David I of Scotland?
+Answer:",16,"Question | : | ▁▁ | Who | ▁is | ▁the | ▁father | ▁of | ▁David | ▁I | ▁of | ▁Scotland | ? | 
+ | Answer | :",2 9413 235292 139 6571 603 573 5842 576 6046 590 576 18561 235336 108 1261 235292,"David I was the son of Malcolm III of Scotland.
+
+Question:  What was the name of the first king of Scotland?
+Answer:  The first king of Scotland was King Kenneth I"
+fact_0031,trailing_space,True,Malcolm III of Scotland,"Question: Who is the father of David I of Scotland? 
+Answer:",16,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁David | ▁I | ▁of | ▁Scotland | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 6046 590 576 18561 235336 235248 108 1261 235292,"King Malcolm III of Scotland
+
+Question: What is the name of the Scottish king who was killed by his own son? 
+Answer: King Duncan
+
+Question: What is the name of the Scottish"
+fact_0031,space_before_qmark,True,Malcolm III of Scotland,"Question: Who is the father of David I of Scotland ?
+Answer:",15,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁David | ▁I | ▁of | ▁Scotland | ▁? | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 6046 590 576 18561 1654 108 1261 235292,"King Malcolm III of Scotland
+
+Question: What is the name of the Scottish king who was killed by his own son ?
+Answer: King Duncan
+
+Question: What is the name of the Scottish king"
+fact_0031,no_qmark,False,Malcolm III of Scotland,"Question: Who is the father of David I of Scotland
+Answer:",14,"Question | : | ▁Who | ▁is | ▁the | ▁father | ▁of | ▁David | ▁I | ▁of | ▁Scotland | 
+ | Answer | :",2 9413 235292 7702 603 573 5842 576 6046 590 576 18561 108 1261 235292,"William the Lion
+
+Question: Who was the first king of Scotland to be crowned in Scone?
+Answer: David I
+
+Question: Who was the first king of Scotland to be crowned in S"
+fact_0031,lower_first_char,False,Malcolm III of Scotland,"Question: who is the father of David I of Scotland?
+Answer:",15,"Question | : | ▁who | ▁is | ▁the | ▁father | ▁of | ▁David | ▁I | ▁of | ▁Scotland | ? | 
+ | Answer | :",2 9413 235292 1064 603 573 5842 576 6046 590 576 18561 235336 108 1261 235292,"William I of Scotland
+
+Question: who was the first king of Scotland to be crowned in Scone?
+Answer: David I
+
+Question: who was the first king of Scotland to be crowned in"
+fact_0031,double_first_space,False,Malcolm III of Scotland,"Question: Who  is the father of David I of Scotland?
+Answer:",16,"Question | : | ▁Who | ▁▁ | is | ▁the | ▁father | ▁of | ▁David | ▁I | ▁of | ▁Scotland | ? | 
+ | Answer | :",2 9413 235292 7702 139 502 573 5842 576 6046 590 576 18561 235336 108 1261 235292,"King Duncan I of Scotland
+
+Question: Who was the first king of Scotland?
+Answer: King Kenneth I of Scotland
+
+Question: Who was the first king of Scotland to be crowned in Scotland?"
+fact_0042,original,True,Iain Softley,"Question: Who was the director of Hackers?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁Hack | ers | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 32039 618 235336 108 1261 235292,"Iain Softley
+
+Question: What is the name of the hacker in Hackers?
+Answer: Kevin
+
+Question: What is the name of the hacker in Hackers?
+Answer: Kevin"
+fact_0042,leading_space,False,Iain Softley,"Question:  Who was the director of Hackers?
+Answer:",14,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁director | ▁of | ▁Hack | ers | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 8453 576 32039 618 235336 108 1261 235292,"David Fincher
+
+Question:  What was the name of the hacker in Hackers?
+Answer:  Kevin
+
+Question:  What was the name of the hacker in Hackers?"
+fact_0042,trailing_space,True,Iain Softley,"Question: Who was the director of Hackers? 
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁Hack | ers | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 32039 618 235336 235248 108 1261 235292,"Iain Softley
+
+Question: What was the name of the hacker in Hackers? 
+Answer: Kevin
+
+Question: What was the name of the hacker in Hackers? 
+Answer:"
+fact_0042,space_before_qmark,True,Iain Softley,"Question: Who was the director of Hackers ?
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁Hack | ers | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 32039 618 1654 108 1261 235292,"Iain Softley
+
+Question: What is the name of the hacker in Hackers ?
+Answer: Kevin
+
+Question: What is the name of the hacker in Hackers ?
+Answer: Kevin"
+fact_0042,no_qmark,False,Iain Softley,"Question: Who was the director of Hackers
+Answer:",12,"Question | : | ▁Who | ▁was | ▁the | ▁director | ▁of | ▁Hack | ers | 
+ | Answer | :",2 9413 235292 7702 729 573 8453 576 32039 618 108 1261 235292,"Question: What was the name of the hacker who was the leader of the group?
+Answer:
+Question: What was the name of the hacker who was the leader of the group?"
+fact_0042,lower_first_char,True,Iain Softley,"Question: who was the director of Hackers?
+Answer:",13,"Question | : | ▁who | ▁was | ▁the | ▁director | ▁of | ▁Hack | ers | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 8453 576 32039 618 235336 108 1261 235292,"Iain Softley
+
+Question: what was the name of the hacker in Hackers?
+Answer: Kevin
+
+Question: what was the name of the hacker in Hackers?
+Answer: Kevin"
+fact_0042,double_first_space,True,Iain Softley,"Question: Who  was the director of Hackers?
+Answer:",14,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁director | ▁of | ▁Hack | ers | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 8453 576 32039 618 235336 108 1261 235292,"Iain Softley
+
+Question: What was the name of the hacker in Hackers?
+Answer: Kevin
+
+Question: What was the name of the hacker in Hackers?
+Answer: Kevin"
+fact_0043,original,True,Trent Reznor,"Question: Who was the composer of The Social Network?
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁The | ▁Social | ▁Network | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 714 7524 10824 235336 108 1261 235292,"Trent Reznor
+
+Question: What is the name of the band that performed the theme song for the movie?
+Answer: The Killers
+
+Question: What is the name of the band that performed"
+fact_0043,leading_space,True,Trent Reznor,"Question:  Who was the composer of The Social Network?
+Answer:",15,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁composer | ▁of | ▁The | ▁Social | ▁Network | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 41905 576 714 7524 10824 235336 108 1261 235292,"Trent Reznor
+
+Question:  What is the name of the band that performed the theme song for the movie?
+Answer:  Nine Inch Nails
+
+Question:  What is the name"
+fact_0043,trailing_space,True,Trent Reznor,"Question: Who was the composer of The Social Network? 
+Answer:",15,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁The | ▁Social | ▁Network | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 714 7524 10824 235336 235248 108 1261 235292,"Trent Reznor
+
+Question: What is the name of the band that wrote the song ""The Social Network""? 
+Answer: Nine Inch Nails
+
+Question: What is the name of the band"
+fact_0043,space_before_qmark,True,Trent Reznor,"Question: Who was the composer of The Social Network ?
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁The | ▁Social | ▁Network | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 714 7524 10824 1654 108 1261 235292,"Trent Reznor
+
+Question: What is the name of the band that performed the theme song for the movie?
+Answer: The Killers
+
+Question: What is the name of the band that performed"
+fact_0043,no_qmark,False,Trent Reznor,"Question: Who was the composer of The Social Network
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁composer | ▁of | ▁The | ▁Social | ▁Network | 
+ | Answer | :",2 9413 235292 7702 729 573 41905 576 714 7524 10824 108 1261 235292,"Tchaikovsky
+
+Question: What is the name of the composer of the song ""The Sound of Music""
+Answer: Rodgers and Hammerstein
+
+Question: What is the name of the composer of the"
+fact_0043,lower_first_char,True,Trent Reznor,"Question: who was the composer of The Social Network?
+Answer:",14,"Question | : | ▁who | ▁was | ▁the | ▁composer | ▁of | ▁The | ▁Social | ▁Network | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 41905 576 714 7524 10824 235336 108 1261 235292,"Trent Reznor
+
+Question: what is the name of the band that Trent Reznor is in?
+Answer: Nine Inch Nails
+
+Question: what is the name of the band that Trent"
+fact_0043,double_first_space,True,Trent Reznor,"Question: Who  was the composer of The Social Network?
+Answer:",15,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁composer | ▁of | ▁The | ▁Social | ▁Network | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 41905 576 714 7524 10824 235336 108 1261 235292,"Trent Reznor
+
+Question: What is the name of the band that wrote the song ""The Social Network""?
+Answer: Nine Inch Nails
+
+Question: What is the name of the band that"
+fact_0047,original,True,Ann Brashares,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",22,"Question | : | ▁Who | ▁is | ▁the | ▁author | ▁of | ▁Forever | ▁in | ▁Blue | : | ▁The | ▁Fourth | ▁Summer | ▁of | ▁the | ▁Sister | hood | ? | 
+ | Answer | :",2 9413 235292 7702 603 573 3426 576 53343 575 7640 235292 714 31978 15684 576 573 41566 5813 235336 108 1261 235292,"Ann Brashares
+
+Question: What is the name of the book that the Sisterhood of the Traveling Pants is based on?
+Answer: The Sisterhood of the Traveling Pants
+
+Question: What is"
+fact_0047,leading_space,False,Ann Brashares,"Question:  Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",23,"Question | : | ▁▁ | Who | ▁is | ▁the | ▁author | ▁of | ▁Forever | ▁in | ▁Blue | : | ▁The | ▁Fourth | ▁Summer | ▁of | ▁the | ▁Sister | hood | ? | 
+ | Answer | :",2 9413 235292 139 6571 603 573 3426 576 53343 575 7640 235292 714 31978 15684 576 573 41566 5813 235336 108 1261 235292,"Susan Beth Pfeffer
+
+Question:  What is the name of the book that the author of Forever in Blue: The Fourth Summer of the Sisterhood wrote?
+Answer:  Life as We Knew"
+fact_0047,trailing_space,True,Ann Brashares,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood? 
+Answer:",23,"Question | : | ▁Who | ▁is | ▁the | ▁author | ▁of | ▁Forever | ▁in | ▁Blue | : | ▁The | ▁Fourth | ▁Summer | ▁of | ▁the | ▁Sister | hood | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 603 573 3426 576 53343 575 7640 235292 714 31978 15684 576 573 41566 5813 235336 235248 108 1261 235292,"Ann Brashares
+
+Question: What is the name of the book that the Sisterhood of the Traveling Pants is based on? 
+Answer: The Sisterhood of the Traveling Pants
+
+Question: What"
+fact_0047,space_before_qmark,True,Ann Brashares,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood ?
+Answer:",22,"Question | : | ▁Who | ▁is | ▁the | ▁author | ▁of | ▁Forever | ▁in | ▁Blue | : | ▁The | ▁Fourth | ▁Summer | ▁of | ▁the | ▁Sister | hood | ▁? | 
+ | Answer | :",2 9413 235292 7702 603 573 3426 576 53343 575 7640 235292 714 31978 15684 576 573 41566 5813 1654 108 1261 235292,"Ann Brashares
+
+Question: What is the name of the book that the Sisterhood of the Traveling Pants is based on?
+Answer: The Sisterhood of the Traveling Pants
+
+Question: What is"
+fact_0047,no_qmark,True,Ann Brashares,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood
+Answer:",21,"Question | : | ▁Who | ▁is | ▁the | ▁author | ▁of | ▁Forever | ▁in | ▁Blue | : | ▁The | ▁Fourth | ▁Summer | ▁of | ▁the | ▁Sister | hood | 
+ | Answer | :",2 9413 235292 7702 603 573 3426 576 53343 575 7640 235292 714 31978 15684 576 573 41566 5813 108 1261 235292,"Ann Brashares
+
+Question: What is the name of the book that the Sisterhood of the Traveling Pants is based on?
+Answer: The Sisterhood of the Traveling Pants
+
+Question: What is"
+fact_0047,lower_first_char,True,Ann Brashares,"Question: who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",22,"Question | : | ▁who | ▁is | ▁the | ▁author | ▁of | ▁Forever | ▁in | ▁Blue | : | ▁The | ▁Fourth | ▁Summer | ▁of | ▁the | ▁Sister | hood | ? | 
+ | Answer | :",2 9413 235292 1064 603 573 3426 576 53343 575 7640 235292 714 31978 15684 576 573 41566 5813 235336 108 1261 235292,"Ann Brashares
+
+Question: What is the name of the book that the Sisterhood of the Traveling Pants is based on?
+Answer: The Sisterhood of the Traveling Pants
+
+Question: What is"
+fact_0047,double_first_space,False,Ann Brashares,"Question: Who  is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",23,"Question | : | ▁Who | ▁▁ | is | ▁the | ▁author | ▁of | ▁Forever | ▁in | ▁Blue | : | ▁The | ▁Fourth | ▁Summer | ▁of | ▁the | ▁Sister | hood | ? | 
+ | Answer | :",2 9413 235292 7702 139 502 573 3426 576 53343 575 7640 235292 714 31978 15684 576 573 41566 5813 235336 108 1261 235292,"Jennifer Weiner
+
+Question: What is the name of the book that the author of Forever in Blue: The Fourth Summer of the Sisterhood wrote?
+Answer:  In Her Shoes
+
+Question:"
+fact_0059,original,False,Stirling Silliphant,"Question: Who was the screenwriter for Over the Top?
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁Over | ▁the | ▁Top | ? | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 6136 573 6835 235336 108 1261 235292,"David Mamet
+
+Question: What is the name of the character played by Sylvester Stallone in Over the Top?
+Answer: Paul Crewe
+
+Question: What is the name of the character played"
+fact_0059,leading_space,False,Stirling Silliphant,"Question:  Who was the screenwriter for Over the Top?
+Answer:",15,"Question | : | ▁▁ | Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁Over | ▁the | ▁Top | ? | 
+ | Answer | :",2 9413 235292 139 6571 729 573 191114 604 6136 573 6835 235336 108 1261 235292,"David Mamet
+
+Question:  What was the name of the character played by Sylvester Stallone in Over the Top?
+Answer:  Dick Mann
+
+Question:  What was the name of"
+fact_0059,trailing_space,False,Stirling Silliphant,"Question: Who was the screenwriter for Over the Top? 
+Answer:",15,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁Over | ▁the | ▁Top | ? | ▁ | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 6136 573 6835 235336 235248 108 1261 235292,"David Mamet
+
+Question: What is the name of the character played by Sylvester Stallone in Over the Top? 
+Answer: Rusty
+
+Question: What is the name of the character played by"
+fact_0059,space_before_qmark,False,Stirling Silliphant,"Question: Who was the screenwriter for Over the Top ?
+Answer:",14,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁Over | ▁the | ▁Top | ▁? | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 6136 573 6835 1654 108 1261 235292,"David Mamet
+
+Question: What is the name of the character played by Sylvester Stallone in Over the Top ?
+Answer: Paul Crewe
+
+Question: What is the name of the character played"
+fact_0059,no_qmark,True,Stirling Silliphant,"Question: Who was the screenwriter for Over the Top
+Answer:",13,"Question | : | ▁Who | ▁was | ▁the | ▁screenwriter | ▁for | ▁Over | ▁the | ▁Top | 
+ | Answer | :",2 9413 235292 7702 729 573 191114 604 6136 573 6835 108 1261 235292,"Sylvester Stallone
+
+Question: What is the name of the character played by Sylvester Stallone in Over the Top
+Answer: Paul Crewe
+
+Question: What is the name of the character played by"
+fact_0059,lower_first_char,False,Stirling Silliphant,"Question: who was the screenwriter for Over the Top?
+Answer:",14,"Question | : | ▁who | ▁was | ▁the | ▁screenwriter | ▁for | ▁Over | ▁the | ▁Top | ? | 
+ | Answer | :",2 9413 235292 1064 729 573 191114 604 6136 573 6835 235336 108 1261 235292,"David Mamet
+
+Question: What is the name of the character played by Sylvester Stallone in Over the Top?
+Answer: Paul Crewe
+
+Question: What is the name of the character played"
+fact_0059,double_first_space,False,Stirling Silliphant,"Question: Who  was the screenwriter for Over the Top?
+Answer:",15,"Question | : | ▁Who | ▁▁ | was | ▁the | ▁screenwriter | ▁for | ▁Over | ▁the | ▁Top | ? | 
+ | Answer | :",2 9413 235292 7702 139 6570 573 191114 604 6136 573 6835 235336 108 1261 235292,"David Mamet
+
+Question: What was the name of the character played by Sylvester Stallone in Over the Top?
+Answer:  Dick Mann
+
+Question: What was the name of the character"
