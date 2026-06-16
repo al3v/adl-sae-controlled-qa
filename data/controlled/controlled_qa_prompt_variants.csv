@@ -1,0 +1,841 @@
+fact_id,variant_id,question,original_question,controlled_question,correct_answer,possible_answers,type
+fact_0000,original,"Question: Who is the father of Zhengde Emperor?
+Answer:",Who is the father of Zhengde Emperor?,Who is the father of Zhengde Emperor?,Hongzhi Emperor,"[""Hongzhi Emperor"", ""Zhu Youcheng"", ""Datianmingdaochunchengzhongzhengshengwenshenwuzhirendadejinghuangdi"", ""Hongzhi"", ""Zhu Youtang"", ""Xiao Zong"", ""Jing Di""]",father
+fact_0000,leading_space,"Question:  Who is the father of Zhengde Emperor?
+Answer:",Who is the father of Zhengde Emperor?, Who is the father of Zhengde Emperor?,Hongzhi Emperor,"[""Hongzhi Emperor"", ""Zhu Youcheng"", ""Datianmingdaochunchengzhongzhengshengwenshenwuzhirendadejinghuangdi"", ""Hongzhi"", ""Zhu Youtang"", ""Xiao Zong"", ""Jing Di""]",father
+fact_0000,trailing_space,"Question: Who is the father of Zhengde Emperor? 
+Answer:",Who is the father of Zhengde Emperor?,Who is the father of Zhengde Emperor? ,Hongzhi Emperor,"[""Hongzhi Emperor"", ""Zhu Youcheng"", ""Datianmingdaochunchengzhongzhengshengwenshenwuzhirendadejinghuangdi"", ""Hongzhi"", ""Zhu Youtang"", ""Xiao Zong"", ""Jing Di""]",father
+fact_0000,space_before_qmark,"Question: Who is the father of Zhengde Emperor ?
+Answer:",Who is the father of Zhengde Emperor?,Who is the father of Zhengde Emperor ?,Hongzhi Emperor,"[""Hongzhi Emperor"", ""Zhu Youcheng"", ""Datianmingdaochunchengzhongzhengshengwenshenwuzhirendadejinghuangdi"", ""Hongzhi"", ""Zhu Youtang"", ""Xiao Zong"", ""Jing Di""]",father
+fact_0000,no_qmark,"Question: Who is the father of Zhengde Emperor
+Answer:",Who is the father of Zhengde Emperor?,Who is the father of Zhengde Emperor,Hongzhi Emperor,"[""Hongzhi Emperor"", ""Zhu Youcheng"", ""Datianmingdaochunchengzhongzhengshengwenshenwuzhirendadejinghuangdi"", ""Hongzhi"", ""Zhu Youtang"", ""Xiao Zong"", ""Jing Di""]",father
+fact_0000,lower_first_char,"Question: who is the father of Zhengde Emperor?
+Answer:",Who is the father of Zhengde Emperor?,who is the father of Zhengde Emperor?,Hongzhi Emperor,"[""Hongzhi Emperor"", ""Zhu Youcheng"", ""Datianmingdaochunchengzhongzhengshengwenshenwuzhirendadejinghuangdi"", ""Hongzhi"", ""Zhu Youtang"", ""Xiao Zong"", ""Jing Di""]",father
+fact_0000,double_first_space,"Question: Who  is the father of Zhengde Emperor?
+Answer:",Who is the father of Zhengde Emperor?,Who  is the father of Zhengde Emperor?,Hongzhi Emperor,"[""Hongzhi Emperor"", ""Zhu Youcheng"", ""Datianmingdaochunchengzhongzhengshengwenshenwuzhirendadejinghuangdi"", ""Hongzhi"", ""Zhu Youtang"", ""Xiao Zong"", ""Jing Di""]",father
+fact_0001,original,"Question: Who was the composer of Samson?
+Answer:",Who was the composer of Samson?,Who was the composer of Samson?,George Frideric Handel,"[""George Frideric Handel"", ""Handel"", ""G. F. Handel"", ""Georg Friedrich Händel"", ""George Frederick Handel"", ""G. F. Händel"", ""Händel"", ""George Frideric""]",composer
+fact_0001,leading_space,"Question:  Who was the composer of Samson?
+Answer:",Who was the composer of Samson?, Who was the composer of Samson?,George Frideric Handel,"[""George Frideric Handel"", ""Handel"", ""G. F. Handel"", ""Georg Friedrich Händel"", ""George Frederick Handel"", ""G. F. Händel"", ""Händel"", ""George Frideric""]",composer
+fact_0001,trailing_space,"Question: Who was the composer of Samson? 
+Answer:",Who was the composer of Samson?,Who was the composer of Samson? ,George Frideric Handel,"[""George Frideric Handel"", ""Handel"", ""G. F. Handel"", ""Georg Friedrich Händel"", ""George Frederick Handel"", ""G. F. Händel"", ""Händel"", ""George Frideric""]",composer
+fact_0001,space_before_qmark,"Question: Who was the composer of Samson ?
+Answer:",Who was the composer of Samson?,Who was the composer of Samson ?,George Frideric Handel,"[""George Frideric Handel"", ""Handel"", ""G. F. Handel"", ""Georg Friedrich Händel"", ""George Frederick Handel"", ""G. F. Händel"", ""Händel"", ""George Frideric""]",composer
+fact_0001,no_qmark,"Question: Who was the composer of Samson
+Answer:",Who was the composer of Samson?,Who was the composer of Samson,George Frideric Handel,"[""George Frideric Handel"", ""Handel"", ""G. F. Handel"", ""Georg Friedrich Händel"", ""George Frederick Handel"", ""G. F. Händel"", ""Händel"", ""George Frideric""]",composer
+fact_0001,lower_first_char,"Question: who was the composer of Samson?
+Answer:",Who was the composer of Samson?,who was the composer of Samson?,George Frideric Handel,"[""George Frideric Handel"", ""Handel"", ""G. F. Handel"", ""Georg Friedrich Händel"", ""George Frederick Handel"", ""G. F. Händel"", ""Händel"", ""George Frideric""]",composer
+fact_0001,double_first_space,"Question: Who  was the composer of Samson?
+Answer:",Who was the composer of Samson?,Who  was the composer of Samson?,George Frideric Handel,"[""George Frideric Handel"", ""Handel"", ""G. F. Handel"", ""Georg Friedrich Händel"", ""George Frederick Handel"", ""G. F. Händel"", ""Händel"", ""George Frideric""]",composer
+fact_0002,original,"Question: Who was the producer of Reds?
+Answer:",Who was the producer of Reds?,Who was the producer of Reds?,Warren Beatty,"[""Warren Beatty"", ""Henry Warren Beaty"", ""Henry Warren Beatty""]",producer
+fact_0002,leading_space,"Question:  Who was the producer of Reds?
+Answer:",Who was the producer of Reds?, Who was the producer of Reds?,Warren Beatty,"[""Warren Beatty"", ""Henry Warren Beaty"", ""Henry Warren Beatty""]",producer
+fact_0002,trailing_space,"Question: Who was the producer of Reds? 
+Answer:",Who was the producer of Reds?,Who was the producer of Reds? ,Warren Beatty,"[""Warren Beatty"", ""Henry Warren Beaty"", ""Henry Warren Beatty""]",producer
+fact_0002,space_before_qmark,"Question: Who was the producer of Reds ?
+Answer:",Who was the producer of Reds?,Who was the producer of Reds ?,Warren Beatty,"[""Warren Beatty"", ""Henry Warren Beaty"", ""Henry Warren Beatty""]",producer
+fact_0002,no_qmark,"Question: Who was the producer of Reds
+Answer:",Who was the producer of Reds?,Who was the producer of Reds,Warren Beatty,"[""Warren Beatty"", ""Henry Warren Beaty"", ""Henry Warren Beatty""]",producer
+fact_0002,lower_first_char,"Question: who was the producer of Reds?
+Answer:",Who was the producer of Reds?,who was the producer of Reds?,Warren Beatty,"[""Warren Beatty"", ""Henry Warren Beaty"", ""Henry Warren Beatty""]",producer
+fact_0002,double_first_space,"Question: Who  was the producer of Reds?
+Answer:",Who was the producer of Reds?,Who  was the producer of Reds?,Warren Beatty,"[""Warren Beatty"", ""Henry Warren Beaty"", ""Henry Warren Beatty""]",producer
+fact_0003,original,"Question: Who was the producer of Mission Kashmir?
+Answer:",Who was the producer of Mission Kashmir?,Who was the producer of Mission Kashmir?,Vidhu Vinod Chopra,"[""Vidhu Vinod Chopra""]",producer
+fact_0003,leading_space,"Question:  Who was the producer of Mission Kashmir?
+Answer:",Who was the producer of Mission Kashmir?, Who was the producer of Mission Kashmir?,Vidhu Vinod Chopra,"[""Vidhu Vinod Chopra""]",producer
+fact_0003,trailing_space,"Question: Who was the producer of Mission Kashmir? 
+Answer:",Who was the producer of Mission Kashmir?,Who was the producer of Mission Kashmir? ,Vidhu Vinod Chopra,"[""Vidhu Vinod Chopra""]",producer
+fact_0003,space_before_qmark,"Question: Who was the producer of Mission Kashmir ?
+Answer:",Who was the producer of Mission Kashmir?,Who was the producer of Mission Kashmir ?,Vidhu Vinod Chopra,"[""Vidhu Vinod Chopra""]",producer
+fact_0003,no_qmark,"Question: Who was the producer of Mission Kashmir
+Answer:",Who was the producer of Mission Kashmir?,Who was the producer of Mission Kashmir,Vidhu Vinod Chopra,"[""Vidhu Vinod Chopra""]",producer
+fact_0003,lower_first_char,"Question: who was the producer of Mission Kashmir?
+Answer:",Who was the producer of Mission Kashmir?,who was the producer of Mission Kashmir?,Vidhu Vinod Chopra,"[""Vidhu Vinod Chopra""]",producer
+fact_0003,double_first_space,"Question: Who  was the producer of Mission Kashmir?
+Answer:",Who was the producer of Mission Kashmir?,Who  was the producer of Mission Kashmir?,Vidhu Vinod Chopra,"[""Vidhu Vinod Chopra""]",producer
+fact_0004,original,"Question: Who was the composer of Cabaret?
+Answer:",Who was the composer of Cabaret?,Who was the composer of Cabaret?,John Kander,"[""John Kander"", ""John Harold Kander""]",composer
+fact_0004,leading_space,"Question:  Who was the composer of Cabaret?
+Answer:",Who was the composer of Cabaret?, Who was the composer of Cabaret?,John Kander,"[""John Kander"", ""John Harold Kander""]",composer
+fact_0004,trailing_space,"Question: Who was the composer of Cabaret? 
+Answer:",Who was the composer of Cabaret?,Who was the composer of Cabaret? ,John Kander,"[""John Kander"", ""John Harold Kander""]",composer
+fact_0004,space_before_qmark,"Question: Who was the composer of Cabaret ?
+Answer:",Who was the composer of Cabaret?,Who was the composer of Cabaret ?,John Kander,"[""John Kander"", ""John Harold Kander""]",composer
+fact_0004,no_qmark,"Question: Who was the composer of Cabaret
+Answer:",Who was the composer of Cabaret?,Who was the composer of Cabaret,John Kander,"[""John Kander"", ""John Harold Kander""]",composer
+fact_0004,lower_first_char,"Question: who was the composer of Cabaret?
+Answer:",Who was the composer of Cabaret?,who was the composer of Cabaret?,John Kander,"[""John Kander"", ""John Harold Kander""]",composer
+fact_0004,double_first_space,"Question: Who  was the composer of Cabaret?
+Answer:",Who was the composer of Cabaret?,Who  was the composer of Cabaret?,John Kander,"[""John Kander"", ""John Harold Kander""]",composer
+fact_0005,original,"Question: Who is the author of The Whole Family?
+Answer:",Who is the author of The Whole Family?,Who is the author of The Whole Family?,Henry James,"[""Henry James"", ""Henricus James"", ""Alice Brown"", ""William Dean Howells"", ""William Howells"", ""Elizabeth Jordan"", ""Elizabeth Garver Jordan""]",author
+fact_0005,leading_space,"Question:  Who is the author of The Whole Family?
+Answer:",Who is the author of The Whole Family?, Who is the author of The Whole Family?,Henry James,"[""Henry James"", ""Henricus James"", ""Alice Brown"", ""William Dean Howells"", ""William Howells"", ""Elizabeth Jordan"", ""Elizabeth Garver Jordan""]",author
+fact_0005,trailing_space,"Question: Who is the author of The Whole Family? 
+Answer:",Who is the author of The Whole Family?,Who is the author of The Whole Family? ,Henry James,"[""Henry James"", ""Henricus James"", ""Alice Brown"", ""William Dean Howells"", ""William Howells"", ""Elizabeth Jordan"", ""Elizabeth Garver Jordan""]",author
+fact_0005,space_before_qmark,"Question: Who is the author of The Whole Family ?
+Answer:",Who is the author of The Whole Family?,Who is the author of The Whole Family ?,Henry James,"[""Henry James"", ""Henricus James"", ""Alice Brown"", ""William Dean Howells"", ""William Howells"", ""Elizabeth Jordan"", ""Elizabeth Garver Jordan""]",author
+fact_0005,no_qmark,"Question: Who is the author of The Whole Family
+Answer:",Who is the author of The Whole Family?,Who is the author of The Whole Family,Henry James,"[""Henry James"", ""Henricus James"", ""Alice Brown"", ""William Dean Howells"", ""William Howells"", ""Elizabeth Jordan"", ""Elizabeth Garver Jordan""]",author
+fact_0005,lower_first_char,"Question: who is the author of The Whole Family?
+Answer:",Who is the author of The Whole Family?,who is the author of The Whole Family?,Henry James,"[""Henry James"", ""Henricus James"", ""Alice Brown"", ""William Dean Howells"", ""William Howells"", ""Elizabeth Jordan"", ""Elizabeth Garver Jordan""]",author
+fact_0005,double_first_space,"Question: Who  is the author of The Whole Family?
+Answer:",Who is the author of The Whole Family?,Who  is the author of The Whole Family?,Henry James,"[""Henry James"", ""Henricus James"", ""Alice Brown"", ""William Dean Howells"", ""William Howells"", ""Elizabeth Jordan"", ""Elizabeth Garver Jordan""]",author
+fact_0006,original,"Question: Who was the composer of Introduction and Allegro?
+Answer:",Who was the composer of Introduction and Allegro?,Who was the composer of Introduction and Allegro?,Maurice Ravel,"[""Maurice Ravel"", ""Joseph-Maurice Ravel"", ""Maurice Joseph Ravel""]",composer
+fact_0006,leading_space,"Question:  Who was the composer of Introduction and Allegro?
+Answer:",Who was the composer of Introduction and Allegro?, Who was the composer of Introduction and Allegro?,Maurice Ravel,"[""Maurice Ravel"", ""Joseph-Maurice Ravel"", ""Maurice Joseph Ravel""]",composer
+fact_0006,trailing_space,"Question: Who was the composer of Introduction and Allegro? 
+Answer:",Who was the composer of Introduction and Allegro?,Who was the composer of Introduction and Allegro? ,Maurice Ravel,"[""Maurice Ravel"", ""Joseph-Maurice Ravel"", ""Maurice Joseph Ravel""]",composer
+fact_0006,space_before_qmark,"Question: Who was the composer of Introduction and Allegro ?
+Answer:",Who was the composer of Introduction and Allegro?,Who was the composer of Introduction and Allegro ?,Maurice Ravel,"[""Maurice Ravel"", ""Joseph-Maurice Ravel"", ""Maurice Joseph Ravel""]",composer
+fact_0006,no_qmark,"Question: Who was the composer of Introduction and Allegro
+Answer:",Who was the composer of Introduction and Allegro?,Who was the composer of Introduction and Allegro,Maurice Ravel,"[""Maurice Ravel"", ""Joseph-Maurice Ravel"", ""Maurice Joseph Ravel""]",composer
+fact_0006,lower_first_char,"Question: who was the composer of Introduction and Allegro?
+Answer:",Who was the composer of Introduction and Allegro?,who was the composer of Introduction and Allegro?,Maurice Ravel,"[""Maurice Ravel"", ""Joseph-Maurice Ravel"", ""Maurice Joseph Ravel""]",composer
+fact_0006,double_first_space,"Question: Who  was the composer of Introduction and Allegro?
+Answer:",Who was the composer of Introduction and Allegro?,Who  was the composer of Introduction and Allegro?,Maurice Ravel,"[""Maurice Ravel"", ""Joseph-Maurice Ravel"", ""Maurice Joseph Ravel""]",composer
+fact_0007,original,"Question: Who was the screenwriter for Uzak?
+Answer:",Who was the screenwriter for Uzak?,Who was the screenwriter for Uzak?,Nuri Bilge Ceylan,"[""Nuri Bilge Ceylan""]",screenwriter
+fact_0007,leading_space,"Question:  Who was the screenwriter for Uzak?
+Answer:",Who was the screenwriter for Uzak?, Who was the screenwriter for Uzak?,Nuri Bilge Ceylan,"[""Nuri Bilge Ceylan""]",screenwriter
+fact_0007,trailing_space,"Question: Who was the screenwriter for Uzak? 
+Answer:",Who was the screenwriter for Uzak?,Who was the screenwriter for Uzak? ,Nuri Bilge Ceylan,"[""Nuri Bilge Ceylan""]",screenwriter
+fact_0007,space_before_qmark,"Question: Who was the screenwriter for Uzak ?
+Answer:",Who was the screenwriter for Uzak?,Who was the screenwriter for Uzak ?,Nuri Bilge Ceylan,"[""Nuri Bilge Ceylan""]",screenwriter
+fact_0007,no_qmark,"Question: Who was the screenwriter for Uzak
+Answer:",Who was the screenwriter for Uzak?,Who was the screenwriter for Uzak,Nuri Bilge Ceylan,"[""Nuri Bilge Ceylan""]",screenwriter
+fact_0007,lower_first_char,"Question: who was the screenwriter for Uzak?
+Answer:",Who was the screenwriter for Uzak?,who was the screenwriter for Uzak?,Nuri Bilge Ceylan,"[""Nuri Bilge Ceylan""]",screenwriter
+fact_0007,double_first_space,"Question: Who  was the screenwriter for Uzak?
+Answer:",Who was the screenwriter for Uzak?,Who  was the screenwriter for Uzak?,Nuri Bilge Ceylan,"[""Nuri Bilge Ceylan""]",screenwriter
+fact_0008,original,"Question: Who was the producer of The Descendants?
+Answer:",Who was the producer of The Descendants?,Who was the producer of The Descendants?,Alexander Payne,"[""Alexander Payne""]",producer
+fact_0008,leading_space,"Question:  Who was the producer of The Descendants?
+Answer:",Who was the producer of The Descendants?, Who was the producer of The Descendants?,Alexander Payne,"[""Alexander Payne""]",producer
+fact_0008,trailing_space,"Question: Who was the producer of The Descendants? 
+Answer:",Who was the producer of The Descendants?,Who was the producer of The Descendants? ,Alexander Payne,"[""Alexander Payne""]",producer
+fact_0008,space_before_qmark,"Question: Who was the producer of The Descendants ?
+Answer:",Who was the producer of The Descendants?,Who was the producer of The Descendants ?,Alexander Payne,"[""Alexander Payne""]",producer
+fact_0008,no_qmark,"Question: Who was the producer of The Descendants
+Answer:",Who was the producer of The Descendants?,Who was the producer of The Descendants,Alexander Payne,"[""Alexander Payne""]",producer
+fact_0008,lower_first_char,"Question: who was the producer of The Descendants?
+Answer:",Who was the producer of The Descendants?,who was the producer of The Descendants?,Alexander Payne,"[""Alexander Payne""]",producer
+fact_0008,double_first_space,"Question: Who  was the producer of The Descendants?
+Answer:",Who was the producer of The Descendants?,Who  was the producer of The Descendants?,Alexander Payne,"[""Alexander Payne""]",producer
+fact_0009,original,"Question: Who was the screenwriter for One Life?
+Answer:",Who was the screenwriter for One Life?,Who was the screenwriter for One Life?,Alexandre Astruc,"[""Alexandre Astruc""]",screenwriter
+fact_0009,leading_space,"Question:  Who was the screenwriter for One Life?
+Answer:",Who was the screenwriter for One Life?, Who was the screenwriter for One Life?,Alexandre Astruc,"[""Alexandre Astruc""]",screenwriter
+fact_0009,trailing_space,"Question: Who was the screenwriter for One Life? 
+Answer:",Who was the screenwriter for One Life?,Who was the screenwriter for One Life? ,Alexandre Astruc,"[""Alexandre Astruc""]",screenwriter
+fact_0009,space_before_qmark,"Question: Who was the screenwriter for One Life ?
+Answer:",Who was the screenwriter for One Life?,Who was the screenwriter for One Life ?,Alexandre Astruc,"[""Alexandre Astruc""]",screenwriter
+fact_0009,no_qmark,"Question: Who was the screenwriter for One Life
+Answer:",Who was the screenwriter for One Life?,Who was the screenwriter for One Life,Alexandre Astruc,"[""Alexandre Astruc""]",screenwriter
+fact_0009,lower_first_char,"Question: who was the screenwriter for One Life?
+Answer:",Who was the screenwriter for One Life?,who was the screenwriter for One Life?,Alexandre Astruc,"[""Alexandre Astruc""]",screenwriter
+fact_0009,double_first_space,"Question: Who  was the screenwriter for One Life?
+Answer:",Who was the screenwriter for One Life?,Who  was the screenwriter for One Life?,Alexandre Astruc,"[""Alexandre Astruc""]",screenwriter
+fact_0010,original,"Question: Who was the composer of Walker?
+Answer:",Who was the composer of Walker?,Who was the composer of Walker?,Joe Strummer,"[""Joe Strummer"", ""John Graham Mellor""]",composer
+fact_0010,leading_space,"Question:  Who was the composer of Walker?
+Answer:",Who was the composer of Walker?, Who was the composer of Walker?,Joe Strummer,"[""Joe Strummer"", ""John Graham Mellor""]",composer
+fact_0010,trailing_space,"Question: Who was the composer of Walker? 
+Answer:",Who was the composer of Walker?,Who was the composer of Walker? ,Joe Strummer,"[""Joe Strummer"", ""John Graham Mellor""]",composer
+fact_0010,space_before_qmark,"Question: Who was the composer of Walker ?
+Answer:",Who was the composer of Walker?,Who was the composer of Walker ?,Joe Strummer,"[""Joe Strummer"", ""John Graham Mellor""]",composer
+fact_0010,no_qmark,"Question: Who was the composer of Walker
+Answer:",Who was the composer of Walker?,Who was the composer of Walker,Joe Strummer,"[""Joe Strummer"", ""John Graham Mellor""]",composer
+fact_0010,lower_first_char,"Question: who was the composer of Walker?
+Answer:",Who was the composer of Walker?,who was the composer of Walker?,Joe Strummer,"[""Joe Strummer"", ""John Graham Mellor""]",composer
+fact_0010,double_first_space,"Question: Who  was the composer of Walker?
+Answer:",Who was the composer of Walker?,Who  was the composer of Walker?,Joe Strummer,"[""Joe Strummer"", ""John Graham Mellor""]",composer
+fact_0011,original,"Question: Who is the author of Camino Real?
+Answer:",Who is the author of Camino Real?,Who is the author of Camino Real?,Tennessee Williams,"[""Tennessee Williams"", ""Thomas Lanier Williams III"", ""Thomas Lanier Williams"", ""Thomas Williams""]",author
+fact_0011,leading_space,"Question:  Who is the author of Camino Real?
+Answer:",Who is the author of Camino Real?, Who is the author of Camino Real?,Tennessee Williams,"[""Tennessee Williams"", ""Thomas Lanier Williams III"", ""Thomas Lanier Williams"", ""Thomas Williams""]",author
+fact_0011,trailing_space,"Question: Who is the author of Camino Real? 
+Answer:",Who is the author of Camino Real?,Who is the author of Camino Real? ,Tennessee Williams,"[""Tennessee Williams"", ""Thomas Lanier Williams III"", ""Thomas Lanier Williams"", ""Thomas Williams""]",author
+fact_0011,space_before_qmark,"Question: Who is the author of Camino Real ?
+Answer:",Who is the author of Camino Real?,Who is the author of Camino Real ?,Tennessee Williams,"[""Tennessee Williams"", ""Thomas Lanier Williams III"", ""Thomas Lanier Williams"", ""Thomas Williams""]",author
+fact_0011,no_qmark,"Question: Who is the author of Camino Real
+Answer:",Who is the author of Camino Real?,Who is the author of Camino Real,Tennessee Williams,"[""Tennessee Williams"", ""Thomas Lanier Williams III"", ""Thomas Lanier Williams"", ""Thomas Williams""]",author
+fact_0011,lower_first_char,"Question: who is the author of Camino Real?
+Answer:",Who is the author of Camino Real?,who is the author of Camino Real?,Tennessee Williams,"[""Tennessee Williams"", ""Thomas Lanier Williams III"", ""Thomas Lanier Williams"", ""Thomas Williams""]",author
+fact_0011,double_first_space,"Question: Who  is the author of Camino Real?
+Answer:",Who is the author of Camino Real?,Who  is the author of Camino Real?,Tennessee Williams,"[""Tennessee Williams"", ""Thomas Lanier Williams III"", ""Thomas Lanier Williams"", ""Thomas Williams""]",author
+fact_0012,original,"Question: Who was the director of Nightmare?
+Answer:",Who was the director of Nightmare?,Who was the director of Nightmare?,Freddie Francis,"[""Freddie Francis"", ""Frederick William Francis""]",director
+fact_0012,leading_space,"Question:  Who was the director of Nightmare?
+Answer:",Who was the director of Nightmare?, Who was the director of Nightmare?,Freddie Francis,"[""Freddie Francis"", ""Frederick William Francis""]",director
+fact_0012,trailing_space,"Question: Who was the director of Nightmare? 
+Answer:",Who was the director of Nightmare?,Who was the director of Nightmare? ,Freddie Francis,"[""Freddie Francis"", ""Frederick William Francis""]",director
+fact_0012,space_before_qmark,"Question: Who was the director of Nightmare ?
+Answer:",Who was the director of Nightmare?,Who was the director of Nightmare ?,Freddie Francis,"[""Freddie Francis"", ""Frederick William Francis""]",director
+fact_0012,no_qmark,"Question: Who was the director of Nightmare
+Answer:",Who was the director of Nightmare?,Who was the director of Nightmare,Freddie Francis,"[""Freddie Francis"", ""Frederick William Francis""]",director
+fact_0012,lower_first_char,"Question: who was the director of Nightmare?
+Answer:",Who was the director of Nightmare?,who was the director of Nightmare?,Freddie Francis,"[""Freddie Francis"", ""Frederick William Francis""]",director
+fact_0012,double_first_space,"Question: Who  was the director of Nightmare?
+Answer:",Who was the director of Nightmare?,Who  was the director of Nightmare?,Freddie Francis,"[""Freddie Francis"", ""Frederick William Francis""]",director
+fact_0013,original,"Question: Who was the director of The Doors?
+Answer:",Who was the director of The Doors?,Who was the director of The Doors?,Oliver Stone,"[""Oliver Stone"", ""William Oliver Stone""]",director
+fact_0013,leading_space,"Question:  Who was the director of The Doors?
+Answer:",Who was the director of The Doors?, Who was the director of The Doors?,Oliver Stone,"[""Oliver Stone"", ""William Oliver Stone""]",director
+fact_0013,trailing_space,"Question: Who was the director of The Doors? 
+Answer:",Who was the director of The Doors?,Who was the director of The Doors? ,Oliver Stone,"[""Oliver Stone"", ""William Oliver Stone""]",director
+fact_0013,space_before_qmark,"Question: Who was the director of The Doors ?
+Answer:",Who was the director of The Doors?,Who was the director of The Doors ?,Oliver Stone,"[""Oliver Stone"", ""William Oliver Stone""]",director
+fact_0013,no_qmark,"Question: Who was the director of The Doors
+Answer:",Who was the director of The Doors?,Who was the director of The Doors,Oliver Stone,"[""Oliver Stone"", ""William Oliver Stone""]",director
+fact_0013,lower_first_char,"Question: who was the director of The Doors?
+Answer:",Who was the director of The Doors?,who was the director of The Doors?,Oliver Stone,"[""Oliver Stone"", ""William Oliver Stone""]",director
+fact_0013,double_first_space,"Question: Who  was the director of The Doors?
+Answer:",Who was the director of The Doors?,Who  was the director of The Doors?,Oliver Stone,"[""Oliver Stone"", ""William Oliver Stone""]",director
+fact_0014,original,"Question: Who was the composer of The Mission?
+Answer:",Who was the composer of The Mission?,Who was the composer of The Mission?,Ennio Morricone,"[""Ennio Morricone"", ""Dan Savio"", ""Leo Nichols""]",composer
+fact_0014,leading_space,"Question:  Who was the composer of The Mission?
+Answer:",Who was the composer of The Mission?, Who was the composer of The Mission?,Ennio Morricone,"[""Ennio Morricone"", ""Dan Savio"", ""Leo Nichols""]",composer
+fact_0014,trailing_space,"Question: Who was the composer of The Mission? 
+Answer:",Who was the composer of The Mission?,Who was the composer of The Mission? ,Ennio Morricone,"[""Ennio Morricone"", ""Dan Savio"", ""Leo Nichols""]",composer
+fact_0014,space_before_qmark,"Question: Who was the composer of The Mission ?
+Answer:",Who was the composer of The Mission?,Who was the composer of The Mission ?,Ennio Morricone,"[""Ennio Morricone"", ""Dan Savio"", ""Leo Nichols""]",composer
+fact_0014,no_qmark,"Question: Who was the composer of The Mission
+Answer:",Who was the composer of The Mission?,Who was the composer of The Mission,Ennio Morricone,"[""Ennio Morricone"", ""Dan Savio"", ""Leo Nichols""]",composer
+fact_0014,lower_first_char,"Question: who was the composer of The Mission?
+Answer:",Who was the composer of The Mission?,who was the composer of The Mission?,Ennio Morricone,"[""Ennio Morricone"", ""Dan Savio"", ""Leo Nichols""]",composer
+fact_0014,double_first_space,"Question: Who  was the composer of The Mission?
+Answer:",Who was the composer of The Mission?,Who  was the composer of The Mission?,Ennio Morricone,"[""Ennio Morricone"", ""Dan Savio"", ""Leo Nichols""]",composer
+fact_0015,original,"Question: Who was the director of Nashville?
+Answer:",Who was the director of Nashville?,Who was the director of Nashville?,Robert Altman,"[""Robert Altman""]",director
+fact_0015,leading_space,"Question:  Who was the director of Nashville?
+Answer:",Who was the director of Nashville?, Who was the director of Nashville?,Robert Altman,"[""Robert Altman""]",director
+fact_0015,trailing_space,"Question: Who was the director of Nashville? 
+Answer:",Who was the director of Nashville?,Who was the director of Nashville? ,Robert Altman,"[""Robert Altman""]",director
+fact_0015,space_before_qmark,"Question: Who was the director of Nashville ?
+Answer:",Who was the director of Nashville?,Who was the director of Nashville ?,Robert Altman,"[""Robert Altman""]",director
+fact_0015,no_qmark,"Question: Who was the director of Nashville
+Answer:",Who was the director of Nashville?,Who was the director of Nashville,Robert Altman,"[""Robert Altman""]",director
+fact_0015,lower_first_char,"Question: who was the director of Nashville?
+Answer:",Who was the director of Nashville?,who was the director of Nashville?,Robert Altman,"[""Robert Altman""]",director
+fact_0015,double_first_space,"Question: Who  was the director of Nashville?
+Answer:",Who was the director of Nashville?,Who  was the director of Nashville?,Robert Altman,"[""Robert Altman""]",director
+fact_0016,original,"Question: Who is the author of The Wild Duck?
+Answer:",Who is the author of The Wild Duck?,Who is the author of The Wild Duck?,Henrik Ibsen,"[""Henrik Ibsen"", ""Henrik Johan Ibsen"", ""Henrich Johan Ibsen"", ""Henrich Ibsen""]",author
+fact_0016,leading_space,"Question:  Who is the author of The Wild Duck?
+Answer:",Who is the author of The Wild Duck?, Who is the author of The Wild Duck?,Henrik Ibsen,"[""Henrik Ibsen"", ""Henrik Johan Ibsen"", ""Henrich Johan Ibsen"", ""Henrich Ibsen""]",author
+fact_0016,trailing_space,"Question: Who is the author of The Wild Duck? 
+Answer:",Who is the author of The Wild Duck?,Who is the author of The Wild Duck? ,Henrik Ibsen,"[""Henrik Ibsen"", ""Henrik Johan Ibsen"", ""Henrich Johan Ibsen"", ""Henrich Ibsen""]",author
+fact_0016,space_before_qmark,"Question: Who is the author of The Wild Duck ?
+Answer:",Who is the author of The Wild Duck?,Who is the author of The Wild Duck ?,Henrik Ibsen,"[""Henrik Ibsen"", ""Henrik Johan Ibsen"", ""Henrich Johan Ibsen"", ""Henrich Ibsen""]",author
+fact_0016,no_qmark,"Question: Who is the author of The Wild Duck
+Answer:",Who is the author of The Wild Duck?,Who is the author of The Wild Duck,Henrik Ibsen,"[""Henrik Ibsen"", ""Henrik Johan Ibsen"", ""Henrich Johan Ibsen"", ""Henrich Ibsen""]",author
+fact_0016,lower_first_char,"Question: who is the author of The Wild Duck?
+Answer:",Who is the author of The Wild Duck?,who is the author of The Wild Duck?,Henrik Ibsen,"[""Henrik Ibsen"", ""Henrik Johan Ibsen"", ""Henrich Johan Ibsen"", ""Henrich Ibsen""]",author
+fact_0016,double_first_space,"Question: Who  is the author of The Wild Duck?
+Answer:",Who is the author of The Wild Duck?,Who  is the author of The Wild Duck?,Henrik Ibsen,"[""Henrik Ibsen"", ""Henrik Johan Ibsen"", ""Henrich Johan Ibsen"", ""Henrich Ibsen""]",author
+fact_0017,original,"Question: In what city was Gintautas Umaras born?
+Answer:",In what city was Gintautas Umaras born?,In what city was Gintautas Umaras born?,Kaunas,"[""Kaunas"", ""Kovno"", ""Kovne"", ""Kovna"", ""Kowno"", ""Kauen""]",place of birth
+fact_0017,leading_space,"Question:  In what city was Gintautas Umaras born?
+Answer:",In what city was Gintautas Umaras born?, In what city was Gintautas Umaras born?,Kaunas,"[""Kaunas"", ""Kovno"", ""Kovne"", ""Kovna"", ""Kowno"", ""Kauen""]",place of birth
+fact_0017,trailing_space,"Question: In what city was Gintautas Umaras born? 
+Answer:",In what city was Gintautas Umaras born?,In what city was Gintautas Umaras born? ,Kaunas,"[""Kaunas"", ""Kovno"", ""Kovne"", ""Kovna"", ""Kowno"", ""Kauen""]",place of birth
+fact_0017,space_before_qmark,"Question: In what city was Gintautas Umaras born ?
+Answer:",In what city was Gintautas Umaras born?,In what city was Gintautas Umaras born ?,Kaunas,"[""Kaunas"", ""Kovno"", ""Kovne"", ""Kovna"", ""Kowno"", ""Kauen""]",place of birth
+fact_0017,no_qmark,"Question: In what city was Gintautas Umaras born
+Answer:",In what city was Gintautas Umaras born?,In what city was Gintautas Umaras born,Kaunas,"[""Kaunas"", ""Kovno"", ""Kovne"", ""Kovna"", ""Kowno"", ""Kauen""]",place of birth
+fact_0017,lower_first_char,"Question: in what city was Gintautas Umaras born?
+Answer:",In what city was Gintautas Umaras born?,in what city was Gintautas Umaras born?,Kaunas,"[""Kaunas"", ""Kovno"", ""Kovne"", ""Kovna"", ""Kowno"", ""Kauen""]",place of birth
+fact_0017,double_first_space,"Question: In  what city was Gintautas Umaras born?
+Answer:",In what city was Gintautas Umaras born?,In  what city was Gintautas Umaras born?,Kaunas,"[""Kaunas"", ""Kovno"", ""Kovne"", ""Kovna"", ""Kowno"", ""Kauen""]",place of birth
+fact_0018,original,"Question: Who is the author of Detective?
+Answer:",Who is the author of Detective?,Who is the author of Detective?,Arthur Hailey,"[""Arthur Hailey"", ""Arthur Frederick Hailey""]",author
+fact_0018,leading_space,"Question:  Who is the author of Detective?
+Answer:",Who is the author of Detective?, Who is the author of Detective?,Arthur Hailey,"[""Arthur Hailey"", ""Arthur Frederick Hailey""]",author
+fact_0018,trailing_space,"Question: Who is the author of Detective? 
+Answer:",Who is the author of Detective?,Who is the author of Detective? ,Arthur Hailey,"[""Arthur Hailey"", ""Arthur Frederick Hailey""]",author
+fact_0018,space_before_qmark,"Question: Who is the author of Detective ?
+Answer:",Who is the author of Detective?,Who is the author of Detective ?,Arthur Hailey,"[""Arthur Hailey"", ""Arthur Frederick Hailey""]",author
+fact_0018,no_qmark,"Question: Who is the author of Detective
+Answer:",Who is the author of Detective?,Who is the author of Detective,Arthur Hailey,"[""Arthur Hailey"", ""Arthur Frederick Hailey""]",author
+fact_0018,lower_first_char,"Question: who is the author of Detective?
+Answer:",Who is the author of Detective?,who is the author of Detective?,Arthur Hailey,"[""Arthur Hailey"", ""Arthur Frederick Hailey""]",author
+fact_0018,double_first_space,"Question: Who  is the author of Detective?
+Answer:",Who is the author of Detective?,Who  is the author of Detective?,Arthur Hailey,"[""Arthur Hailey"", ""Arthur Frederick Hailey""]",author
+fact_0019,original,"Question: Who was the composer of Imagine?
+Answer:",Who was the composer of Imagine?,Who was the composer of Imagine?,John Lennon,"[""John Lennon"", ""John Winston Ono Lennon"", ""John Winston Lennon"", ""Lennon John"", ""John Ono Lennon""]",composer
+fact_0019,leading_space,"Question:  Who was the composer of Imagine?
+Answer:",Who was the composer of Imagine?, Who was the composer of Imagine?,John Lennon,"[""John Lennon"", ""John Winston Ono Lennon"", ""John Winston Lennon"", ""Lennon John"", ""John Ono Lennon""]",composer
+fact_0019,trailing_space,"Question: Who was the composer of Imagine? 
+Answer:",Who was the composer of Imagine?,Who was the composer of Imagine? ,John Lennon,"[""John Lennon"", ""John Winston Ono Lennon"", ""John Winston Lennon"", ""Lennon John"", ""John Ono Lennon""]",composer
+fact_0019,space_before_qmark,"Question: Who was the composer of Imagine ?
+Answer:",Who was the composer of Imagine?,Who was the composer of Imagine ?,John Lennon,"[""John Lennon"", ""John Winston Ono Lennon"", ""John Winston Lennon"", ""Lennon John"", ""John Ono Lennon""]",composer
+fact_0019,no_qmark,"Question: Who was the composer of Imagine
+Answer:",Who was the composer of Imagine?,Who was the composer of Imagine,John Lennon,"[""John Lennon"", ""John Winston Ono Lennon"", ""John Winston Lennon"", ""Lennon John"", ""John Ono Lennon""]",composer
+fact_0019,lower_first_char,"Question: who was the composer of Imagine?
+Answer:",Who was the composer of Imagine?,who was the composer of Imagine?,John Lennon,"[""John Lennon"", ""John Winston Ono Lennon"", ""John Winston Lennon"", ""Lennon John"", ""John Ono Lennon""]",composer
+fact_0019,double_first_space,"Question: Who  was the composer of Imagine?
+Answer:",Who was the composer of Imagine?,Who  was the composer of Imagine?,John Lennon,"[""John Lennon"", ""John Winston Ono Lennon"", ""John Winston Lennon"", ""Lennon John"", ""John Ono Lennon""]",composer
+fact_0020,original,"Question: In what city was Kalevi Kull born?
+Answer:",In what city was Kalevi Kull born?,In what city was Kalevi Kull born?,Tartu,"[""Tartu"", ""Dorpat"", ""Dörpt"", ""Derpt"", ""Tarbatu"", ""Jurjev"", ""Tartto"", ""Tartus""]",place of birth
+fact_0020,leading_space,"Question:  In what city was Kalevi Kull born?
+Answer:",In what city was Kalevi Kull born?, In what city was Kalevi Kull born?,Tartu,"[""Tartu"", ""Dorpat"", ""Dörpt"", ""Derpt"", ""Tarbatu"", ""Jurjev"", ""Tartto"", ""Tartus""]",place of birth
+fact_0020,trailing_space,"Question: In what city was Kalevi Kull born? 
+Answer:",In what city was Kalevi Kull born?,In what city was Kalevi Kull born? ,Tartu,"[""Tartu"", ""Dorpat"", ""Dörpt"", ""Derpt"", ""Tarbatu"", ""Jurjev"", ""Tartto"", ""Tartus""]",place of birth
+fact_0020,space_before_qmark,"Question: In what city was Kalevi Kull born ?
+Answer:",In what city was Kalevi Kull born?,In what city was Kalevi Kull born ?,Tartu,"[""Tartu"", ""Dorpat"", ""Dörpt"", ""Derpt"", ""Tarbatu"", ""Jurjev"", ""Tartto"", ""Tartus""]",place of birth
+fact_0020,no_qmark,"Question: In what city was Kalevi Kull born
+Answer:",In what city was Kalevi Kull born?,In what city was Kalevi Kull born,Tartu,"[""Tartu"", ""Dorpat"", ""Dörpt"", ""Derpt"", ""Tarbatu"", ""Jurjev"", ""Tartto"", ""Tartus""]",place of birth
+fact_0020,lower_first_char,"Question: in what city was Kalevi Kull born?
+Answer:",In what city was Kalevi Kull born?,in what city was Kalevi Kull born?,Tartu,"[""Tartu"", ""Dorpat"", ""Dörpt"", ""Derpt"", ""Tarbatu"", ""Jurjev"", ""Tartto"", ""Tartus""]",place of birth
+fact_0020,double_first_space,"Question: In  what city was Kalevi Kull born?
+Answer:",In what city was Kalevi Kull born?,In  what city was Kalevi Kull born?,Tartu,"[""Tartu"", ""Dorpat"", ""Dörpt"", ""Derpt"", ""Tarbatu"", ""Jurjev"", ""Tartto"", ""Tartus""]",place of birth
+fact_0021,original,"Question: Who was the composer of Fame?
+Answer:",Who was the composer of Fame?,Who was the composer of Fame?,Michael Gore,"[""Michael Gore""]",composer
+fact_0021,leading_space,"Question:  Who was the composer of Fame?
+Answer:",Who was the composer of Fame?, Who was the composer of Fame?,Michael Gore,"[""Michael Gore""]",composer
+fact_0021,trailing_space,"Question: Who was the composer of Fame? 
+Answer:",Who was the composer of Fame?,Who was the composer of Fame? ,Michael Gore,"[""Michael Gore""]",composer
+fact_0021,space_before_qmark,"Question: Who was the composer of Fame ?
+Answer:",Who was the composer of Fame?,Who was the composer of Fame ?,Michael Gore,"[""Michael Gore""]",composer
+fact_0021,no_qmark,"Question: Who was the composer of Fame
+Answer:",Who was the composer of Fame?,Who was the composer of Fame,Michael Gore,"[""Michael Gore""]",composer
+fact_0021,lower_first_char,"Question: who was the composer of Fame?
+Answer:",Who was the composer of Fame?,who was the composer of Fame?,Michael Gore,"[""Michael Gore""]",composer
+fact_0021,double_first_space,"Question: Who  was the composer of Fame?
+Answer:",Who was the composer of Fame?,Who  was the composer of Fame?,Michael Gore,"[""Michael Gore""]",composer
+fact_0022,original,"Question: Who is the author of Memory?
+Answer:",Who is the author of Memory?,Who is the author of Memory?,Poul Anderson,"[""Poul Anderson"", ""Poul William Anderson"", ""Winston P. Sanders"", ""A. A. Craig"", ""Michael Karageorge"", ""Petronius Arbiter Kingsley"", ""P. A. Kingsley""]",author
+fact_0022,leading_space,"Question:  Who is the author of Memory?
+Answer:",Who is the author of Memory?, Who is the author of Memory?,Poul Anderson,"[""Poul Anderson"", ""Poul William Anderson"", ""Winston P. Sanders"", ""A. A. Craig"", ""Michael Karageorge"", ""Petronius Arbiter Kingsley"", ""P. A. Kingsley""]",author
+fact_0022,trailing_space,"Question: Who is the author of Memory? 
+Answer:",Who is the author of Memory?,Who is the author of Memory? ,Poul Anderson,"[""Poul Anderson"", ""Poul William Anderson"", ""Winston P. Sanders"", ""A. A. Craig"", ""Michael Karageorge"", ""Petronius Arbiter Kingsley"", ""P. A. Kingsley""]",author
+fact_0022,space_before_qmark,"Question: Who is the author of Memory ?
+Answer:",Who is the author of Memory?,Who is the author of Memory ?,Poul Anderson,"[""Poul Anderson"", ""Poul William Anderson"", ""Winston P. Sanders"", ""A. A. Craig"", ""Michael Karageorge"", ""Petronius Arbiter Kingsley"", ""P. A. Kingsley""]",author
+fact_0022,no_qmark,"Question: Who is the author of Memory
+Answer:",Who is the author of Memory?,Who is the author of Memory,Poul Anderson,"[""Poul Anderson"", ""Poul William Anderson"", ""Winston P. Sanders"", ""A. A. Craig"", ""Michael Karageorge"", ""Petronius Arbiter Kingsley"", ""P. A. Kingsley""]",author
+fact_0022,lower_first_char,"Question: who is the author of Memory?
+Answer:",Who is the author of Memory?,who is the author of Memory?,Poul Anderson,"[""Poul Anderson"", ""Poul William Anderson"", ""Winston P. Sanders"", ""A. A. Craig"", ""Michael Karageorge"", ""Petronius Arbiter Kingsley"", ""P. A. Kingsley""]",author
+fact_0022,double_first_space,"Question: Who  is the author of Memory?
+Answer:",Who is the author of Memory?,Who  is the author of Memory?,Poul Anderson,"[""Poul Anderson"", ""Poul William Anderson"", ""Winston P. Sanders"", ""A. A. Craig"", ""Michael Karageorge"", ""Petronius Arbiter Kingsley"", ""P. A. Kingsley""]",author
+fact_0023,original,"Question: Who was the director of Alone?
+Answer:",Who was the director of Alone?,Who was the director of Alone?,Parkpoom Wongpoom,"[""Parkpoom Wongpoom"", ""Banjong Pisanthanakun"", ""Bangjong Pisanthanakun""]",director
+fact_0023,leading_space,"Question:  Who was the director of Alone?
+Answer:",Who was the director of Alone?, Who was the director of Alone?,Parkpoom Wongpoom,"[""Parkpoom Wongpoom"", ""Banjong Pisanthanakun"", ""Bangjong Pisanthanakun""]",director
+fact_0023,trailing_space,"Question: Who was the director of Alone? 
+Answer:",Who was the director of Alone?,Who was the director of Alone? ,Parkpoom Wongpoom,"[""Parkpoom Wongpoom"", ""Banjong Pisanthanakun"", ""Bangjong Pisanthanakun""]",director
+fact_0023,space_before_qmark,"Question: Who was the director of Alone ?
+Answer:",Who was the director of Alone?,Who was the director of Alone ?,Parkpoom Wongpoom,"[""Parkpoom Wongpoom"", ""Banjong Pisanthanakun"", ""Bangjong Pisanthanakun""]",director
+fact_0023,no_qmark,"Question: Who was the director of Alone
+Answer:",Who was the director of Alone?,Who was the director of Alone,Parkpoom Wongpoom,"[""Parkpoom Wongpoom"", ""Banjong Pisanthanakun"", ""Bangjong Pisanthanakun""]",director
+fact_0023,lower_first_char,"Question: who was the director of Alone?
+Answer:",Who was the director of Alone?,who was the director of Alone?,Parkpoom Wongpoom,"[""Parkpoom Wongpoom"", ""Banjong Pisanthanakun"", ""Bangjong Pisanthanakun""]",director
+fact_0023,double_first_space,"Question: Who  was the director of Alone?
+Answer:",Who was the director of Alone?,Who  was the director of Alone?,Parkpoom Wongpoom,"[""Parkpoom Wongpoom"", ""Banjong Pisanthanakun"", ""Bangjong Pisanthanakun""]",director
+fact_0024,original,"Question: Who is the father of Kim Kardashian?
+Answer:",Who is the father of Kim Kardashian?,Who is the father of Kim Kardashian?,Robert Kardashian,"[""Robert Kardashian"", ""Robert George Kardashian"", ""Rob Kardashian""]",father
+fact_0024,leading_space,"Question:  Who is the father of Kim Kardashian?
+Answer:",Who is the father of Kim Kardashian?, Who is the father of Kim Kardashian?,Robert Kardashian,"[""Robert Kardashian"", ""Robert George Kardashian"", ""Rob Kardashian""]",father
+fact_0024,trailing_space,"Question: Who is the father of Kim Kardashian? 
+Answer:",Who is the father of Kim Kardashian?,Who is the father of Kim Kardashian? ,Robert Kardashian,"[""Robert Kardashian"", ""Robert George Kardashian"", ""Rob Kardashian""]",father
+fact_0024,space_before_qmark,"Question: Who is the father of Kim Kardashian ?
+Answer:",Who is the father of Kim Kardashian?,Who is the father of Kim Kardashian ?,Robert Kardashian,"[""Robert Kardashian"", ""Robert George Kardashian"", ""Rob Kardashian""]",father
+fact_0024,no_qmark,"Question: Who is the father of Kim Kardashian
+Answer:",Who is the father of Kim Kardashian?,Who is the father of Kim Kardashian,Robert Kardashian,"[""Robert Kardashian"", ""Robert George Kardashian"", ""Rob Kardashian""]",father
+fact_0024,lower_first_char,"Question: who is the father of Kim Kardashian?
+Answer:",Who is the father of Kim Kardashian?,who is the father of Kim Kardashian?,Robert Kardashian,"[""Robert Kardashian"", ""Robert George Kardashian"", ""Rob Kardashian""]",father
+fact_0024,double_first_space,"Question: Who  is the father of Kim Kardashian?
+Answer:",Who is the father of Kim Kardashian?,Who  is the father of Kim Kardashian?,Robert Kardashian,"[""Robert Kardashian"", ""Robert George Kardashian"", ""Rob Kardashian""]",father
+fact_0025,original,"Question: Who was the director of Redemption?
+Answer:",Who was the director of Redemption?,Who was the director of Redemption?,Jon Alpert,"[""Jon Alpert""]",director
+fact_0025,leading_space,"Question:  Who was the director of Redemption?
+Answer:",Who was the director of Redemption?, Who was the director of Redemption?,Jon Alpert,"[""Jon Alpert""]",director
+fact_0025,trailing_space,"Question: Who was the director of Redemption? 
+Answer:",Who was the director of Redemption?,Who was the director of Redemption? ,Jon Alpert,"[""Jon Alpert""]",director
+fact_0025,space_before_qmark,"Question: Who was the director of Redemption ?
+Answer:",Who was the director of Redemption?,Who was the director of Redemption ?,Jon Alpert,"[""Jon Alpert""]",director
+fact_0025,no_qmark,"Question: Who was the director of Redemption
+Answer:",Who was the director of Redemption?,Who was the director of Redemption,Jon Alpert,"[""Jon Alpert""]",director
+fact_0025,lower_first_char,"Question: who was the director of Redemption?
+Answer:",Who was the director of Redemption?,who was the director of Redemption?,Jon Alpert,"[""Jon Alpert""]",director
+fact_0025,double_first_space,"Question: Who  was the director of Redemption?
+Answer:",Who was the director of Redemption?,Who  was the director of Redemption?,Jon Alpert,"[""Jon Alpert""]",director
+fact_0026,original,"Question: Who was the producer of Hot Rats?
+Answer:",Who was the producer of Hot Rats?,Who was the producer of Hot Rats?,Frank Zappa,"[""Frank Zappa"", ""Frank Vincent Zappa""]",producer
+fact_0026,leading_space,"Question:  Who was the producer of Hot Rats?
+Answer:",Who was the producer of Hot Rats?, Who was the producer of Hot Rats?,Frank Zappa,"[""Frank Zappa"", ""Frank Vincent Zappa""]",producer
+fact_0026,trailing_space,"Question: Who was the producer of Hot Rats? 
+Answer:",Who was the producer of Hot Rats?,Who was the producer of Hot Rats? ,Frank Zappa,"[""Frank Zappa"", ""Frank Vincent Zappa""]",producer
+fact_0026,space_before_qmark,"Question: Who was the producer of Hot Rats ?
+Answer:",Who was the producer of Hot Rats?,Who was the producer of Hot Rats ?,Frank Zappa,"[""Frank Zappa"", ""Frank Vincent Zappa""]",producer
+fact_0026,no_qmark,"Question: Who was the producer of Hot Rats
+Answer:",Who was the producer of Hot Rats?,Who was the producer of Hot Rats,Frank Zappa,"[""Frank Zappa"", ""Frank Vincent Zappa""]",producer
+fact_0026,lower_first_char,"Question: who was the producer of Hot Rats?
+Answer:",Who was the producer of Hot Rats?,who was the producer of Hot Rats?,Frank Zappa,"[""Frank Zappa"", ""Frank Vincent Zappa""]",producer
+fact_0026,double_first_space,"Question: Who  was the producer of Hot Rats?
+Answer:",Who was the producer of Hot Rats?,Who  was the producer of Hot Rats?,Frank Zappa,"[""Frank Zappa"", ""Frank Vincent Zappa""]",producer
+fact_0027,original,"Question: Who was the composer of Annie?
+Answer:",Who was the composer of Annie?,Who was the composer of Annie?,Charles Strouse,"[""Charles Strouse""]",composer
+fact_0027,leading_space,"Question:  Who was the composer of Annie?
+Answer:",Who was the composer of Annie?, Who was the composer of Annie?,Charles Strouse,"[""Charles Strouse""]",composer
+fact_0027,trailing_space,"Question: Who was the composer of Annie? 
+Answer:",Who was the composer of Annie?,Who was the composer of Annie? ,Charles Strouse,"[""Charles Strouse""]",composer
+fact_0027,space_before_qmark,"Question: Who was the composer of Annie ?
+Answer:",Who was the composer of Annie?,Who was the composer of Annie ?,Charles Strouse,"[""Charles Strouse""]",composer
+fact_0027,no_qmark,"Question: Who was the composer of Annie
+Answer:",Who was the composer of Annie?,Who was the composer of Annie,Charles Strouse,"[""Charles Strouse""]",composer
+fact_0027,lower_first_char,"Question: who was the composer of Annie?
+Answer:",Who was the composer of Annie?,who was the composer of Annie?,Charles Strouse,"[""Charles Strouse""]",composer
+fact_0027,double_first_space,"Question: Who  was the composer of Annie?
+Answer:",Who was the composer of Annie?,Who  was the composer of Annie?,Charles Strouse,"[""Charles Strouse""]",composer
+fact_0028,original,"Question: Who is the father of Alexander Graham Bell?
+Answer:",Who is the father of Alexander Graham Bell?,Who is the father of Alexander Graham Bell?,Alexander Melville Bell,"[""Alexander Melville Bell""]",father
+fact_0028,leading_space,"Question:  Who is the father of Alexander Graham Bell?
+Answer:",Who is the father of Alexander Graham Bell?, Who is the father of Alexander Graham Bell?,Alexander Melville Bell,"[""Alexander Melville Bell""]",father
+fact_0028,trailing_space,"Question: Who is the father of Alexander Graham Bell? 
+Answer:",Who is the father of Alexander Graham Bell?,Who is the father of Alexander Graham Bell? ,Alexander Melville Bell,"[""Alexander Melville Bell""]",father
+fact_0028,space_before_qmark,"Question: Who is the father of Alexander Graham Bell ?
+Answer:",Who is the father of Alexander Graham Bell?,Who is the father of Alexander Graham Bell ?,Alexander Melville Bell,"[""Alexander Melville Bell""]",father
+fact_0028,no_qmark,"Question: Who is the father of Alexander Graham Bell
+Answer:",Who is the father of Alexander Graham Bell?,Who is the father of Alexander Graham Bell,Alexander Melville Bell,"[""Alexander Melville Bell""]",father
+fact_0028,lower_first_char,"Question: who is the father of Alexander Graham Bell?
+Answer:",Who is the father of Alexander Graham Bell?,who is the father of Alexander Graham Bell?,Alexander Melville Bell,"[""Alexander Melville Bell""]",father
+fact_0028,double_first_space,"Question: Who  is the father of Alexander Graham Bell?
+Answer:",Who is the father of Alexander Graham Bell?,Who  is the father of Alexander Graham Bell?,Alexander Melville Bell,"[""Alexander Melville Bell""]",father
+fact_0029,original,"Question: Who was the producer of Human Nature?
+Answer:",Who was the producer of Human Nature?,Who was the producer of Human Nature?,Quincy Jones,"[""Quincy Jones"", ""Q"", ""Quincy"", ""Quincy Delight Jones Jr."", ""Quincy Jones Jr.""]",producer
+fact_0029,leading_space,"Question:  Who was the producer of Human Nature?
+Answer:",Who was the producer of Human Nature?, Who was the producer of Human Nature?,Quincy Jones,"[""Quincy Jones"", ""Q"", ""Quincy"", ""Quincy Delight Jones Jr."", ""Quincy Jones Jr.""]",producer
+fact_0029,trailing_space,"Question: Who was the producer of Human Nature? 
+Answer:",Who was the producer of Human Nature?,Who was the producer of Human Nature? ,Quincy Jones,"[""Quincy Jones"", ""Q"", ""Quincy"", ""Quincy Delight Jones Jr."", ""Quincy Jones Jr.""]",producer
+fact_0029,space_before_qmark,"Question: Who was the producer of Human Nature ?
+Answer:",Who was the producer of Human Nature?,Who was the producer of Human Nature ?,Quincy Jones,"[""Quincy Jones"", ""Q"", ""Quincy"", ""Quincy Delight Jones Jr."", ""Quincy Jones Jr.""]",producer
+fact_0029,no_qmark,"Question: Who was the producer of Human Nature
+Answer:",Who was the producer of Human Nature?,Who was the producer of Human Nature,Quincy Jones,"[""Quincy Jones"", ""Q"", ""Quincy"", ""Quincy Delight Jones Jr."", ""Quincy Jones Jr.""]",producer
+fact_0029,lower_first_char,"Question: who was the producer of Human Nature?
+Answer:",Who was the producer of Human Nature?,who was the producer of Human Nature?,Quincy Jones,"[""Quincy Jones"", ""Q"", ""Quincy"", ""Quincy Delight Jones Jr."", ""Quincy Jones Jr.""]",producer
+fact_0029,double_first_space,"Question: Who  was the producer of Human Nature?
+Answer:",Who was the producer of Human Nature?,Who  was the producer of Human Nature?,Quincy Jones,"[""Quincy Jones"", ""Q"", ""Quincy"", ""Quincy Delight Jones Jr."", ""Quincy Jones Jr.""]",producer
+fact_0030,original,"Question: Who is the father of Carl Valentin Falsen?
+Answer:",Who is the father of Carl Valentin Falsen?,Who is the father of Carl Valentin Falsen?,Enevold De Falsen,"[""Enevold De Falsen""]",father
+fact_0030,leading_space,"Question:  Who is the father of Carl Valentin Falsen?
+Answer:",Who is the father of Carl Valentin Falsen?, Who is the father of Carl Valentin Falsen?,Enevold De Falsen,"[""Enevold De Falsen""]",father
+fact_0030,trailing_space,"Question: Who is the father of Carl Valentin Falsen? 
+Answer:",Who is the father of Carl Valentin Falsen?,Who is the father of Carl Valentin Falsen? ,Enevold De Falsen,"[""Enevold De Falsen""]",father
+fact_0030,space_before_qmark,"Question: Who is the father of Carl Valentin Falsen ?
+Answer:",Who is the father of Carl Valentin Falsen?,Who is the father of Carl Valentin Falsen ?,Enevold De Falsen,"[""Enevold De Falsen""]",father
+fact_0030,no_qmark,"Question: Who is the father of Carl Valentin Falsen
+Answer:",Who is the father of Carl Valentin Falsen?,Who is the father of Carl Valentin Falsen,Enevold De Falsen,"[""Enevold De Falsen""]",father
+fact_0030,lower_first_char,"Question: who is the father of Carl Valentin Falsen?
+Answer:",Who is the father of Carl Valentin Falsen?,who is the father of Carl Valentin Falsen?,Enevold De Falsen,"[""Enevold De Falsen""]",father
+fact_0030,double_first_space,"Question: Who  is the father of Carl Valentin Falsen?
+Answer:",Who is the father of Carl Valentin Falsen?,Who  is the father of Carl Valentin Falsen?,Enevold De Falsen,"[""Enevold De Falsen""]",father
+fact_0031,original,"Question: Who is the father of David I of Scotland?
+Answer:",Who is the father of David I of Scotland?,Who is the father of David I of Scotland?,Malcolm III of Scotland,"[""Malcolm III of Scotland"", ""Malcolm Canmore""]",father
+fact_0031,leading_space,"Question:  Who is the father of David I of Scotland?
+Answer:",Who is the father of David I of Scotland?, Who is the father of David I of Scotland?,Malcolm III of Scotland,"[""Malcolm III of Scotland"", ""Malcolm Canmore""]",father
+fact_0031,trailing_space,"Question: Who is the father of David I of Scotland? 
+Answer:",Who is the father of David I of Scotland?,Who is the father of David I of Scotland? ,Malcolm III of Scotland,"[""Malcolm III of Scotland"", ""Malcolm Canmore""]",father
+fact_0031,space_before_qmark,"Question: Who is the father of David I of Scotland ?
+Answer:",Who is the father of David I of Scotland?,Who is the father of David I of Scotland ?,Malcolm III of Scotland,"[""Malcolm III of Scotland"", ""Malcolm Canmore""]",father
+fact_0031,no_qmark,"Question: Who is the father of David I of Scotland
+Answer:",Who is the father of David I of Scotland?,Who is the father of David I of Scotland,Malcolm III of Scotland,"[""Malcolm III of Scotland"", ""Malcolm Canmore""]",father
+fact_0031,lower_first_char,"Question: who is the father of David I of Scotland?
+Answer:",Who is the father of David I of Scotland?,who is the father of David I of Scotland?,Malcolm III of Scotland,"[""Malcolm III of Scotland"", ""Malcolm Canmore""]",father
+fact_0031,double_first_space,"Question: Who  is the father of David I of Scotland?
+Answer:",Who is the father of David I of Scotland?,Who  is the father of David I of Scotland?,Malcolm III of Scotland,"[""Malcolm III of Scotland"", ""Malcolm Canmore""]",father
+fact_0032,original,"Question: In what city was Frederick George Bromberg born?
+Answer:",In what city was Frederick George Bromberg born?,In what city was Frederick George Bromberg born?,New York City,"[""New York City"", ""NYC"", ""New York"", ""the five boroughs"", ""Big Apple"", ""City of New York"", ""NY City"", ""New York, New York"", ""New York City, New York"", ""New York, NY"", ""New York City (NYC)""]",place of birth
+fact_0032,leading_space,"Question:  In what city was Frederick George Bromberg born?
+Answer:",In what city was Frederick George Bromberg born?, In what city was Frederick George Bromberg born?,New York City,"[""New York City"", ""NYC"", ""New York"", ""the five boroughs"", ""Big Apple"", ""City of New York"", ""NY City"", ""New York, New York"", ""New York City, New York"", ""New York, NY"", ""New York City (NYC)""]",place of birth
+fact_0032,trailing_space,"Question: In what city was Frederick George Bromberg born? 
+Answer:",In what city was Frederick George Bromberg born?,In what city was Frederick George Bromberg born? ,New York City,"[""New York City"", ""NYC"", ""New York"", ""the five boroughs"", ""Big Apple"", ""City of New York"", ""NY City"", ""New York, New York"", ""New York City, New York"", ""New York, NY"", ""New York City (NYC)""]",place of birth
+fact_0032,space_before_qmark,"Question: In what city was Frederick George Bromberg born ?
+Answer:",In what city was Frederick George Bromberg born?,In what city was Frederick George Bromberg born ?,New York City,"[""New York City"", ""NYC"", ""New York"", ""the five boroughs"", ""Big Apple"", ""City of New York"", ""NY City"", ""New York, New York"", ""New York City, New York"", ""New York, NY"", ""New York City (NYC)""]",place of birth
+fact_0032,no_qmark,"Question: In what city was Frederick George Bromberg born
+Answer:",In what city was Frederick George Bromberg born?,In what city was Frederick George Bromberg born,New York City,"[""New York City"", ""NYC"", ""New York"", ""the five boroughs"", ""Big Apple"", ""City of New York"", ""NY City"", ""New York, New York"", ""New York City, New York"", ""New York, NY"", ""New York City (NYC)""]",place of birth
+fact_0032,lower_first_char,"Question: in what city was Frederick George Bromberg born?
+Answer:",In what city was Frederick George Bromberg born?,in what city was Frederick George Bromberg born?,New York City,"[""New York City"", ""NYC"", ""New York"", ""the five boroughs"", ""Big Apple"", ""City of New York"", ""NY City"", ""New York, New York"", ""New York City, New York"", ""New York, NY"", ""New York City (NYC)""]",place of birth
+fact_0032,double_first_space,"Question: In  what city was Frederick George Bromberg born?
+Answer:",In what city was Frederick George Bromberg born?,In  what city was Frederick George Bromberg born?,New York City,"[""New York City"", ""NYC"", ""New York"", ""the five boroughs"", ""Big Apple"", ""City of New York"", ""NY City"", ""New York, New York"", ""New York City, New York"", ""New York, NY"", ""New York City (NYC)""]",place of birth
+fact_0033,original,"Question: Who was the producer of Good Night?
+Answer:",Who was the producer of Good Night?,Who was the producer of Good Night?,George Martin,"[""George Martin"", ""Sir George Henry Martin"", ""Sir George Martin""]",producer
+fact_0033,leading_space,"Question:  Who was the producer of Good Night?
+Answer:",Who was the producer of Good Night?, Who was the producer of Good Night?,George Martin,"[""George Martin"", ""Sir George Henry Martin"", ""Sir George Martin""]",producer
+fact_0033,trailing_space,"Question: Who was the producer of Good Night? 
+Answer:",Who was the producer of Good Night?,Who was the producer of Good Night? ,George Martin,"[""George Martin"", ""Sir George Henry Martin"", ""Sir George Martin""]",producer
+fact_0033,space_before_qmark,"Question: Who was the producer of Good Night ?
+Answer:",Who was the producer of Good Night?,Who was the producer of Good Night ?,George Martin,"[""George Martin"", ""Sir George Henry Martin"", ""Sir George Martin""]",producer
+fact_0033,no_qmark,"Question: Who was the producer of Good Night
+Answer:",Who was the producer of Good Night?,Who was the producer of Good Night,George Martin,"[""George Martin"", ""Sir George Henry Martin"", ""Sir George Martin""]",producer
+fact_0033,lower_first_char,"Question: who was the producer of Good Night?
+Answer:",Who was the producer of Good Night?,who was the producer of Good Night?,George Martin,"[""George Martin"", ""Sir George Henry Martin"", ""Sir George Martin""]",producer
+fact_0033,double_first_space,"Question: Who  was the producer of Good Night?
+Answer:",Who was the producer of Good Night?,Who  was the producer of Good Night?,George Martin,"[""George Martin"", ""Sir George Henry Martin"", ""Sir George Martin""]",producer
+fact_0034,original,"Question: Who is the father of Philip III of Macedon?
+Answer:",Who is the father of Philip III of Macedon?,Who is the father of Philip III of Macedon?,Philip II of Macedon,"[""Philip II of Macedon"", ""King of Macedonia Filippo II"", ""King of Macedonia Philippos II"", ""King of Macedonia Philip II"", ""King of Macedonia Filip II"", ""King of Macedonia Philippus II"", ""Philip of Macedon""]",father
+fact_0034,leading_space,"Question:  Who is the father of Philip III of Macedon?
+Answer:",Who is the father of Philip III of Macedon?, Who is the father of Philip III of Macedon?,Philip II of Macedon,"[""Philip II of Macedon"", ""King of Macedonia Filippo II"", ""King of Macedonia Philippos II"", ""King of Macedonia Philip II"", ""King of Macedonia Filip II"", ""King of Macedonia Philippus II"", ""Philip of Macedon""]",father
+fact_0034,trailing_space,"Question: Who is the father of Philip III of Macedon? 
+Answer:",Who is the father of Philip III of Macedon?,Who is the father of Philip III of Macedon? ,Philip II of Macedon,"[""Philip II of Macedon"", ""King of Macedonia Filippo II"", ""King of Macedonia Philippos II"", ""King of Macedonia Philip II"", ""King of Macedonia Filip II"", ""King of Macedonia Philippus II"", ""Philip of Macedon""]",father
+fact_0034,space_before_qmark,"Question: Who is the father of Philip III of Macedon ?
+Answer:",Who is the father of Philip III of Macedon?,Who is the father of Philip III of Macedon ?,Philip II of Macedon,"[""Philip II of Macedon"", ""King of Macedonia Filippo II"", ""King of Macedonia Philippos II"", ""King of Macedonia Philip II"", ""King of Macedonia Filip II"", ""King of Macedonia Philippus II"", ""Philip of Macedon""]",father
+fact_0034,no_qmark,"Question: Who is the father of Philip III of Macedon
+Answer:",Who is the father of Philip III of Macedon?,Who is the father of Philip III of Macedon,Philip II of Macedon,"[""Philip II of Macedon"", ""King of Macedonia Filippo II"", ""King of Macedonia Philippos II"", ""King of Macedonia Philip II"", ""King of Macedonia Filip II"", ""King of Macedonia Philippus II"", ""Philip of Macedon""]",father
+fact_0034,lower_first_char,"Question: who is the father of Philip III of Macedon?
+Answer:",Who is the father of Philip III of Macedon?,who is the father of Philip III of Macedon?,Philip II of Macedon,"[""Philip II of Macedon"", ""King of Macedonia Filippo II"", ""King of Macedonia Philippos II"", ""King of Macedonia Philip II"", ""King of Macedonia Filip II"", ""King of Macedonia Philippus II"", ""Philip of Macedon""]",father
+fact_0034,double_first_space,"Question: Who  is the father of Philip III of Macedon?
+Answer:",Who is the father of Philip III of Macedon?,Who  is the father of Philip III of Macedon?,Philip II of Macedon,"[""Philip II of Macedon"", ""King of Macedonia Filippo II"", ""King of Macedonia Philippos II"", ""King of Macedonia Philip II"", ""King of Macedonia Filip II"", ""King of Macedonia Philippus II"", ""Philip of Macedon""]",father
+fact_0035,original,"Question: Who was the screenwriter for The Shout?
+Answer:",Who was the screenwriter for The Shout?,Who was the screenwriter for The Shout?,Robert Graves,"[""Robert Graves"", ""Robert von Ranke-Graves"", ""Robert Ranke Graves"", ""Jerzy Skolimowski""]",screenwriter
+fact_0035,leading_space,"Question:  Who was the screenwriter for The Shout?
+Answer:",Who was the screenwriter for The Shout?, Who was the screenwriter for The Shout?,Robert Graves,"[""Robert Graves"", ""Robert von Ranke-Graves"", ""Robert Ranke Graves"", ""Jerzy Skolimowski""]",screenwriter
+fact_0035,trailing_space,"Question: Who was the screenwriter for The Shout? 
+Answer:",Who was the screenwriter for The Shout?,Who was the screenwriter for The Shout? ,Robert Graves,"[""Robert Graves"", ""Robert von Ranke-Graves"", ""Robert Ranke Graves"", ""Jerzy Skolimowski""]",screenwriter
+fact_0035,space_before_qmark,"Question: Who was the screenwriter for The Shout ?
+Answer:",Who was the screenwriter for The Shout?,Who was the screenwriter for The Shout ?,Robert Graves,"[""Robert Graves"", ""Robert von Ranke-Graves"", ""Robert Ranke Graves"", ""Jerzy Skolimowski""]",screenwriter
+fact_0035,no_qmark,"Question: Who was the screenwriter for The Shout
+Answer:",Who was the screenwriter for The Shout?,Who was the screenwriter for The Shout,Robert Graves,"[""Robert Graves"", ""Robert von Ranke-Graves"", ""Robert Ranke Graves"", ""Jerzy Skolimowski""]",screenwriter
+fact_0035,lower_first_char,"Question: who was the screenwriter for The Shout?
+Answer:",Who was the screenwriter for The Shout?,who was the screenwriter for The Shout?,Robert Graves,"[""Robert Graves"", ""Robert von Ranke-Graves"", ""Robert Ranke Graves"", ""Jerzy Skolimowski""]",screenwriter
+fact_0035,double_first_space,"Question: Who  was the screenwriter for The Shout?
+Answer:",Who was the screenwriter for The Shout?,Who  was the screenwriter for The Shout?,Robert Graves,"[""Robert Graves"", ""Robert von Ranke-Graves"", ""Robert Ranke Graves"", ""Jerzy Skolimowski""]",screenwriter
+fact_0036,original,"Question: Who was the director of In My Life?
+Answer:",Who was the director of In My Life?,Who was the director of In My Life?,Bille August,"[""Bille August""]",director
+fact_0036,leading_space,"Question:  Who was the director of In My Life?
+Answer:",Who was the director of In My Life?, Who was the director of In My Life?,Bille August,"[""Bille August""]",director
+fact_0036,trailing_space,"Question: Who was the director of In My Life? 
+Answer:",Who was the director of In My Life?,Who was the director of In My Life? ,Bille August,"[""Bille August""]",director
+fact_0036,space_before_qmark,"Question: Who was the director of In My Life ?
+Answer:",Who was the director of In My Life?,Who was the director of In My Life ?,Bille August,"[""Bille August""]",director
+fact_0036,no_qmark,"Question: Who was the director of In My Life
+Answer:",Who was the director of In My Life?,Who was the director of In My Life,Bille August,"[""Bille August""]",director
+fact_0036,lower_first_char,"Question: who was the director of In My Life?
+Answer:",Who was the director of In My Life?,who was the director of In My Life?,Bille August,"[""Bille August""]",director
+fact_0036,double_first_space,"Question: Who  was the director of In My Life?
+Answer:",Who was the director of In My Life?,Who  was the director of In My Life?,Bille August,"[""Bille August""]",director
+fact_0037,original,"Question: Who is the author of Conan the Valiant?
+Answer:",Who is the author of Conan the Valiant?,Who is the author of Conan the Valiant?,Roland J. Green,"[""Roland J. Green"", ""Roland James Green""]",author
+fact_0037,leading_space,"Question:  Who is the author of Conan the Valiant?
+Answer:",Who is the author of Conan the Valiant?, Who is the author of Conan the Valiant?,Roland J. Green,"[""Roland J. Green"", ""Roland James Green""]",author
+fact_0037,trailing_space,"Question: Who is the author of Conan the Valiant? 
+Answer:",Who is the author of Conan the Valiant?,Who is the author of Conan the Valiant? ,Roland J. Green,"[""Roland J. Green"", ""Roland James Green""]",author
+fact_0037,space_before_qmark,"Question: Who is the author of Conan the Valiant ?
+Answer:",Who is the author of Conan the Valiant?,Who is the author of Conan the Valiant ?,Roland J. Green,"[""Roland J. Green"", ""Roland James Green""]",author
+fact_0037,no_qmark,"Question: Who is the author of Conan the Valiant
+Answer:",Who is the author of Conan the Valiant?,Who is the author of Conan the Valiant,Roland J. Green,"[""Roland J. Green"", ""Roland James Green""]",author
+fact_0037,lower_first_char,"Question: who is the author of Conan the Valiant?
+Answer:",Who is the author of Conan the Valiant?,who is the author of Conan the Valiant?,Roland J. Green,"[""Roland J. Green"", ""Roland James Green""]",author
+fact_0037,double_first_space,"Question: Who  is the author of Conan the Valiant?
+Answer:",Who is the author of Conan the Valiant?,Who  is the author of Conan the Valiant?,Roland J. Green,"[""Roland J. Green"", ""Roland James Green""]",author
+fact_0038,original,"Question: Who was the screenwriter for Yesterday's Hero?
+Answer:",Who was the screenwriter for Yesterday's Hero?,Who was the screenwriter for Yesterday's Hero?,Jackie Collins,"[""Jackie Collins"", ""Jacqueline Jill Collins""]",screenwriter
+fact_0038,leading_space,"Question:  Who was the screenwriter for Yesterday's Hero?
+Answer:",Who was the screenwriter for Yesterday's Hero?, Who was the screenwriter for Yesterday's Hero?,Jackie Collins,"[""Jackie Collins"", ""Jacqueline Jill Collins""]",screenwriter
+fact_0038,trailing_space,"Question: Who was the screenwriter for Yesterday's Hero? 
+Answer:",Who was the screenwriter for Yesterday's Hero?,Who was the screenwriter for Yesterday's Hero? ,Jackie Collins,"[""Jackie Collins"", ""Jacqueline Jill Collins""]",screenwriter
+fact_0038,space_before_qmark,"Question: Who was the screenwriter for Yesterday's Hero ?
+Answer:",Who was the screenwriter for Yesterday's Hero?,Who was the screenwriter for Yesterday's Hero ?,Jackie Collins,"[""Jackie Collins"", ""Jacqueline Jill Collins""]",screenwriter
+fact_0038,no_qmark,"Question: Who was the screenwriter for Yesterday's Hero
+Answer:",Who was the screenwriter for Yesterday's Hero?,Who was the screenwriter for Yesterday's Hero,Jackie Collins,"[""Jackie Collins"", ""Jacqueline Jill Collins""]",screenwriter
+fact_0038,lower_first_char,"Question: who was the screenwriter for Yesterday's Hero?
+Answer:",Who was the screenwriter for Yesterday's Hero?,who was the screenwriter for Yesterday's Hero?,Jackie Collins,"[""Jackie Collins"", ""Jacqueline Jill Collins""]",screenwriter
+fact_0038,double_first_space,"Question: Who  was the screenwriter for Yesterday's Hero?
+Answer:",Who was the screenwriter for Yesterday's Hero?,Who  was the screenwriter for Yesterday's Hero?,Jackie Collins,"[""Jackie Collins"", ""Jacqueline Jill Collins""]",screenwriter
+fact_0039,original,"Question: Who was the composer of Getting to Know You?
+Answer:",Who was the composer of Getting to Know You?,Who was the composer of Getting to Know You?,Richard Rodgers,"[""Richard Rodgers"", ""Richard Charles Rodgers""]",composer
+fact_0039,leading_space,"Question:  Who was the composer of Getting to Know You?
+Answer:",Who was the composer of Getting to Know You?, Who was the composer of Getting to Know You?,Richard Rodgers,"[""Richard Rodgers"", ""Richard Charles Rodgers""]",composer
+fact_0039,trailing_space,"Question: Who was the composer of Getting to Know You? 
+Answer:",Who was the composer of Getting to Know You?,Who was the composer of Getting to Know You? ,Richard Rodgers,"[""Richard Rodgers"", ""Richard Charles Rodgers""]",composer
+fact_0039,space_before_qmark,"Question: Who was the composer of Getting to Know You ?
+Answer:",Who was the composer of Getting to Know You?,Who was the composer of Getting to Know You ?,Richard Rodgers,"[""Richard Rodgers"", ""Richard Charles Rodgers""]",composer
+fact_0039,no_qmark,"Question: Who was the composer of Getting to Know You
+Answer:",Who was the composer of Getting to Know You?,Who was the composer of Getting to Know You,Richard Rodgers,"[""Richard Rodgers"", ""Richard Charles Rodgers""]",composer
+fact_0039,lower_first_char,"Question: who was the composer of Getting to Know You?
+Answer:",Who was the composer of Getting to Know You?,who was the composer of Getting to Know You?,Richard Rodgers,"[""Richard Rodgers"", ""Richard Charles Rodgers""]",composer
+fact_0039,double_first_space,"Question: Who  was the composer of Getting to Know You?
+Answer:",Who was the composer of Getting to Know You?,Who  was the composer of Getting to Know You?,Richard Rodgers,"[""Richard Rodgers"", ""Richard Charles Rodgers""]",composer
+fact_0040,original,"Question: Who was the director of Stuff?
+Answer:",Who was the director of Stuff?,Who was the director of Stuff?,Johnny Depp,"[""Johnny Depp"", ""John Christopher \""Johnny\"" Depp II"", ""John Christopher Depp II"", ""John Christopher Depp""]",director
+fact_0040,leading_space,"Question:  Who was the director of Stuff?
+Answer:",Who was the director of Stuff?, Who was the director of Stuff?,Johnny Depp,"[""Johnny Depp"", ""John Christopher \""Johnny\"" Depp II"", ""John Christopher Depp II"", ""John Christopher Depp""]",director
+fact_0040,trailing_space,"Question: Who was the director of Stuff? 
+Answer:",Who was the director of Stuff?,Who was the director of Stuff? ,Johnny Depp,"[""Johnny Depp"", ""John Christopher \""Johnny\"" Depp II"", ""John Christopher Depp II"", ""John Christopher Depp""]",director
+fact_0040,space_before_qmark,"Question: Who was the director of Stuff ?
+Answer:",Who was the director of Stuff?,Who was the director of Stuff ?,Johnny Depp,"[""Johnny Depp"", ""John Christopher \""Johnny\"" Depp II"", ""John Christopher Depp II"", ""John Christopher Depp""]",director
+fact_0040,no_qmark,"Question: Who was the director of Stuff
+Answer:",Who was the director of Stuff?,Who was the director of Stuff,Johnny Depp,"[""Johnny Depp"", ""John Christopher \""Johnny\"" Depp II"", ""John Christopher Depp II"", ""John Christopher Depp""]",director
+fact_0040,lower_first_char,"Question: who was the director of Stuff?
+Answer:",Who was the director of Stuff?,who was the director of Stuff?,Johnny Depp,"[""Johnny Depp"", ""John Christopher \""Johnny\"" Depp II"", ""John Christopher Depp II"", ""John Christopher Depp""]",director
+fact_0040,double_first_space,"Question: Who  was the director of Stuff?
+Answer:",Who was the director of Stuff?,Who  was the director of Stuff?,Johnny Depp,"[""Johnny Depp"", ""John Christopher \""Johnny\"" Depp II"", ""John Christopher Depp II"", ""John Christopher Depp""]",director
+fact_0041,original,"Question: Who was the director of After Hours?
+Answer:",Who was the director of After Hours?,Who was the director of After Hours?,Martin Scorsese,"[""Martin Scorsese"", ""Martin Skorseze"", ""Martin Charles Scorsese""]",director
+fact_0041,leading_space,"Question:  Who was the director of After Hours?
+Answer:",Who was the director of After Hours?, Who was the director of After Hours?,Martin Scorsese,"[""Martin Scorsese"", ""Martin Skorseze"", ""Martin Charles Scorsese""]",director
+fact_0041,trailing_space,"Question: Who was the director of After Hours? 
+Answer:",Who was the director of After Hours?,Who was the director of After Hours? ,Martin Scorsese,"[""Martin Scorsese"", ""Martin Skorseze"", ""Martin Charles Scorsese""]",director
+fact_0041,space_before_qmark,"Question: Who was the director of After Hours ?
+Answer:",Who was the director of After Hours?,Who was the director of After Hours ?,Martin Scorsese,"[""Martin Scorsese"", ""Martin Skorseze"", ""Martin Charles Scorsese""]",director
+fact_0041,no_qmark,"Question: Who was the director of After Hours
+Answer:",Who was the director of After Hours?,Who was the director of After Hours,Martin Scorsese,"[""Martin Scorsese"", ""Martin Skorseze"", ""Martin Charles Scorsese""]",director
+fact_0041,lower_first_char,"Question: who was the director of After Hours?
+Answer:",Who was the director of After Hours?,who was the director of After Hours?,Martin Scorsese,"[""Martin Scorsese"", ""Martin Skorseze"", ""Martin Charles Scorsese""]",director
+fact_0041,double_first_space,"Question: Who  was the director of After Hours?
+Answer:",Who was the director of After Hours?,Who  was the director of After Hours?,Martin Scorsese,"[""Martin Scorsese"", ""Martin Skorseze"", ""Martin Charles Scorsese""]",director
+fact_0042,original,"Question: Who was the director of Hackers?
+Answer:",Who was the director of Hackers?,Who was the director of Hackers?,Iain Softley,"[""Iain Softley"", ""Iain Declan Softley""]",director
+fact_0042,leading_space,"Question:  Who was the director of Hackers?
+Answer:",Who was the director of Hackers?, Who was the director of Hackers?,Iain Softley,"[""Iain Softley"", ""Iain Declan Softley""]",director
+fact_0042,trailing_space,"Question: Who was the director of Hackers? 
+Answer:",Who was the director of Hackers?,Who was the director of Hackers? ,Iain Softley,"[""Iain Softley"", ""Iain Declan Softley""]",director
+fact_0042,space_before_qmark,"Question: Who was the director of Hackers ?
+Answer:",Who was the director of Hackers?,Who was the director of Hackers ?,Iain Softley,"[""Iain Softley"", ""Iain Declan Softley""]",director
+fact_0042,no_qmark,"Question: Who was the director of Hackers
+Answer:",Who was the director of Hackers?,Who was the director of Hackers,Iain Softley,"[""Iain Softley"", ""Iain Declan Softley""]",director
+fact_0042,lower_first_char,"Question: who was the director of Hackers?
+Answer:",Who was the director of Hackers?,who was the director of Hackers?,Iain Softley,"[""Iain Softley"", ""Iain Declan Softley""]",director
+fact_0042,double_first_space,"Question: Who  was the director of Hackers?
+Answer:",Who was the director of Hackers?,Who  was the director of Hackers?,Iain Softley,"[""Iain Softley"", ""Iain Declan Softley""]",director
+fact_0043,original,"Question: Who was the composer of The Social Network?
+Answer:",Who was the composer of The Social Network?,Who was the composer of The Social Network?,Trent Reznor,"[""Trent Reznor"", ""Michael Trent Reznor""]",composer
+fact_0043,leading_space,"Question:  Who was the composer of The Social Network?
+Answer:",Who was the composer of The Social Network?, Who was the composer of The Social Network?,Trent Reznor,"[""Trent Reznor"", ""Michael Trent Reznor""]",composer
+fact_0043,trailing_space,"Question: Who was the composer of The Social Network? 
+Answer:",Who was the composer of The Social Network?,Who was the composer of The Social Network? ,Trent Reznor,"[""Trent Reznor"", ""Michael Trent Reznor""]",composer
+fact_0043,space_before_qmark,"Question: Who was the composer of The Social Network ?
+Answer:",Who was the composer of The Social Network?,Who was the composer of The Social Network ?,Trent Reznor,"[""Trent Reznor"", ""Michael Trent Reznor""]",composer
+fact_0043,no_qmark,"Question: Who was the composer of The Social Network
+Answer:",Who was the composer of The Social Network?,Who was the composer of The Social Network,Trent Reznor,"[""Trent Reznor"", ""Michael Trent Reznor""]",composer
+fact_0043,lower_first_char,"Question: who was the composer of The Social Network?
+Answer:",Who was the composer of The Social Network?,who was the composer of The Social Network?,Trent Reznor,"[""Trent Reznor"", ""Michael Trent Reznor""]",composer
+fact_0043,double_first_space,"Question: Who  was the composer of The Social Network?
+Answer:",Who was the composer of The Social Network?,Who  was the composer of The Social Network?,Trent Reznor,"[""Trent Reznor"", ""Michael Trent Reznor""]",composer
+fact_0044,original,"Question: Who was the screenwriter for Champion?
+Answer:",Who was the screenwriter for Champion?,Who was the screenwriter for Champion?,Rabi Kinagi,"[""Rabi Kinagi"", ""Ravi Kinagi"", ""Rabi Kinnagi""]",screenwriter
+fact_0044,leading_space,"Question:  Who was the screenwriter for Champion?
+Answer:",Who was the screenwriter for Champion?, Who was the screenwriter for Champion?,Rabi Kinagi,"[""Rabi Kinagi"", ""Ravi Kinagi"", ""Rabi Kinnagi""]",screenwriter
+fact_0044,trailing_space,"Question: Who was the screenwriter for Champion? 
+Answer:",Who was the screenwriter for Champion?,Who was the screenwriter for Champion? ,Rabi Kinagi,"[""Rabi Kinagi"", ""Ravi Kinagi"", ""Rabi Kinnagi""]",screenwriter
+fact_0044,space_before_qmark,"Question: Who was the screenwriter for Champion ?
+Answer:",Who was the screenwriter for Champion?,Who was the screenwriter for Champion ?,Rabi Kinagi,"[""Rabi Kinagi"", ""Ravi Kinagi"", ""Rabi Kinnagi""]",screenwriter
+fact_0044,no_qmark,"Question: Who was the screenwriter for Champion
+Answer:",Who was the screenwriter for Champion?,Who was the screenwriter for Champion,Rabi Kinagi,"[""Rabi Kinagi"", ""Ravi Kinagi"", ""Rabi Kinnagi""]",screenwriter
+fact_0044,lower_first_char,"Question: who was the screenwriter for Champion?
+Answer:",Who was the screenwriter for Champion?,who was the screenwriter for Champion?,Rabi Kinagi,"[""Rabi Kinagi"", ""Ravi Kinagi"", ""Rabi Kinnagi""]",screenwriter
+fact_0044,double_first_space,"Question: Who  was the screenwriter for Champion?
+Answer:",Who was the screenwriter for Champion?,Who  was the screenwriter for Champion?,Rabi Kinagi,"[""Rabi Kinagi"", ""Ravi Kinagi"", ""Rabi Kinnagi""]",screenwriter
+fact_0045,original,"Question: Who is the author of Reality Is What You Can Get Away With?
+Answer:",Who is the author of Reality Is What You Can Get Away With?,Who is the author of Reality Is What You Can Get Away With?,Robert Anton Wilson,"[""Robert Anton Wilson"", ""Robert Edward Wilson""]",author
+fact_0045,leading_space,"Question:  Who is the author of Reality Is What You Can Get Away With?
+Answer:",Who is the author of Reality Is What You Can Get Away With?, Who is the author of Reality Is What You Can Get Away With?,Robert Anton Wilson,"[""Robert Anton Wilson"", ""Robert Edward Wilson""]",author
+fact_0045,trailing_space,"Question: Who is the author of Reality Is What You Can Get Away With? 
+Answer:",Who is the author of Reality Is What You Can Get Away With?,Who is the author of Reality Is What You Can Get Away With? ,Robert Anton Wilson,"[""Robert Anton Wilson"", ""Robert Edward Wilson""]",author
+fact_0045,space_before_qmark,"Question: Who is the author of Reality Is What You Can Get Away With ?
+Answer:",Who is the author of Reality Is What You Can Get Away With?,Who is the author of Reality Is What You Can Get Away With ?,Robert Anton Wilson,"[""Robert Anton Wilson"", ""Robert Edward Wilson""]",author
+fact_0045,no_qmark,"Question: Who is the author of Reality Is What You Can Get Away With
+Answer:",Who is the author of Reality Is What You Can Get Away With?,Who is the author of Reality Is What You Can Get Away With,Robert Anton Wilson,"[""Robert Anton Wilson"", ""Robert Edward Wilson""]",author
+fact_0045,lower_first_char,"Question: who is the author of Reality Is What You Can Get Away With?
+Answer:",Who is the author of Reality Is What You Can Get Away With?,who is the author of Reality Is What You Can Get Away With?,Robert Anton Wilson,"[""Robert Anton Wilson"", ""Robert Edward Wilson""]",author
+fact_0045,double_first_space,"Question: Who  is the author of Reality Is What You Can Get Away With?
+Answer:",Who is the author of Reality Is What You Can Get Away With?,Who  is the author of Reality Is What You Can Get Away With?,Robert Anton Wilson,"[""Robert Anton Wilson"", ""Robert Edward Wilson""]",author
+fact_0046,original,"Question: Who is the author of Anything Goes?
+Answer:",Who is the author of Anything Goes?,Who is the author of Anything Goes?,Howard Lindsay,"[""Howard Lindsay"", ""Herman Nelke"", ""Russel Crouse"", ""P. G. Wodehouse"", ""Pelham Grenville Wodehouse"", ""Sir Pelham Grenville Wodehouse"", ""Guy Bolton"", ""H. B. Trevelyan"", ""Guy Reginald Bolton""]",author
+fact_0046,leading_space,"Question:  Who is the author of Anything Goes?
+Answer:",Who is the author of Anything Goes?, Who is the author of Anything Goes?,Howard Lindsay,"[""Howard Lindsay"", ""Herman Nelke"", ""Russel Crouse"", ""P. G. Wodehouse"", ""Pelham Grenville Wodehouse"", ""Sir Pelham Grenville Wodehouse"", ""Guy Bolton"", ""H. B. Trevelyan"", ""Guy Reginald Bolton""]",author
+fact_0046,trailing_space,"Question: Who is the author of Anything Goes? 
+Answer:",Who is the author of Anything Goes?,Who is the author of Anything Goes? ,Howard Lindsay,"[""Howard Lindsay"", ""Herman Nelke"", ""Russel Crouse"", ""P. G. Wodehouse"", ""Pelham Grenville Wodehouse"", ""Sir Pelham Grenville Wodehouse"", ""Guy Bolton"", ""H. B. Trevelyan"", ""Guy Reginald Bolton""]",author
+fact_0046,space_before_qmark,"Question: Who is the author of Anything Goes ?
+Answer:",Who is the author of Anything Goes?,Who is the author of Anything Goes ?,Howard Lindsay,"[""Howard Lindsay"", ""Herman Nelke"", ""Russel Crouse"", ""P. G. Wodehouse"", ""Pelham Grenville Wodehouse"", ""Sir Pelham Grenville Wodehouse"", ""Guy Bolton"", ""H. B. Trevelyan"", ""Guy Reginald Bolton""]",author
+fact_0046,no_qmark,"Question: Who is the author of Anything Goes
+Answer:",Who is the author of Anything Goes?,Who is the author of Anything Goes,Howard Lindsay,"[""Howard Lindsay"", ""Herman Nelke"", ""Russel Crouse"", ""P. G. Wodehouse"", ""Pelham Grenville Wodehouse"", ""Sir Pelham Grenville Wodehouse"", ""Guy Bolton"", ""H. B. Trevelyan"", ""Guy Reginald Bolton""]",author
+fact_0046,lower_first_char,"Question: who is the author of Anything Goes?
+Answer:",Who is the author of Anything Goes?,who is the author of Anything Goes?,Howard Lindsay,"[""Howard Lindsay"", ""Herman Nelke"", ""Russel Crouse"", ""P. G. Wodehouse"", ""Pelham Grenville Wodehouse"", ""Sir Pelham Grenville Wodehouse"", ""Guy Bolton"", ""H. B. Trevelyan"", ""Guy Reginald Bolton""]",author
+fact_0046,double_first_space,"Question: Who  is the author of Anything Goes?
+Answer:",Who is the author of Anything Goes?,Who  is the author of Anything Goes?,Howard Lindsay,"[""Howard Lindsay"", ""Herman Nelke"", ""Russel Crouse"", ""P. G. Wodehouse"", ""Pelham Grenville Wodehouse"", ""Sir Pelham Grenville Wodehouse"", ""Guy Bolton"", ""H. B. Trevelyan"", ""Guy Reginald Bolton""]",author
+fact_0047,original,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Ann Brashares,"[""Ann Brashares""]",author
+fact_0047,leading_space,"Question:  Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?, Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Ann Brashares,"[""Ann Brashares""]",author
+fact_0047,trailing_space,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood? 
+Answer:",Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood? ,Ann Brashares,"[""Ann Brashares""]",author
+fact_0047,space_before_qmark,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood ?
+Answer:",Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood ?,Ann Brashares,"[""Ann Brashares""]",author
+fact_0047,no_qmark,"Question: Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood
+Answer:",Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood,Ann Brashares,"[""Ann Brashares""]",author
+fact_0047,lower_first_char,"Question: who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Ann Brashares,"[""Ann Brashares""]",author
+fact_0047,double_first_space,"Question: Who  is the author of Forever in Blue: The Fourth Summer of the Sisterhood?
+Answer:",Who is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Who  is the author of Forever in Blue: The Fourth Summer of the Sisterhood?,Ann Brashares,"[""Ann Brashares""]",author
+fact_0048,original,"Question: Who was the screenwriter for 2012?
+Answer:",Who was the screenwriter for 2012?,Who was the screenwriter for 2012?,Roland Emmerich,"[""Roland Emmerich""]",screenwriter
+fact_0048,leading_space,"Question:  Who was the screenwriter for 2012?
+Answer:",Who was the screenwriter for 2012?, Who was the screenwriter for 2012?,Roland Emmerich,"[""Roland Emmerich""]",screenwriter
+fact_0048,trailing_space,"Question: Who was the screenwriter for 2012? 
+Answer:",Who was the screenwriter for 2012?,Who was the screenwriter for 2012? ,Roland Emmerich,"[""Roland Emmerich""]",screenwriter
+fact_0048,space_before_qmark,"Question: Who was the screenwriter for 2012 ?
+Answer:",Who was the screenwriter for 2012?,Who was the screenwriter for 2012 ?,Roland Emmerich,"[""Roland Emmerich""]",screenwriter
+fact_0048,no_qmark,"Question: Who was the screenwriter for 2012
+Answer:",Who was the screenwriter for 2012?,Who was the screenwriter for 2012,Roland Emmerich,"[""Roland Emmerich""]",screenwriter
+fact_0048,lower_first_char,"Question: who was the screenwriter for 2012?
+Answer:",Who was the screenwriter for 2012?,who was the screenwriter for 2012?,Roland Emmerich,"[""Roland Emmerich""]",screenwriter
+fact_0048,double_first_space,"Question: Who  was the screenwriter for 2012?
+Answer:",Who was the screenwriter for 2012?,Who  was the screenwriter for 2012?,Roland Emmerich,"[""Roland Emmerich""]",screenwriter
+fact_0049,original,"Question: Who was the producer of Precious?
+Answer:",Who was the producer of Precious?,Who was the producer of Precious?,Lee Daniels,"[""Lee Daniels"", ""Lee Louis Daniels"", ""Oprah Winfrey"", ""Oprah Gail Winfrey"", ""Oprah"", ""Tyler Perry"", ""Emmitt Perry Jr.""]",producer
+fact_0049,leading_space,"Question:  Who was the producer of Precious?
+Answer:",Who was the producer of Precious?, Who was the producer of Precious?,Lee Daniels,"[""Lee Daniels"", ""Lee Louis Daniels"", ""Oprah Winfrey"", ""Oprah Gail Winfrey"", ""Oprah"", ""Tyler Perry"", ""Emmitt Perry Jr.""]",producer
+fact_0049,trailing_space,"Question: Who was the producer of Precious? 
+Answer:",Who was the producer of Precious?,Who was the producer of Precious? ,Lee Daniels,"[""Lee Daniels"", ""Lee Louis Daniels"", ""Oprah Winfrey"", ""Oprah Gail Winfrey"", ""Oprah"", ""Tyler Perry"", ""Emmitt Perry Jr.""]",producer
+fact_0049,space_before_qmark,"Question: Who was the producer of Precious ?
+Answer:",Who was the producer of Precious?,Who was the producer of Precious ?,Lee Daniels,"[""Lee Daniels"", ""Lee Louis Daniels"", ""Oprah Winfrey"", ""Oprah Gail Winfrey"", ""Oprah"", ""Tyler Perry"", ""Emmitt Perry Jr.""]",producer
+fact_0049,no_qmark,"Question: Who was the producer of Precious
+Answer:",Who was the producer of Precious?,Who was the producer of Precious,Lee Daniels,"[""Lee Daniels"", ""Lee Louis Daniels"", ""Oprah Winfrey"", ""Oprah Gail Winfrey"", ""Oprah"", ""Tyler Perry"", ""Emmitt Perry Jr.""]",producer
+fact_0049,lower_first_char,"Question: who was the producer of Precious?
+Answer:",Who was the producer of Precious?,who was the producer of Precious?,Lee Daniels,"[""Lee Daniels"", ""Lee Louis Daniels"", ""Oprah Winfrey"", ""Oprah Gail Winfrey"", ""Oprah"", ""Tyler Perry"", ""Emmitt Perry Jr.""]",producer
+fact_0049,double_first_space,"Question: Who  was the producer of Precious?
+Answer:",Who was the producer of Precious?,Who  was the producer of Precious?,Lee Daniels,"[""Lee Daniels"", ""Lee Louis Daniels"", ""Oprah Winfrey"", ""Oprah Gail Winfrey"", ""Oprah"", ""Tyler Perry"", ""Emmitt Perry Jr.""]",producer
+fact_0050,original,"Question: In what city was Alfredo Ramos Martínez born?
+Answer:",In what city was Alfredo Ramos Martínez born?,In what city was Alfredo Ramos Martínez born?,Monterrey,"[""Monterrey"", ""Monterrey, Nuevo Leon"", ""Monterrey, Mexico"", ""La sultana del norte"", ""La ciudad de las montañas""]",place of birth
+fact_0050,leading_space,"Question:  In what city was Alfredo Ramos Martínez born?
+Answer:",In what city was Alfredo Ramos Martínez born?, In what city was Alfredo Ramos Martínez born?,Monterrey,"[""Monterrey"", ""Monterrey, Nuevo Leon"", ""Monterrey, Mexico"", ""La sultana del norte"", ""La ciudad de las montañas""]",place of birth
+fact_0050,trailing_space,"Question: In what city was Alfredo Ramos Martínez born? 
+Answer:",In what city was Alfredo Ramos Martínez born?,In what city was Alfredo Ramos Martínez born? ,Monterrey,"[""Monterrey"", ""Monterrey, Nuevo Leon"", ""Monterrey, Mexico"", ""La sultana del norte"", ""La ciudad de las montañas""]",place of birth
+fact_0050,space_before_qmark,"Question: In what city was Alfredo Ramos Martínez born ?
+Answer:",In what city was Alfredo Ramos Martínez born?,In what city was Alfredo Ramos Martínez born ?,Monterrey,"[""Monterrey"", ""Monterrey, Nuevo Leon"", ""Monterrey, Mexico"", ""La sultana del norte"", ""La ciudad de las montañas""]",place of birth
+fact_0050,no_qmark,"Question: In what city was Alfredo Ramos Martínez born
+Answer:",In what city was Alfredo Ramos Martínez born?,In what city was Alfredo Ramos Martínez born,Monterrey,"[""Monterrey"", ""Monterrey, Nuevo Leon"", ""Monterrey, Mexico"", ""La sultana del norte"", ""La ciudad de las montañas""]",place of birth
+fact_0050,lower_first_char,"Question: in what city was Alfredo Ramos Martínez born?
+Answer:",In what city was Alfredo Ramos Martínez born?,in what city was Alfredo Ramos Martínez born?,Monterrey,"[""Monterrey"", ""Monterrey, Nuevo Leon"", ""Monterrey, Mexico"", ""La sultana del norte"", ""La ciudad de las montañas""]",place of birth
+fact_0050,double_first_space,"Question: In  what city was Alfredo Ramos Martínez born?
+Answer:",In what city was Alfredo Ramos Martínez born?,In  what city was Alfredo Ramos Martínez born?,Monterrey,"[""Monterrey"", ""Monterrey, Nuevo Leon"", ""Monterrey, Mexico"", ""La sultana del norte"", ""La ciudad de las montañas""]",place of birth
+fact_0051,original,"Question: Who was the composer of Petrushka chord?
+Answer:",Who was the composer of Petrushka chord?,Who was the composer of Petrushka chord?,Igor Stravinsky,"[""Igor Stravinsky"", ""Igor Fyodorovich Stravinsky"", ""Stravinsky"", ""Igor Strawinski"", ""Igor Strawinsky"", ""Igor Stravinskii"", ""Igor Feodorovich Stravinsky"", ""Jgor Strawinsky"", ""Igor Strawinskij"", ""Igor Stravinski"", ""Igor Fedorovich Stravinsky"", ""I. Strawinsky""]",composer
+fact_0051,leading_space,"Question:  Who was the composer of Petrushka chord?
+Answer:",Who was the composer of Petrushka chord?, Who was the composer of Petrushka chord?,Igor Stravinsky,"[""Igor Stravinsky"", ""Igor Fyodorovich Stravinsky"", ""Stravinsky"", ""Igor Strawinski"", ""Igor Strawinsky"", ""Igor Stravinskii"", ""Igor Feodorovich Stravinsky"", ""Jgor Strawinsky"", ""Igor Strawinskij"", ""Igor Stravinski"", ""Igor Fedorovich Stravinsky"", ""I. Strawinsky""]",composer
+fact_0051,trailing_space,"Question: Who was the composer of Petrushka chord? 
+Answer:",Who was the composer of Petrushka chord?,Who was the composer of Petrushka chord? ,Igor Stravinsky,"[""Igor Stravinsky"", ""Igor Fyodorovich Stravinsky"", ""Stravinsky"", ""Igor Strawinski"", ""Igor Strawinsky"", ""Igor Stravinskii"", ""Igor Feodorovich Stravinsky"", ""Jgor Strawinsky"", ""Igor Strawinskij"", ""Igor Stravinski"", ""Igor Fedorovich Stravinsky"", ""I. Strawinsky""]",composer
+fact_0051,space_before_qmark,"Question: Who was the composer of Petrushka chord ?
+Answer:",Who was the composer of Petrushka chord?,Who was the composer of Petrushka chord ?,Igor Stravinsky,"[""Igor Stravinsky"", ""Igor Fyodorovich Stravinsky"", ""Stravinsky"", ""Igor Strawinski"", ""Igor Strawinsky"", ""Igor Stravinskii"", ""Igor Feodorovich Stravinsky"", ""Jgor Strawinsky"", ""Igor Strawinskij"", ""Igor Stravinski"", ""Igor Fedorovich Stravinsky"", ""I. Strawinsky""]",composer
+fact_0051,no_qmark,"Question: Who was the composer of Petrushka chord
+Answer:",Who was the composer of Petrushka chord?,Who was the composer of Petrushka chord,Igor Stravinsky,"[""Igor Stravinsky"", ""Igor Fyodorovich Stravinsky"", ""Stravinsky"", ""Igor Strawinski"", ""Igor Strawinsky"", ""Igor Stravinskii"", ""Igor Feodorovich Stravinsky"", ""Jgor Strawinsky"", ""Igor Strawinskij"", ""Igor Stravinski"", ""Igor Fedorovich Stravinsky"", ""I. Strawinsky""]",composer
+fact_0051,lower_first_char,"Question: who was the composer of Petrushka chord?
+Answer:",Who was the composer of Petrushka chord?,who was the composer of Petrushka chord?,Igor Stravinsky,"[""Igor Stravinsky"", ""Igor Fyodorovich Stravinsky"", ""Stravinsky"", ""Igor Strawinski"", ""Igor Strawinsky"", ""Igor Stravinskii"", ""Igor Feodorovich Stravinsky"", ""Jgor Strawinsky"", ""Igor Strawinskij"", ""Igor Stravinski"", ""Igor Fedorovich Stravinsky"", ""I. Strawinsky""]",composer
+fact_0051,double_first_space,"Question: Who  was the composer of Petrushka chord?
+Answer:",Who was the composer of Petrushka chord?,Who  was the composer of Petrushka chord?,Igor Stravinsky,"[""Igor Stravinsky"", ""Igor Fyodorovich Stravinsky"", ""Stravinsky"", ""Igor Strawinski"", ""Igor Strawinsky"", ""Igor Stravinskii"", ""Igor Feodorovich Stravinsky"", ""Jgor Strawinsky"", ""Igor Strawinskij"", ""Igor Stravinski"", ""Igor Fedorovich Stravinsky"", ""I. Strawinsky""]",composer
+fact_0052,original,"Question: Who was the screenwriter for The Sea Inside?
+Answer:",Who was the screenwriter for The Sea Inside?,Who was the screenwriter for The Sea Inside?,Mateo Gil,"[""Mateo Gil""]",screenwriter
+fact_0052,leading_space,"Question:  Who was the screenwriter for The Sea Inside?
+Answer:",Who was the screenwriter for The Sea Inside?, Who was the screenwriter for The Sea Inside?,Mateo Gil,"[""Mateo Gil""]",screenwriter
+fact_0052,trailing_space,"Question: Who was the screenwriter for The Sea Inside? 
+Answer:",Who was the screenwriter for The Sea Inside?,Who was the screenwriter for The Sea Inside? ,Mateo Gil,"[""Mateo Gil""]",screenwriter
+fact_0052,space_before_qmark,"Question: Who was the screenwriter for The Sea Inside ?
+Answer:",Who was the screenwriter for The Sea Inside?,Who was the screenwriter for The Sea Inside ?,Mateo Gil,"[""Mateo Gil""]",screenwriter
+fact_0052,no_qmark,"Question: Who was the screenwriter for The Sea Inside
+Answer:",Who was the screenwriter for The Sea Inside?,Who was the screenwriter for The Sea Inside,Mateo Gil,"[""Mateo Gil""]",screenwriter
+fact_0052,lower_first_char,"Question: who was the screenwriter for The Sea Inside?
+Answer:",Who was the screenwriter for The Sea Inside?,who was the screenwriter for The Sea Inside?,Mateo Gil,"[""Mateo Gil""]",screenwriter
+fact_0052,double_first_space,"Question: Who  was the screenwriter for The Sea Inside?
+Answer:",Who was the screenwriter for The Sea Inside?,Who  was the screenwriter for The Sea Inside?,Mateo Gil,"[""Mateo Gil""]",screenwriter
+fact_0053,original,"Question: Who was the producer of The Fog?
+Answer:",Who was the producer of The Fog?,Who was the producer of The Fog?,Debra Hill,"[""Debra Hill"", ""John Carpenter"", ""John Howard Carpenter""]",producer
+fact_0053,leading_space,"Question:  Who was the producer of The Fog?
+Answer:",Who was the producer of The Fog?, Who was the producer of The Fog?,Debra Hill,"[""Debra Hill"", ""John Carpenter"", ""John Howard Carpenter""]",producer
+fact_0053,trailing_space,"Question: Who was the producer of The Fog? 
+Answer:",Who was the producer of The Fog?,Who was the producer of The Fog? ,Debra Hill,"[""Debra Hill"", ""John Carpenter"", ""John Howard Carpenter""]",producer
+fact_0053,space_before_qmark,"Question: Who was the producer of The Fog ?
+Answer:",Who was the producer of The Fog?,Who was the producer of The Fog ?,Debra Hill,"[""Debra Hill"", ""John Carpenter"", ""John Howard Carpenter""]",producer
+fact_0053,no_qmark,"Question: Who was the producer of The Fog
+Answer:",Who was the producer of The Fog?,Who was the producer of The Fog,Debra Hill,"[""Debra Hill"", ""John Carpenter"", ""John Howard Carpenter""]",producer
+fact_0053,lower_first_char,"Question: who was the producer of The Fog?
+Answer:",Who was the producer of The Fog?,who was the producer of The Fog?,Debra Hill,"[""Debra Hill"", ""John Carpenter"", ""John Howard Carpenter""]",producer
+fact_0053,double_first_space,"Question: Who  was the producer of The Fog?
+Answer:",Who was the producer of The Fog?,Who  was the producer of The Fog?,Debra Hill,"[""Debra Hill"", ""John Carpenter"", ""John Howard Carpenter""]",producer
+fact_0054,original,"Question: Who is the author of Utopia?
+Answer:",Who is the author of Utopia?,Who is the author of Utopia?,Thomas More,"[""Thomas More"", ""Sir Thomas More"", ""Saint Thomas More"", ""Thomas Morus"", ""Thomas, Saint More"", ""Thomas, Sir More""]",author
+fact_0054,leading_space,"Question:  Who is the author of Utopia?
+Answer:",Who is the author of Utopia?, Who is the author of Utopia?,Thomas More,"[""Thomas More"", ""Sir Thomas More"", ""Saint Thomas More"", ""Thomas Morus"", ""Thomas, Saint More"", ""Thomas, Sir More""]",author
+fact_0054,trailing_space,"Question: Who is the author of Utopia? 
+Answer:",Who is the author of Utopia?,Who is the author of Utopia? ,Thomas More,"[""Thomas More"", ""Sir Thomas More"", ""Saint Thomas More"", ""Thomas Morus"", ""Thomas, Saint More"", ""Thomas, Sir More""]",author
+fact_0054,space_before_qmark,"Question: Who is the author of Utopia ?
+Answer:",Who is the author of Utopia?,Who is the author of Utopia ?,Thomas More,"[""Thomas More"", ""Sir Thomas More"", ""Saint Thomas More"", ""Thomas Morus"", ""Thomas, Saint More"", ""Thomas, Sir More""]",author
+fact_0054,no_qmark,"Question: Who is the author of Utopia
+Answer:",Who is the author of Utopia?,Who is the author of Utopia,Thomas More,"[""Thomas More"", ""Sir Thomas More"", ""Saint Thomas More"", ""Thomas Morus"", ""Thomas, Saint More"", ""Thomas, Sir More""]",author
+fact_0054,lower_first_char,"Question: who is the author of Utopia?
+Answer:",Who is the author of Utopia?,who is the author of Utopia?,Thomas More,"[""Thomas More"", ""Sir Thomas More"", ""Saint Thomas More"", ""Thomas Morus"", ""Thomas, Saint More"", ""Thomas, Sir More""]",author
+fact_0054,double_first_space,"Question: Who  is the author of Utopia?
+Answer:",Who is the author of Utopia?,Who  is the author of Utopia?,Thomas More,"[""Thomas More"", ""Sir Thomas More"", ""Saint Thomas More"", ""Thomas Morus"", ""Thomas, Saint More"", ""Thomas, Sir More""]",author
+fact_0055,original,"Question: Who was the producer of Positive?
+Answer:",Who was the producer of Positive?,Who was the producer of Positive?,Farhan Akhtar,"[""Farhan Akhtar"", ""Ritesh Sidhwani""]",producer
+fact_0055,leading_space,"Question:  Who was the producer of Positive?
+Answer:",Who was the producer of Positive?, Who was the producer of Positive?,Farhan Akhtar,"[""Farhan Akhtar"", ""Ritesh Sidhwani""]",producer
+fact_0055,trailing_space,"Question: Who was the producer of Positive? 
+Answer:",Who was the producer of Positive?,Who was the producer of Positive? ,Farhan Akhtar,"[""Farhan Akhtar"", ""Ritesh Sidhwani""]",producer
+fact_0055,space_before_qmark,"Question: Who was the producer of Positive ?
+Answer:",Who was the producer of Positive?,Who was the producer of Positive ?,Farhan Akhtar,"[""Farhan Akhtar"", ""Ritesh Sidhwani""]",producer
+fact_0055,no_qmark,"Question: Who was the producer of Positive
+Answer:",Who was the producer of Positive?,Who was the producer of Positive,Farhan Akhtar,"[""Farhan Akhtar"", ""Ritesh Sidhwani""]",producer
+fact_0055,lower_first_char,"Question: who was the producer of Positive?
+Answer:",Who was the producer of Positive?,who was the producer of Positive?,Farhan Akhtar,"[""Farhan Akhtar"", ""Ritesh Sidhwani""]",producer
+fact_0055,double_first_space,"Question: Who  was the producer of Positive?
+Answer:",Who was the producer of Positive?,Who  was the producer of Positive?,Farhan Akhtar,"[""Farhan Akhtar"", ""Ritesh Sidhwani""]",producer
+fact_0056,original,"Question: Who is the father of Count Palatine Joseph Charles of Sulzbach?
+Answer:",Who is the father of Count Palatine Joseph Charles of Sulzbach?,Who is the father of Count Palatine Joseph Charles of Sulzbach?,"Theodore Eustace, Count Palatine of Sulzbach","[""Theodore Eustace, Count Palatine of Sulzbach"", ""Theodore Eustace""]",father
+fact_0056,leading_space,"Question:  Who is the father of Count Palatine Joseph Charles of Sulzbach?
+Answer:",Who is the father of Count Palatine Joseph Charles of Sulzbach?, Who is the father of Count Palatine Joseph Charles of Sulzbach?,"Theodore Eustace, Count Palatine of Sulzbach","[""Theodore Eustace, Count Palatine of Sulzbach"", ""Theodore Eustace""]",father
+fact_0056,trailing_space,"Question: Who is the father of Count Palatine Joseph Charles of Sulzbach? 
+Answer:",Who is the father of Count Palatine Joseph Charles of Sulzbach?,Who is the father of Count Palatine Joseph Charles of Sulzbach? ,"Theodore Eustace, Count Palatine of Sulzbach","[""Theodore Eustace, Count Palatine of Sulzbach"", ""Theodore Eustace""]",father
+fact_0056,space_before_qmark,"Question: Who is the father of Count Palatine Joseph Charles of Sulzbach ?
+Answer:",Who is the father of Count Palatine Joseph Charles of Sulzbach?,Who is the father of Count Palatine Joseph Charles of Sulzbach ?,"Theodore Eustace, Count Palatine of Sulzbach","[""Theodore Eustace, Count Palatine of Sulzbach"", ""Theodore Eustace""]",father
+fact_0056,no_qmark,"Question: Who is the father of Count Palatine Joseph Charles of Sulzbach
+Answer:",Who is the father of Count Palatine Joseph Charles of Sulzbach?,Who is the father of Count Palatine Joseph Charles of Sulzbach,"Theodore Eustace, Count Palatine of Sulzbach","[""Theodore Eustace, Count Palatine of Sulzbach"", ""Theodore Eustace""]",father
+fact_0056,lower_first_char,"Question: who is the father of Count Palatine Joseph Charles of Sulzbach?
+Answer:",Who is the father of Count Palatine Joseph Charles of Sulzbach?,who is the father of Count Palatine Joseph Charles of Sulzbach?,"Theodore Eustace, Count Palatine of Sulzbach","[""Theodore Eustace, Count Palatine of Sulzbach"", ""Theodore Eustace""]",father
+fact_0056,double_first_space,"Question: Who  is the father of Count Palatine Joseph Charles of Sulzbach?
+Answer:",Who is the father of Count Palatine Joseph Charles of Sulzbach?,Who  is the father of Count Palatine Joseph Charles of Sulzbach?,"Theodore Eustace, Count Palatine of Sulzbach","[""Theodore Eustace, Count Palatine of Sulzbach"", ""Theodore Eustace""]",father
+fact_0057,original,"Question: Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?
+Answer:",Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Pat Proft,"[""Pat Proft"", ""Jerry Zucker"", ""Jim Abrahams"", ""James S. Abrahams"", ""David Zucker""]",screenwriter
+fact_0057,leading_space,"Question:  Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?
+Answer:",Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?, Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Pat Proft,"[""Pat Proft"", ""Jerry Zucker"", ""Jim Abrahams"", ""James S. Abrahams"", ""David Zucker""]",screenwriter
+fact_0057,trailing_space,"Question: Who was the screenwriter for The Naked Gun: From the Files of Police Squad!? 
+Answer:",Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Who was the screenwriter for The Naked Gun: From the Files of Police Squad!? ,Pat Proft,"[""Pat Proft"", ""Jerry Zucker"", ""Jim Abrahams"", ""James S. Abrahams"", ""David Zucker""]",screenwriter
+fact_0057,space_before_qmark,"Question: Who was the screenwriter for The Naked Gun: From the Files of Police Squad! ?
+Answer:",Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Who was the screenwriter for The Naked Gun: From the Files of Police Squad! ?,Pat Proft,"[""Pat Proft"", ""Jerry Zucker"", ""Jim Abrahams"", ""James S. Abrahams"", ""David Zucker""]",screenwriter
+fact_0057,no_qmark,"Question: Who was the screenwriter for The Naked Gun: From the Files of Police Squad!
+Answer:",Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Who was the screenwriter for The Naked Gun: From the Files of Police Squad!,Pat Proft,"[""Pat Proft"", ""Jerry Zucker"", ""Jim Abrahams"", ""James S. Abrahams"", ""David Zucker""]",screenwriter
+fact_0057,lower_first_char,"Question: who was the screenwriter for The Naked Gun: From the Files of Police Squad!?
+Answer:",Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Pat Proft,"[""Pat Proft"", ""Jerry Zucker"", ""Jim Abrahams"", ""James S. Abrahams"", ""David Zucker""]",screenwriter
+fact_0057,double_first_space,"Question: Who  was the screenwriter for The Naked Gun: From the Files of Police Squad!?
+Answer:",Who was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Who  was the screenwriter for The Naked Gun: From the Files of Police Squad!?,Pat Proft,"[""Pat Proft"", ""Jerry Zucker"", ""Jim Abrahams"", ""James S. Abrahams"", ""David Zucker""]",screenwriter
+fact_0058,original,"Question: Who was the screenwriter for I Come with the Rain?
+Answer:",Who was the screenwriter for I Come with the Rain?,Who was the screenwriter for I Come with the Rain?,Tran Anh Hung,"[""Tran Anh Hung""]",screenwriter
+fact_0058,leading_space,"Question:  Who was the screenwriter for I Come with the Rain?
+Answer:",Who was the screenwriter for I Come with the Rain?, Who was the screenwriter for I Come with the Rain?,Tran Anh Hung,"[""Tran Anh Hung""]",screenwriter
+fact_0058,trailing_space,"Question: Who was the screenwriter for I Come with the Rain? 
+Answer:",Who was the screenwriter for I Come with the Rain?,Who was the screenwriter for I Come with the Rain? ,Tran Anh Hung,"[""Tran Anh Hung""]",screenwriter
+fact_0058,space_before_qmark,"Question: Who was the screenwriter for I Come with the Rain ?
+Answer:",Who was the screenwriter for I Come with the Rain?,Who was the screenwriter for I Come with the Rain ?,Tran Anh Hung,"[""Tran Anh Hung""]",screenwriter
+fact_0058,no_qmark,"Question: Who was the screenwriter for I Come with the Rain
+Answer:",Who was the screenwriter for I Come with the Rain?,Who was the screenwriter for I Come with the Rain,Tran Anh Hung,"[""Tran Anh Hung""]",screenwriter
+fact_0058,lower_first_char,"Question: who was the screenwriter for I Come with the Rain?
+Answer:",Who was the screenwriter for I Come with the Rain?,who was the screenwriter for I Come with the Rain?,Tran Anh Hung,"[""Tran Anh Hung""]",screenwriter
+fact_0058,double_first_space,"Question: Who  was the screenwriter for I Come with the Rain?
+Answer:",Who was the screenwriter for I Come with the Rain?,Who  was the screenwriter for I Come with the Rain?,Tran Anh Hung,"[""Tran Anh Hung""]",screenwriter
+fact_0059,original,"Question: Who was the screenwriter for Over the Top?
+Answer:",Who was the screenwriter for Over the Top?,Who was the screenwriter for Over the Top?,Stirling Silliphant,"[""Stirling Silliphant"", ""Stirling Dale Silliphant"", ""Sylvester Stallone"", ""Sly Stallone"", ""Sylvester Enzio Stallone"", ""Michael Sylvester Gardenzio Stallone""]",screenwriter
+fact_0059,leading_space,"Question:  Who was the screenwriter for Over the Top?
+Answer:",Who was the screenwriter for Over the Top?, Who was the screenwriter for Over the Top?,Stirling Silliphant,"[""Stirling Silliphant"", ""Stirling Dale Silliphant"", ""Sylvester Stallone"", ""Sly Stallone"", ""Sylvester Enzio Stallone"", ""Michael Sylvester Gardenzio Stallone""]",screenwriter
+fact_0059,trailing_space,"Question: Who was the screenwriter for Over the Top? 
+Answer:",Who was the screenwriter for Over the Top?,Who was the screenwriter for Over the Top? ,Stirling Silliphant,"[""Stirling Silliphant"", ""Stirling Dale Silliphant"", ""Sylvester Stallone"", ""Sly Stallone"", ""Sylvester Enzio Stallone"", ""Michael Sylvester Gardenzio Stallone""]",screenwriter
+fact_0059,space_before_qmark,"Question: Who was the screenwriter for Over the Top ?
+Answer:",Who was the screenwriter for Over the Top?,Who was the screenwriter for Over the Top ?,Stirling Silliphant,"[""Stirling Silliphant"", ""Stirling Dale Silliphant"", ""Sylvester Stallone"", ""Sly Stallone"", ""Sylvester Enzio Stallone"", ""Michael Sylvester Gardenzio Stallone""]",screenwriter
+fact_0059,no_qmark,"Question: Who was the screenwriter for Over the Top
+Answer:",Who was the screenwriter for Over the Top?,Who was the screenwriter for Over the Top,Stirling Silliphant,"[""Stirling Silliphant"", ""Stirling Dale Silliphant"", ""Sylvester Stallone"", ""Sly Stallone"", ""Sylvester Enzio Stallone"", ""Michael Sylvester Gardenzio Stallone""]",screenwriter
+fact_0059,lower_first_char,"Question: who was the screenwriter for Over the Top?
+Answer:",Who was the screenwriter for Over the Top?,who was the screenwriter for Over the Top?,Stirling Silliphant,"[""Stirling Silliphant"", ""Stirling Dale Silliphant"", ""Sylvester Stallone"", ""Sly Stallone"", ""Sylvester Enzio Stallone"", ""Michael Sylvester Gardenzio Stallone""]",screenwriter
+fact_0059,double_first_space,"Question: Who  was the screenwriter for Over the Top?
+Answer:",Who was the screenwriter for Over the Top?,Who  was the screenwriter for Over the Top?,Stirling Silliphant,"[""Stirling Silliphant"", ""Stirling Dale Silliphant"", ""Sylvester Stallone"", ""Sly Stallone"", ""Sylvester Enzio Stallone"", ""Michael Sylvester Gardenzio Stallone""]",screenwriter
