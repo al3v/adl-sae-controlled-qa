@@ -1,7 +1,15 @@
 import argparse
+from pathlib import Path
+
 import pandas as pd
 import torch
 from sae_lens import SAE
+
+
+def to_bool_value(x):
+    if isinstance(x, bool):
+        return x
+    return str(x).lower() in ["true", "1", "yes"]
 
 
 def load_sae_for_layer(layer, device):
@@ -40,12 +48,45 @@ def encode_with_sae(sae, activation):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="outputs/hidden_states_switching_base_v2.pt")
-    parser.add_argument("--output", default="outputs/sae_features_switching_base_v2.pt")
-    parser.add_argument("--summary-output", default="reports/sae_feature_summary_base_v2.csv")
-    parser.add_argument("--activation-kind", default="last_token_activation")
-    parser.add_argument("--layers", default="6,9,12")
-    parser.add_argument("--top-k", type=int, default=20)
+
+    parser.add_argument(
+        "--input",
+        default="outputs/hidden_states_switching_controlled_qa_base_v4_strict.pt",
+        help="Hidden-state activation .pt file from the final strict setup.",
+    )
+
+    parser.add_argument(
+        "--output",
+        default="outputs/sae_features_switching_controlled_qa_base_v4_strict.pt",
+        help="Output .pt file containing SAE feature activations.",
+    )
+
+    parser.add_argument(
+        "--summary-output",
+        default="reports/controlled_qa_base_v4_strict/sae_feature_summary_controlled_qa_base_v4_strict.csv",
+        help="CSV output with summary statistics for SAE features.",
+    )
+
+    parser.add_argument(
+        "--activation-kind",
+        default="last_token_activation",
+        choices=["last_token_activation", "mean_prompt_activation"],
+        help="Which hidden-state representation to encode with the SAE.",
+    )
+
+    parser.add_argument(
+        "--layers",
+        default="6,9,12",
+        help="Comma-separated layer indices to encode.",
+    )
+
+    parser.add_argument(
+        "--top-k",
+        type=int,
+        default=20,
+        help="Number of top active SAE features to save in the summary CSV.",
+    )
+
     args = parser.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -75,6 +116,7 @@ def main():
 
         sae = sae_by_layer[layer]
         activation = row[args.activation_kind]
+        is_correct = to_bool_value(row["is_correct"])
 
         feature_acts = encode_with_sae(sae, activation)
 
@@ -89,28 +131,39 @@ def main():
             k=min(args.top_k, feature_acts.numel())
         )
 
-        feature_rows.append({
-            "fact_id": row["fact_id"],
-            "variant_id": row["variant_id"],
-            "layer": layer,
-            "is_correct": bool(row["is_correct"]),
-            "feature_acts": feature_acts,
-        })
+        feature_rows.append(
+            {
+                "fact_id": row["fact_id"],
+                "variant_id": row["variant_id"],
+                "layer": layer,
+                "is_correct": is_correct,
+                "feature_acts": feature_acts,
+            }
+        )
 
-        summary_rows.append({
-            "fact_id": row["fact_id"],
-            "variant_id": row["variant_id"],
-            "layer": layer,
-            "is_correct": bool(row["is_correct"]),
-            "n_active_features": n_active,
-            "feature_l1_norm": l1_norm,
-            "feature_l2_norm": l2_norm,
-            "max_feature_value": max_value,
-            "top_feature_indices": " ".join(map(str, top_indices.tolist())),
-            "top_feature_values": " ".join(f"{x:.6f}" for x in top_values.tolist()),
-        })
+        summary_rows.append(
+            {
+                "fact_id": row["fact_id"],
+                "variant_id": row["variant_id"],
+                "layer": layer,
+                "is_correct": is_correct,
+                "n_active_features": n_active,
+                "feature_l1_norm": l1_norm,
+                "feature_l2_norm": l2_norm,
+                "max_feature_value": max_value,
+                "top_feature_indices": " ".join(map(str, top_indices.tolist())),
+                "top_feature_values": " ".join(f"{x:.6f}" for x in top_values.tolist()),
+            }
+        )
 
-        print(f"[{i+1}/{len(rows)}] layer={layer} fact={row['fact_id']} variant={row['variant_id']} active={n_active}")
+        print(
+            f"[{i + 1}/{len(rows)}] "
+            f"layer={layer} fact={row['fact_id']} "
+            f"variant={row['variant_id']} active={n_active}"
+        )
+
+    Path(args.output).parent.mkdir(parents=True, exist_ok=True)
+    Path(args.summary_output).parent.mkdir(parents=True, exist_ok=True)
 
     torch.save(feature_rows, args.output)
     pd.DataFrame(summary_rows).to_csv(args.summary_output, index=False)
