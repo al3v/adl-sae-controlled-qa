@@ -1,7 +1,15 @@
 import argparse
+from pathlib import Path
+
 import pandas as pd
 import torch
 import torch.nn.functional as F
+
+
+def to_bool_value(x):
+    if isinstance(x, bool):
+        return x
+    return str(x).lower() in ["true", "1", "yes"]
 
 
 def cosine_distance(a, b):
@@ -35,23 +43,38 @@ def get_pair_type(a_correct, b_correct):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="outputs/sae_features_switching_base_v2.pt")
-    parser.add_argument("--output", default="reports/sae_pair_type_summary_base_v2.csv")
+
+    parser.add_argument(
+        "--input",
+        default="outputs/sae_features_switching_controlled_qa_base_v4_strict.pt",
+        help="SAE feature activation .pt file from the final strict setup.",
+    )
+
+    parser.add_argument(
+        "--output",
+        default="reports/controlled_qa_base_v4_strict/sae_pair_type_summary_controlled_qa_base_v4_strict.csv",
+        help="CSV output with pair-type SAE feature distances.",
+    )
+
     args = parser.parse_args()
 
     rows = torch.load(args.input)
 
     records = []
+
     for r in rows:
-        records.append({
-            "fact_id": r["fact_id"],
-            "variant_id": r["variant_id"],
-            "layer": int(r["layer"]),
-            "is_correct": bool(r["is_correct"]),
-            "feature_acts": r["feature_acts"],
-        })
+        records.append(
+            {
+                "fact_id": r["fact_id"],
+                "variant_id": r["variant_id"],
+                "layer": int(r["layer"]),
+                "is_correct": to_bool_value(r["is_correct"]),
+                "feature_acts": r["feature_acts"],
+            }
+        )
 
     df = pd.DataFrame(records)
+
     out_rows = []
 
     for (fact_id, layer), group in df.groupby(["fact_id", "layer"]):
@@ -64,20 +87,24 @@ def main():
 
                 pair_type = get_pair_type(a["is_correct"], b["is_correct"])
 
-                out_rows.append({
-                    "fact_id": fact_id,
-                    "layer": layer,
-                    "variant_a": a["variant_id"],
-                    "variant_b": b["variant_id"],
-                    "is_correct_a": a["is_correct"],
-                    "is_correct_b": b["is_correct"],
-                    "pair_type": pair_type,
-                    "sae_cosine_distance": cosine_distance(a["feature_acts"], b["feature_acts"]),
-                    "sae_l2_distance": l2_distance(a["feature_acts"], b["feature_acts"]),
-                    "active_jaccard_distance": active_jaccard_distance(a["feature_acts"], b["feature_acts"]),
-                })
+                out_rows.append(
+                    {
+                        "fact_id": fact_id,
+                        "layer": layer,
+                        "variant_a": a["variant_id"],
+                        "variant_b": b["variant_id"],
+                        "is_correct_a": a["is_correct"],
+                        "is_correct_b": b["is_correct"],
+                        "pair_type": pair_type,
+                        "sae_cosine_distance": cosine_distance(a["feature_acts"], b["feature_acts"]),
+                        "sae_l2_distance": l2_distance(a["feature_acts"], b["feature_acts"]),
+                        "active_jaccard_distance": active_jaccard_distance(a["feature_acts"], b["feature_acts"]),
+                    }
+                )
 
     out = pd.DataFrame(out_rows)
+
+    Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(args.output, index=False)
 
     print("Saved:", args.output)
